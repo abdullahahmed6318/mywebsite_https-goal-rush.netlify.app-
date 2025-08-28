@@ -1,0 +1,79 @@
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: var(--header);
+    
+
+}
+header .top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 0;
+}
+header a h1{
+    font-size: 30px;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 200;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+    color: var(--lighth1);
+}
+header .top-nav .logo.img{
+    width: 150px;
+}
+header nav{
+    border-top: 3px solid var(--Oxford_Blue) ;
+}
+header .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .links ul{
+    display: flex;
+    gap: 150px;
+    left: 611px;
+    position: relative;
+}
+
+header .links ul li a{
+    color: var(--lighth1);
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 20px;
+}
+header .links ul li a:hover{
+    position: relative;
+    color: var(--light_a);
+    font-weight: 900;
+
+}
+
+header .links ul li{
+    position: relative;
+    padding: 20px 0;
+}
+header .links ul li::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: blue;
+    transition: 0.3s ease-in-out;
+}
+header .links ul li:active::after,
+header .links ul li:hover::after{
+    width: 100%;
+}
+
+

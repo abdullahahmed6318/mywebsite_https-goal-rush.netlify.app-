@@ -1,0 +1,312 @@
+
+.slider .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 200px;
+    margin-left: 300;
+}
+
+
+.slider .container .side_bar{
+    display: flex;
+    width: 500px;
+    height: 20cm;
+    border: 5px solid  var(--Silver) ;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 200;
+    margin-left: -300;
+    /* overflow: hidden; */
+    
+}
+
+.slider .container .side_bar_name{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    background: #4eeeb1;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.slider .container .side_bar_name .btn{
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    background: #dcd61f;
+    border-radius: 10px 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.slider .container .side_bar_name .btn_n{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    background: #dcd61f;
+    border-radius: 10px 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.slider .container .side_bar_name .btn_time{
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 52px;
+    width: 230px;
+    height: 50px;
+    background: #dc1fd3;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.slider .container .side_bar_name .btn_ta{
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+    background: #dcd61f;
+    border-radius: 5px 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.slider .container .side_bar_name .btn_t{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+    background: #dcd61f;
+    border-radius: 5px 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.slider .container .side_bar_name p{
+    display: flex;
+    position: relative;
+    left: -50;
+    top: 10px;
+    margin: -4px 0 0 100px;
+    background: #dcd61f;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+
+
+.slider .container .side_bar_name h1{
+    display: block;
+    font-size: 23px;
+    color: #000000;
+    text-align: right;
+    margin-right: 20;
+}
+.slider .container .side_bar_league{
+    display: block;
+    width: 500px;
+    height: 60px;
+    background: #4eeeb1;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 70;
+
+}
+.slider .container .aaa{
+    display: inline-block;
+    position: relative;
+    top: 10;
+    width: 100%;
+    height: -100%;
+    background: #00569c;
+
+}
+
+.slider .container .aaa a{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    position: relative;
+    top: 10;
+    left: 6;
+    background: #4eeeb1;
+    
+}
+
+.slider .container .aaa .The_first__match{
+    width: 80px;
+    height: 100%;
+    background: #6ea790;
+    /* margin-top: 10; */
+    margin-left: 1.7cm;
+
+}
+.slider .container .aaa .The_Second__match{
+    width: 80px;
+    height: 100px;
+    background: #6ea790;
+    position: relative;
+    margin-left: 0.5cm;
+
+
+}
+.slider .container .aaa .The_Second__match:empty{
+    display: none;
+}
+.slider .container .aaa .The_Match_time{
+    display: flex;
+    position: relative;
+    left: 10;
+    width: 4cm;
+    height: 100px;
+    background: #6ea790;
+
+}
+.The_Match_time:empty{
+    display: none;
+
+}
+.slider .container .aaa .First_team_results{
+    position: relative;
+    top: 3;
+    margin-left: 18;
+    font-size: 30px;
+}
+.slider .container .aaa .The_Match_time h1{
+    position: relative;
+    top: 3;
+    margin-left: 16;
+    font-size: 35px;
+}
+
+
+.slider .container .aaa .Second_team_results{
+    position: relative;
+    top: 3;
+    margin-left: 40;
+    font-size: 30px;
+
+}
+
+
+
+
+
+.slider .container .side_bar_league h1{
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000000;
+    text-align: right;
+    margin-right: 20;
+    margin-top: 16;
+}
+.slider .container .aaa  img{
+    position: relative;
+    top:10;
+    left: 0;
+    right: 0;
+    background-position: 10px 10px;
+    width: 50px;
+}
+
+.slider .container .side_bar_league .First_team{
+    position: relative;
+    left: 100px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+.slider .container .side_bar_league .Second_team{
+    position: relative;
+    left: 100px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+.slider .container .side_bar h2{
+    display: flex;
+    padding: 20px 15px;
+    align-items: center;
+    font-size: 20px;
+    gap: 100px;
+    
+}
+.h2{
+    margin-left: -47%;
+}
+.s2{
+    margin-right: -100%;
+    width: 75%;
+    color: #000;
+
+}
+
+.slider .container .side_bar a{
+    color: var(--dark-color);
+    font-size: 15px;
+    padding: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border-color);   
+    transition: 0.3 ease-in-out;
+
+}
+.slider .container .side_bar a:hover{
+    color: var(--main-color);
+}
+
+ .slider .container .slide-swp{
+    width: calc(100% 350px);
+    overflow: hidden;
+ }
+ .slider .container .slide-swp img{
+    display: block;
+    margin-top: 19%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left top;
+
+ }
+ .slider .container .side_bar .swiper-pagination span{
+    background: #fff;
+    opacity: 1;
+    
+ }
+ .swiper-pagination-bullet-active{
+    background: var(--main-color);
+    width: 20px !important;
+    height: 8px !important;
+    border-radius: 30px !important;
+    
+    
+ }
+
+.First_teama{
+    position: relative;
+
+    top: 150px;
+    background: #00569c;
+
+    font-size: 50px;
+ }
