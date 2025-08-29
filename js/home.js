@@ -43,7 +43,7 @@ fetch("json/items.json")
                             <p class="First_team"> ${product.name_team_First}</p>
                               </div>
                                <div class="The_Match_time">
-                                
+                                   <h1>vs</h1>
                                  </div>
                               <div class="The_Second__match">
                                 <img src="${product.Second_img}" alt="">
