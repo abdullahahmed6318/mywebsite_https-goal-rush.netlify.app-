@@ -16,13 +16,21 @@ header .top-nav{
     align-items: center;
     padding: 2px 0;
 }
+header .top-nav img{
+    position: relative;
+    width: 150px;
+    left: 0;
+    right: 0;
+    color: var(--lighth1);
+}
+
 header a h1{
     font-size: 30px;
     font-family: "Playwrite MX Guides", cursive;
     font-weight: 200;
     font-style: normal;
     position: relative;
-    left: 10px;
+    left: -37cm;
     color: var(--lighth1);
 }
 header .top-nav .logo.img{
