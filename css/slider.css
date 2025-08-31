@@ -1,33 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap');
+
 .home_slider {
    
 }
 
 .home_slider .container{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     gap: 20px;
-    width: 2cm;
-    padding: 0 200px;
-    margin-left: 300;
-    height: 100%;
+    position: absolute;
+    width: 20cm;
+    margin-left: 550;
+    height: 50cm;
+    top: 5cm;
+    background: rgba(255, 0, 0, 0);
 }
+
 .home_slider .container .side_bar{
     display: inline-flex;
-    width: 500px;
-    height: 0;
+    width: 100%;
+    height: 100%;
     /* border: 5px solid  var(--Silver) ; */
+    background: rgba(146, 215, 77, 0);
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    margin-top: 200;
-    margin-left: -300;
-    /* overflow: hidden; */
+    margin-top: -40;
 }
 .home_slider .container .side_bar_name{
     display: flex;
     width: 500px;
     height: 50px;
-    /* background: #4eeeb1; */
+    background: #4eeeb1;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
@@ -67,6 +71,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    display: none;
+
 }
 .home_slider .container .side_bar_name .btn_ta{
     position: absolute;
@@ -79,6 +85,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    display: none;
+
 }
 .home_slider .container .side_bar_name .btn_t{
     position: absolute;
@@ -91,6 +99,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    display: none;
+
 }
 .home_slider .container .side_bar_name p{
     display: flex;
@@ -103,6 +113,8 @@
     justify-content: space-between;
     text-align: center;
     padding: 2px;
+    display: none;
+
 }
 
 .home_slider .container .side_bar_name h1{
@@ -111,83 +123,172 @@
     color: #000000;
     text-align: right;
     margin-right: 20;
+    display: none;
+
 }
 .home_slider .container .side_bar_league{
     display: block;
-    width: 500px;
-    height: 60px;
-    /* background: #4eeeb1; */
-    border: solid 0.1px var(--lightColor);
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    background: var( --container_t);
+    border: solid 3px var(--lightColor);
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
-    margin-top: 20;
+    text-align: left;
+    margin-top: 40;
+    z-index: 1;
 
 }
+.home_slider .container .side_bar_league .products h1{
+    display: inline-flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    flex-direction: row-reverse;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--lightColor);
+    font-family: 'Poppins', sans-serif;
+}
+
 .home_slider .container .aaa{
     display: inline-block;
-    position: relative;
-    top: 10;
+    /* position: relative; */
     width: 100%;
-    height: 131;
+    height: 600;
+    top: -10px;
+    margin-top: 100px;
     /* background: #00569c; */
-
+    z-index: -10;
 }
 
 .home_slider .container .aaa a{
     display: flex;
-    width: 90%;
-    height: 100px;
-    position: relative;
-    top: 10;
-    left: 6;
-    /* background: #4eeeb1; */
-    border: solid 0.1px var(--lightColor);
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    background: var( --container_t);
+    cursor: pointer;
+    z-index: 100;
 
 }
 
 .home_slider .container .aaa .The_first__match{
-    width: 80px;
-    height: 100%;
-    /* background: #6ea790; */
-    /* border: solid 0.1px var(--lightColor); */
+    width: 100px;
+    height: 10%;
     color: var(--lightColor);
-    /* margin-top: 10; */
-    margin-left: 1.7cm;
-
+    margin-top: 0%;
+    margin-left: 3.4cm;
+    font-size: 20;
+    font-weight: 200;
 }
 .home_slider .container .aaa .The_Second__match{
-    width: 80px;
-    height: 100px;
-    /* background: #6ea790; */
-    /* border: solid 0.1px var(--lightColor); */
+    width: 100px;
+    height: 10%;
     color: var(--lightColor);
+    margin-top: 0%;
+    margin-left: 5cm;
+    font-size: 20;
+    font-weight: 200;
+}
+.home_slider .container .aaa .The_third__match{
+    width: 100px;
+    height: 10%;
+    margin-top: 0%;
+    color: var(--lightColor);
+    margin-left: 3.4cm;
+    font-size: 20;
+    font-weight: 200;
+
+
+}
+.home_slider .container .aaa .The_fourth__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-top: 0%;
+    margin-left: 5cm;
+    font-size: 20;
+    font-weight: 200;
+}
+.home_slider .container .aaa .The_Five__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-top: 0%;
+    margin-left: 3.4cm;
+    font-size: 20;
+    font-weight: 200;
+}
+.home_slider .container .aaa a .The_sixth__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-left: 5cm;
+    font-size: 20;
+    font-weight: 200;
     position: relative;
-    margin-left: 0.5cm;
-
-
+    margin-top: 0%;
 }
-.home_slider .container .aaa .The_Second__match:empty{
-    display: none;
+.home_slider .container .aaa .The_seven__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-top: 0%;
+    margin-left: 3.4cm;
+    font-size: 20;
+    font-weight: 200;
 }
+.home_slider .container .aaa a .The_eighth__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-left: 5cm;
+    font-size: 20;
+    font-weight: 200;
+    position: relative;
+    margin-top: 0%;
+}
+.home_slider .container .aaa .The_Ninth__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-top: 0%;
+    margin-left: 3.4cm;
+    font-size: 20;
+    font-weight: 200;
+}
+.home_slider .container .aaa a .The_tenth__match{
+    width: 100px;
+    height: 10%;
+    color: var(--lightColor);
+    margin-left: 5cm;
+    font-size: 20;
+    font-weight: 200;
+    position: relative;
+    margin-top: 0%;
+}
+
+.home_slider .container .aaa a p{
+    margin-top: 10%;
+}
+
 .home_slider .container .aaa .The_Match_time{
     display: flex;
     position: relative;
-    left: 10;
+    left: 80;
     width: 4cm;
     height: 100px;
-    /* background: #6ea790; */
-
 }
-.The_Match_time:empty{
-    display: none;
 
-}
 .home_slider .container .aaa .First_team_results{
     position: relative;
     top: 3;
     margin-left: 18;
     font-size: 30px;
+
 }
 .home_slider .container .aaa .The_Match_time h1{
     position: relative;
@@ -195,6 +296,7 @@
     margin-left: 54;
     font-size: 35px;
     color: var(--lightColor);
+
 }
 
 .home_slider .container .aaa .Second_team_results{
@@ -202,6 +304,8 @@
     top: 3;
     margin-left: 40;
     font-size: 30px;
+    display: none;
+
 
 }
 
@@ -213,33 +317,21 @@
     margin-right: 20;
     margin-top: 16;
     color: var(--lightColor);
+    display: none;
+
 
 }
-.home_slider .container .aaa  img{
+.home_slider .container .aaa a  img{
     position: relative;
-    top:10;
+    top: 80%;
     left: 0;
     right: 0;
     background-position: 10px 10px;
     width: 50px;
+
 }
 
-.home_slider .container .side_bar_league .First_team{
-    position: relative;
-    left: 100px;
-    font-size: 17px;
-    font-weight: 100;
-    color: #ffffff;
-    text-align: center;
-}
-.home_slider .container .side_bar_league .Second_team{
-    position: relative;
-    left: 100px;
-    font-size: 17px;
-    font-weight: 100;
-    color: #ffffff;
-    text-align: center;
-}
+
 .h2{
     margin-left: -47%;
 }
@@ -250,15 +342,6 @@
 
 }
 
-.home_slider .container .side_bar a{
-    color: var(--dark-color);
-    font-size: 15px;
-    padding: 15px;
-    font-weight: 500;
-    border-bottom: 1px solid var(--border-color);   
-    transition: 0.3 ease-in-out;
-
-}
 .home_slider .container .side_bar a:hover{
     color: var(--main-color);
 }
@@ -266,6 +349,8 @@
  .home_slider .container .slide-swp{
     width: calc(100% 350px);
     overflow: hidden;
+    display: none;
+
  }
  .home_slider .container .slide-swp img{
     display: block;
@@ -273,19 +358,22 @@
     width: 100%;
     object-fit: cover;
     object-position: left top;
+    display: none;
 
  }
  .home_slider .container .side_bar .swiper-pagination span{
     background: #fff;
     opacity: 1;
-    
+    display: none;
+
  }
  .swiper-pagination-bullet-active{
     background: var(--main-color);
     width: 20px !important;
     height: 8px !important;
     border-radius: 30px !important;
-    
+    display: none;
+
     
  }
 
@@ -296,4 +384,5 @@
     background: #00569c;
 
     font-size: 50px;
+    display: none;
  }

@@ -1,6 +1,6 @@
-footer{
+.row_team{
     position: relative;
-    top: 80cm;
+    top: 10cm;
     background: rgb(49, 49, 49);
     width: 100%;
 }
