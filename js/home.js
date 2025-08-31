@@ -48,7 +48,7 @@ fetch("json/items.json")
                       </div>
                 <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
                   <span>
-                             <a class="url" data-url="${product.a_team}">
+                             <a class="url" style="${displayStyle} data-url="${product.a_team}">
                             <div class="The_first__match">
                               <img src="${product.First_img}" alt="">
                             <p class="First_team"> ${product.name_team_First}</p>
