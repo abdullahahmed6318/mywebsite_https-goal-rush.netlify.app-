@@ -40,6 +40,9 @@ body{
     position: relative;
     width: 30cm;
     height: 62cm;
+    /* width: min(90%, 400px); */
+    /* columns: 700px 2; */
+
     top: 5cm;
     left: 14cm;
     background: var( --container_t);
@@ -474,9 +477,10 @@ section .Before_the_start .h12{
 }
 /*  */
 
+/* pc */
 
 /* // m */
-@media only screen and (min-height:730px) and (max-height:1200px){
+@media (max-width:600px){
     body{
         height: 130vh;
         background: var(--lightboby);
