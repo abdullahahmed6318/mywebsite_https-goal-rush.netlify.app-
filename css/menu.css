@@ -444,7 +444,7 @@ display: none;display: none;
 
 
 
-@media only screen and (min-height:710px) and (max-height:1200px){
+@media only screen and (min-height:730px) and (max-height:1200px){
 
   .main-menu .logo{
     position: relative;
@@ -646,4 +646,3 @@ display: none;display: none;
   
  
   }
-
