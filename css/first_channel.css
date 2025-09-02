@@ -476,7 +476,7 @@ section .Before_the_start .h12{
 
 
 /* // m */
-@media only screen and (min-height:750px) and (max-height:1200px){
+@media only screen and (min-height:740px) and (max-height:1200px){
     body{
         height: 130vh;
         background: var(--lightboby);
@@ -753,6 +753,7 @@ section .Before_the_start .h11{
 
 
 } 
+
 
 
 
