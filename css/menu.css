@@ -614,17 +614,17 @@ display: none;display: none;
   width:  40;
   height:  50;
   position: absolute;
-  top: 11;
-  left: 480;
+  top: 7;
+  left: 360;
  }
   
   .fa-bars{
     position: fixed;
-    top: 20px;
-    left: 12.5cm;
+    top: 25px;
+    left: 9.6cm;
     z-index: 20;
     display: flex;
-    font-size: 53;
+    font-size: 35;
 
   
   }
