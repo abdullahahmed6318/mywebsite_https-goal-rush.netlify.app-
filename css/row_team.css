@@ -226,3 +226,11 @@ footer .social-menu ul li:nth-child(4) a:hover{
 footer .social-menu ul li:nth-child(5) a:hover{
     background-color: #ff7575;
 }
+
+@media only screen and (min-height:1000px) and (max-height:1200px){
+    .row_team{
+        top: 51cm;
+        width: 100%;
+    }
+
+}

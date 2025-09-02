@@ -5,7 +5,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 20;
     background: var(--header);
     
 
@@ -85,3 +85,40 @@ header .links ul li:hover::after{
 }
 
 
+@media only screen and (min-height:1000px) and (max-height:1200px){
+  
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: var(--header);
+}
+header .top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 0;
+}
+header .top-nav img{
+    width: 90px;
+    left: 0;
+    right: 0;
+}
+
+header a h1{
+    font-size: 25px;
+    font-weight: 100;
+    left: -207px;
+}
+
+header nav{
+    border-top: 3px solid var(--Oxford_Blue) ;
+}
+header .links{
+    display: none;
+}
+
+}

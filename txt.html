@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>بوستر مباراة – نفس الشكل</title>
+  <!-- Google Font for bold display -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root{
+      --poster-bg: #0b0b0e;
+      --accent-red: #ff2e2e;
+      --ring-gold: #e4b329;
+      --text: #ffffff;
+      --muted: #cfcfcf;
+      --container-w: 1280px; /* feel free to change */
+      --container-ratio: 56.25%; /* 16:9 => 9/16*100 */
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#000;font-family: 'Bebas Neue', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;}
+    .stage{
+      max-width: var(--container-w);
+      margin: 24px auto;
+      position: relative;
+      border-radius: 18px;
+      aspect-ratio: 16 / 9;
+      background: var(--poster-bg);
+      overflow: hidden;
+    }
+    /* red rounded frame */
+    .stage::before{
+      content:"";
+      position:absolute;inset:16px;
+      border: 4px solid var(--accent-red);
+      border-radius: 16px;
+      pointer-events:none;
+    }
+    /* playful doodle background (inline SVG pattern) */
+    .pattern{
+      position:absolute;inset:0;opacity:.22;mix-blend:screen;pointer-events:none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M20 30l18 18M38 30L20 48'/%3E%3Ccircle cx='120' cy='120' r='28'/%3E%3Cpath d='M180 42l30 0 0 30-30 0z'/%3E%3Cpath d='M60 170c8-16 32-16 40 0s32 16 40 0'/%3E%3Cpath d='M210 180l-14 24M196 180l14 24'/%3E%3Ccircle cx='42' cy='200' r='16'/%3E%3Cpath d='M120 16l8 18-8 18-8-18z'/%3E%3Cpath d='M20 120l24 0M32 108l0 24'/%3E%3Cpath d='M160 210l24-8 8 24'/%3E%3Cpath d='M92 54c12-8 28-8 40 0'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: 360px 360px;
+    }
+
+    .content{position:relative;z-index:2;height:100%;display:grid;grid-template-columns:1fr 1fr;place-items:center;padding:28px}
+
+    .badge{
+      width:min(32vw, 360px);aspect-ratio:1/1;border-radius:50%;
+      display:grid;place-items:center;position:relative;
+      filter: drop-shadow(0 6px 24px rgba(0,0,0,.6));
+    }
+    .badge::before{ /* golden ring */
+      content:"";
+      position:absolute;
+      inset:-12px;
+      border-radius:50%;
+      border:6px solid var(--ring-gold);
+    }
+    .badge img{width:86%;height:86%;object-fit:contain;filter: drop-shadow(0 2px 12px rgba(0,0,0,.5));}
+
+    .vs{
+      position:absolute;
+      left:50%;top:50%;
+      transform:translate(-50%,-50%);
+      text-align:center;line-height:1;
+      letter-spacing:.02em;
+    }
+    .vs .mark{
+      font-size:min(14vw, 220px);
+      color:#fff;
+      position:relative;
+      font-weight:900;}
+    .vs .mark::after{ /* the diagonal slash */
+      content:"";
+       position:absolute;
+        inset:auto;
+         left:50%;
+          top: -10%;
+           bottom:-10%;
+            width:8px;
+             background:#fff; 
+             transform: translateX(-50%) rotate(20deg); 
+             border-radius:8px;
+    }
+
+    .season{position:absolute;left:50%;bottom:88px;transform:translateX(-50%);font-size:min(6.5vw, 84px); color:#fff;text-shadow:0 6px 24px rgba(0,0,0,.7);}
+
+    .footer{position:absolute;left:50%;bottom:28px;transform:translateX(-50%);display:flex;align-items:center;gap:14px;color:var(--muted);font: 20px/1.1 'Bebas Neue', sans-serif;}
+    .footer .icons{display:flex;gap:10px;font-size:18px}
+    .footer .handle{font-size:22px}
+
+    /* top-right tiny logo */
+    .corner-logo{position:absolute;right:22px;top:18px;width:66px;height:66px;border-radius:50%;background:#0b0b0eaa;border:2px solid var(--accent-red);display:grid;place-items:center;overflow:hidden}
+    .corner-logo img{width:100%;height:100%;object-fit:cover}
+
+    @media (max-width: 768px){
+      .footer{font-size:16px}
+      .footer .handle{font-size:18px}
+      .corner-logo{width:52px;height:52px}
+    }
+  </style>
+</head>
+<body>
+  <main class="stage" role="img" aria-label="بوستر مباراة برشلونة ضد ليفانتي 2025-2026">
+    <div class="pattern" aria-hidden="true"></div>
+
+    <div class="content">
+      <!-- Left crest -->
+      <div class="badge" title="FC Barcelona">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="شعار برشلونة" />
+      </div>
+
+      <!-- Right crest -->
+      <div class="badge" title="Levante UD">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/49/Levante_ud_logo.svg" alt="شعار ليفانتي" />
+      </div>
+
+      <!-- VS mark -->
+      <div class="vs" aria-hidden="true">
+        <div class="mark">VS</div>
+      </div>
+
+      <!-- Season text -->
+      <div class="season">2025-2026</div>
+
+      <!-- Footer social + handle -->
+      <div class="footer">
+        <div class="icons" aria-hidden="true">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-snapchat"></i>
+          <i class="fa-brands fa-telegram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="handle">@newspoots.com</div>
+      </div>
+
+      <!-- tiny logo (top-right) -->
+      <div class="corner-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Soccerball.svg" alt="كرة" />
+      </div>
+    </div>
+  </main>
+
+  <!-- QUICK HOW-TO (remove in production) -->
+  <script>
+    /*
+    طريقة التعديل بسرعة:
+    1) غيّر شعاريْ الفرق: بدّل روابط <img> داخل .badge بصورك

@@ -22,20 +22,27 @@ fetch("/barcelona/barcelona.json")
             <p class="First_team">${product.name_team_First} </p>
         </div>
         <div class="Match_time">
-            <h1>vs</h1>
+         <nav>
+            </nav>
+            <h1 class="h1_v">v</h1>
+            <h1 class="h1_s">s</h1>
+
         </div>
         <div class="time_Second__match">
             <img src="${product.Second_img}" alt="">
             <p class="Second_team">${product.name_team_Second} </p>
         </div>
-        <img class="img_time" src="/image/Image_fx(35).jpg" alt="">
-    
-   
+        <div class="pattern" aria-hidden="true"></div>
+        
               
 
         `
 
     })
+
+    // <img class="img_time" src="/image/Image_fx(35).jpg" alt="">
+    
+   
     data.forEach(product => {
 
            
@@ -104,6 +111,15 @@ fetch("/barcelona/barcelona.json")
 
 
 
+
+var cart = document.querySelector('.main-menu');
+function open_cart() {
+    cart.classList.add('active')
+}
+
+function close_cart() {
+    cart.classList.remove('active')
+}
 
 
 // Function to fetch data from JSON and create multiple countdowns
