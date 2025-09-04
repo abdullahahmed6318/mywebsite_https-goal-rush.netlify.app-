@@ -225,7 +225,7 @@ fetch("json/items_today.json")
                    </span>
                   //  
                    <span>
-                             <a class="url" style="${displayStyle_Five}" data-url="${product.b_team}">
+                             <a class="url" style="${displayStyle_Five}" data-url="${product.r_team}">
                             <div class="The_Five__match">
                               <img src="${product.Five_img}" alt="">
                             <p class="First_team"> ${product.name_team_Five}</p>
