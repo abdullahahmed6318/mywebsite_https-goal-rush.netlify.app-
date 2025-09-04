@@ -58,7 +58,7 @@ fetch("json/items_today.json")
                                  </div>
                               <div class="The_Second__match">
                                 <img src="${product.Second_img}" alt="">
-                              <p class="Second_team">${product.name_team_Second}  </p>
+                              <p class="Second_team">${product.name_team_Second}</p>
                                 </div>
                             </a>
                   </span>
@@ -67,14 +67,14 @@ fetch("json/items_today.json")
                              <a class="url" style="${displayStyle_Second}" data-url="${product.b_team}">
                             <div class="The_third__match
 ">
-                              <img src="${product.First_img}" alt="">
+                              <img src="${product.third_img}" alt="">
                             <p class="First_team"> ${product.name_team_third}</p>
                               </div>
                                <div class="The_Match_time">
                                    <h1>vs</h1>
                                  </div>
                               <div class="The_fourth__match">
-                                <img src="${product.Second_img}" alt="">
+                                <img src="${product.fourth_img}" alt="">
                               <p class="Second_team">${product.name_team_fourth}</p>
                                 </div>
                                
@@ -82,17 +82,17 @@ fetch("json/items_today.json")
                    </span>
                   //  
                    <span>
-                             <a class="url" style="${displayStyle_Five}" data-url="${product.b_team}">
+                             <a class="url" style="${displayStyle_Five}" data-url="${product.r_team}">
                             <div class="The_Five__match">
-                              <img src="${product.First_img}" alt="">
+                              <img src="${product.Five_img}" alt="">
                             <p class="First_team"> ${product.name_team_Five}</p>
                               </div>
                                <div class="The_Match_time">
                                    <h1>vs</h1>
                                  </div>
                               <div class="The_sixth__match">
-                                <img src="${product.Second_img}" alt="">
-                              <p class="Second_team">${product.name_team_sixth}  </p>
+                                <img src="${product.sixth_img}" alt="">
+                              <p class="Second_team">${product.name_team_sixth}</p>
                                 </div>
                                
                             </a>
@@ -101,14 +101,14 @@ fetch("json/items_today.json")
                     <span>
                              <a class="url"  style="${displayStyle_seven}"data-url="${product.b_team}" >
                             <div class="The_seven__match">
-                              <img src="${product.First_img}" alt="">
+                              <img src="${product.seven_img}" alt="">
                             <p class="First_team"> ${product.name_team_seven}</p>
                               </div>
                                <div class="The_Match_time">
                                    <h1>vs</h1>
                                  </div>
                               <div class="The_eighth__match">
-                                <img src="${product.Second_img}" alt="">
+                                <img src="${product.eighth_img}" alt="">
                               <p class="Second_team">${product.name_team_eighth}  </p>
                                 </div>
                                
@@ -118,14 +118,14 @@ fetch("json/items_today.json")
                     <span>
                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.b_team}">
                             <div class="The_Ninth__match">
-                              <img src="${product.First_img}" alt="">
+                              <img src="${product.Ninth_img}" alt="">
                             <p class="First_team"> ${product.name_team_Ninth}</p>
                               </div>
                                <div class="The_Match_time">
                                    <h1>vs</h1>
                                  </div>
                               <div class="The_tenth__match">
-                                <img src="${product.Second_img}" alt="">
+                                <img src="${product.tenth_img}" alt="">
                               <p class="Second_team">${product.name_team_tenth}  </p>
                                 </div>
                                
