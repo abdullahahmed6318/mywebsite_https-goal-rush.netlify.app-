@@ -152,6 +152,16 @@ fetch("json/items.json")
       
 
         })
+
+        
+var cart = document.querySelector('.main-menu');
+function open_cart() {
+    cart.classList.add('active')
+}
+
+function close_cart() {
+    cart.classList.remove('active')
+}
         
 
        

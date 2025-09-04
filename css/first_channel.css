@@ -39,7 +39,7 @@ body{
     overflow: hidden;
     position: relative;
     width: 30cm;
-    height: 62cm;
+    height: 67cm;
     /* width: min(90%, 400px); */
     /* columns: 700px 2; */
 
@@ -110,6 +110,16 @@ body{
     width: 180px;
     height: 180px;
     z-index: 1000;
+    display: grid;
+    place-items: center;
+    border-radius: 250px;
+    border: 6px solid rgba(255, 255, 255, .85);
+    background: #ffffff6d;
+    backdrop-filter: blur(4px);
+    place-items: center;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+
 }
 .time .time_first__match::before{
     content:"";
@@ -117,12 +127,14 @@ body{
     inset:-12px;
     border-radius:50%;
     border:4px solid var(--time_border_before);
+    display: none;
   }
 .time .time_first__match img{
-    width: 90%;
+    width: 150%;
     position: relative;
-    top: 18;
-    left: 9;
+    top: 0;
+    left: 0;
+
 
 }
 .time .time_first__match p{
@@ -143,6 +155,16 @@ body{
     width: 180px;
     height: 180px;
     z-index: 1000;
+    display: grid;
+    place-items: center;
+    border-radius: 250px;
+    border: 6px solid rgba(255, 255, 255, .85);
+    background: #ffffff6d;
+    backdrop-filter: blur(4px);
+    place-items: center;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+
 }
 .time .time_Second__match::before{
     content:"";
@@ -150,12 +172,13 @@ body{
     inset:-12px;
     border-radius:50%;
     border:4px solid var(--time_border_before);
+    display: none;
   }
 .time .time_Second__match img{
-    width: 90%;
+    width: 170%;
     position: relative;
-    top: 18;
-    left: 9;
+    top: 0;
+    left: 0;
 
 }
 .time .time_Second__match p{
@@ -388,6 +411,16 @@ body{
     display: flex;
 
 }
+.information .about .about_match .i6{
+    margin-top: 380px;
+    position: absolute;
+    text-align: right;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
  /*  */
 
 
@@ -396,7 +429,7 @@ body{
 .the_Formation{
     display: flex;
     position: relative;
-    top: 14cm;
+    top: 16cm;
     width: 100%;
     height: 610;
 	background: #14cc82;
@@ -420,9 +453,9 @@ section{
     display: flex;
     position: relative;
     top: 20cm;
-    left: 1.5cm;
-    width: 1000px;
-    height: 450px;
+    /* left: 1.5cm; */
+    width: 100%;
+    height: 550px;
     background: linear-gradient(0deg, #000, #262626);
 	justify-content: center;
 	align-items: center;

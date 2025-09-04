@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "sep 4, 2025 22:45:00",
+    "name_team_First":"Poland",
+    "First_img": "/image/Poland.webp",
+    "iframe": "",
+    "name_team_Second": "Netherlands",
+    "Second_img": "/image/Netherlands.webp ",
+    "offers": {
+    "type": "معلومات",
+    "Championship": "World Cup Qual. UEFA G, Round 5 : البطولة  ",
+    "channel": "beIN SPORTS 2 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:45 بتوقيت مصر ",
+    "stadium": "   : الملعب",
+    "referee":" الحكم : سيمون سوزا",
+    "Formation": ""
+
+  }
+  }
+]

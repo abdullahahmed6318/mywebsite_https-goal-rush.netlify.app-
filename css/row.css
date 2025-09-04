@@ -226,3 +226,120 @@ footer .social-menu ul li:nth-child(4) a:hover{
 footer .social-menu ul li:nth-child(5) a:hover{
     background-color: #ff7575;
 }
+@media (max-width:600px){
+    footer{
+        top: 51cm;
+        width: 100%;
+    }
+    
+    footer .container{
+        padding: 50px 0;
+        width: 100%;
+    }
+    footer .buttom_footer{
+        background: rgb(20, 20, 20);
+    }
+    footer .buttom_footer .container{
+        padding: 20px 0;
+        height: 0.5px;
+    }
+    
+    footer .buttom_footer .container p{
+        left: 30px;
+        font-size: 10;
+    }
+    
+    footer .buttom_footer .container span{
+        color: aqua;
+    }
+    footer .buttom_footer .payment_img{
+        width: 50%;
+
+    }
+    footer .buttom_footer .payment_img img{
+        width: 10%;
+        left: 10px;
+    }
+    footer .buttom_footer .payment_img img:active{
+        filter: grayscale(8%);
+    }
+    
+    
+    footer .social-menu ul{
+        position: absolute;
+        top: 37%;
+        right: -100px;
+        padding: 0;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        display: flex;
+        z-index: 1000;
+    }
+    
+    footer .social-menu p{
+        position: absolute;
+        top: -30%;
+        right: 160px;
+        transform: translate(-50%, -50%);
+        /* display: flex; */
+        z-index: 1000;
+        color: #fff;
+        display: none;
+    }
+    footer .social-menu ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    
+    footer .social-menu ul li .fab{
+        font-size: 15px;
+        line-height: 29px;
+        transition: .3s;
+        color: #000;
+    }
+    
+    footer .social-menu ul li .fa-facebook-f{
+        font-size: 15px;
+        line-height: 29px;
+        transition: .3s;
+        color: #000000;
+
+    }
+    
+    footer .social-menu ul li .fa-facebook-f:hover{
+        color: #fff;
+    }
+    
+    
+    footer .social-menu ul li .fab:hover{
+        color: #fff;
+    }
+    
+    footer .social-menu ul li a{
+        width: 30;
+        height: 30;
+        border-radius: 50%;
+        background-color: #ffffff00;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.232);
+    }
+    
+    footer .social-menu ul li a:hover{
+        transform: translate(0, -10%);
+    }
+    
+    footer .social-menu ul li:nth-child(1) a:active{
+        background-color: rgba(221, 46, 46, 0.829);
+    }
+    footer .social-menu ul li:nth-child(2) a:active{
+        background-color: #3c32c7;
+    }
+    footer .social-menu ul li:nth-child(3) a:active{
+        background-color: #b50000;
+    }
+    footer .social-menu ul li:nth-child(4) a:active{
+        background-color: #ff7575;
+    }
+    footer .social-menu ul li:nth-child(5) a:active{
+        background-color: #ff7575;
+    }
+}
