@@ -589,19 +589,19 @@ display: none;display: none;
   
   }
   .main-menu {
-  background: var(--menu);
-  top: 90;
-  height: 90%;
-  width: 0;
-  z-index: 20;
-
-  }
- .active{
-    right: 0;
-    width: 100%;
+    background: var(--menu);
+    top: 90;
+    height: 90%;
+    width: 0;
     z-index: 20;
-} 
-
+  
+    }
+   /* .active{
+      right: 0;
+      width: 100%;
+      z-index: 20;
+  } 
+ */
   .main-menu .menu{
     opacity: 1;
   }
