@@ -10,8 +10,8 @@
     "Second_img": "/image/Ukraine.png",
     "offers": {
     "type": "معلومات",
-    "Championship": "World Cup Qualification, CONMEBOL , Round 17 : البطولة  ",
-    "channel": "ssc 1 : القناة",
+    "Championship": " : البطولة  ",
+    "channel": "bein 1 : القناة",
     "commentator": " : المعلق",
     "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:45 بتوقيت مصر ",
     "stadium": "  الملعب : ",
@@ -22,3 +22,4 @@
   }
 
 ]
+
