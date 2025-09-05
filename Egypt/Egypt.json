@@ -5,7 +5,7 @@
     "countDownDate": "Sep 5, 2025 22:30:00",
     "name_team_First":"Egypt",
     "First_img": "/image/Egypt.png",
-    "iframe": "",
+    "iframe": "https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_sport",
     "name_team_Second": "Ethiopia",
     "Second_img": "/image/Ethiopia.png",
     "offers": {
@@ -20,4 +20,5 @@
 
   }
   }
+
 ]
