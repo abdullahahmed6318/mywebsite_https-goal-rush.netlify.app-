@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Sep 5, 2025 21:45:00",
+    "name_team_First":"France",
+    "First_img": "/image/France.png",
+    "iframe": "",
+    "name_team_Second": "Ukraine",
+    "Second_img": "/image/Ukraine.png",
+    "offers": {
+    "type": "معلومات",
+    "Championship": "World Cup Qualification, CONMEBOL , Round 17 : البطولة  ",
+    "channel": "ssc 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:45 بتوقيت مصر ",
+    "stadium": "  الملعب : ",
+    "Formation": "",
+    "referee":" الحكم : "
+
+  }
+  }
+]
