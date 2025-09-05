@@ -5,7 +5,7 @@
     "countDownDate": "Sep 5, 2025 21:45:00",
     "name_team_First":"France",
     "First_img": "/image/France.png",
-    "iframe": "",
+    "iframe": "https://pl.buzkora.online/albaplayer/1bein1/?serv=0",
     "name_team_Second": "Ukraine",
     "Second_img": "/image/Ukraine.png",
     "offers": {
@@ -20,4 +20,5 @@
 
   }
   }
+
 ]
