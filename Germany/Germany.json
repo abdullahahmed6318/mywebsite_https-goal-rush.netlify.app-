@@ -3,20 +3,20 @@
     "id": 1,
     "side_bar_league": "",
     "countDownDate": "Sep 4, 2025 22:45:00",
-    "name_team_First":"fc Barcelona",
+    "name_team_First":"Germany",
     "First_img": "/image/Germany.png",
-    "iframe": "https://pl.buzkora.online/albaplayer/bein3/?serv=0",
-    "name_team_Second": "Slovakia",
-    "Second_img": "/image/Slovakia.png",
+    "iframe": "",
+    "name_team_Second": "Northern Ireland",
+    "Second_img": "/image/Northern_Ireland.png",
     "offers": {
     "type": "معلومات",
-    "Championship": "World Cup Qual. UEFA A, Round 1 : البطولة  ",
-    "channel": "beIN SPORTS 3 : القناة",
+    "Championship": "World Cup Qual. UEFA A , Round 6 : البطولة  ",
+    "channel": "beIN SPORTS 2 : القناة",
     "commentator": " : المعلق",
     "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:45 بتوقيت مصر ",
-    "stadium": "  الملعب : تيهيلني بول",
+    "stadium": "  الملعب : ملعب راين إنيرجي",
     "Formation": "",
-    "referee":" الحكم : سردار غوزوبويوك"
+    "referee":" الحكم : إسبن إسكاس"
 
   }
   }
