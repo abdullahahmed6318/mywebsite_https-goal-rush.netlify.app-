@@ -361,14 +361,10 @@ transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0; display: non
 transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0; display: none;
 
 }
-a:hover,a:focus {
+/* a:hover,a:focus {
 text-decoration:none;
 border-left:10px solid #160f0f;display: none;
-
-
-
-
-}
+} */
 nav {
 -webkit-user-select:none;
 -moz-user-select:none;
@@ -596,12 +592,12 @@ display: none;display: none;
     z-index: 20;
   
     }
-   /* .active{
+   .active{
       right: 0;
       width: 100%;
       z-index: 20;
   } 
- */
+
   .main-menu .menu{
     opacity: 1;
   }
@@ -622,7 +618,7 @@ display: none;display: none;
     position: fixed;
     top: 25px;
     left: 9.6cm;
-    z-index: 20;
+    z-index: 30;
     display: flex;
     font-size: 35;
 

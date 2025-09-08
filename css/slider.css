@@ -4,68 +4,119 @@
 
 .btn_d{
     position: relative;
-    top: 211px;
-    left: 380px;
-    width: 4cm;
+    top: 500px;
+    left: 350px;
+    width: 5cm;
     height: 5cm;
-
 }
 .todaytomorrow{
-    width: 50%;
+    width: 70%;
     height: 90%;
+    top: 0;
+    left: 25;
     position: absolute;
-    left: 50%;
     text-align: center;
-
 }
 .btn_d .todaytomorrow samp{
     width: 50;
     height: 50;
-    position: relative;
-    text-align: center;
-    margin-top: 111px;
 }
 
 .btn_d .todaytomorrow h1{
     display: block;
-    font-weight: 500;
-    font-size: 18;
+    font-weight: 400;
+    font-size: 11;
     margin: 0 0 0 0;
-    color: #00214c;
+    left: 11;
+    top: 2;
+    /* color: #00214c; */
+    color: #fff;
+    position: absolute;
+
 }
 .btn_d .todaytomorrow .h1_today{
     position: relative;
+    left: 15;
+
 }
 .btn_d .todaytomorrow .h1_tomorrow{
     position: relative;
 }
-
-
-.btn1{
-    width: 60%;
-    height: 26%;
+.btn_d .todaytomorrow .h1_yesterday{
     position: relative;
-    border-radius: 50%;
-    font-size: 10;
-    background: rgb(100, 170, 232);
 }
+
+.btn_d .todaytomorrow button{
+    margin: 0 0 40 0;
+}
+.btn1{
+    width: 80%;
+    height: 25%;
+    box-shadow:inset -5px -4px 0px 20px #3dc21b;
+	background-color:#44c767;
+	border-radius:28px;
+	border: 2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 33px;
+	text-decoration:none;
+}
+.btn2{
+    width: 80%;
+    height: 25%;
+    box-shadow:inset -5px -4px 0px 20px #c21b1b;
+	border-radius:28px;
+	border: 2px solid #00000071;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 33px;
+	text-decoration:none;
+
+}
+.btn3{
+    width: 80%;
+    height: 25%;
+    box-shadow:inset -5px -4px 0px 20px #cd36ef;
+	border-radius:28px;
+	border: 2px solid #cd36ef;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 33px;
+	text-decoration:none;
+}
+
 button img{
     position: relative;
     display: flex;
-    top: -11;
-    left: -14;
-    width: 65;
+    top: -24;
+    left: -29;
+    width: 34;
 }
-.btn2{
-    width: 60%;
-    height: 26%;
-    overflow: hidden;
-    position: relative;
-    border-radius: 50%;
-    font-size: 10;
-    background: rgb(100, 170, 232);
-}
+.img_today{
 
+    position: relative;
+    left: -40;
+    top: -34;
+    width: 55;
+}
+.img_tomorrow{
+
+}
+.img_yesterday{
+    position: relative;
+    left: -40;
+    top: -34;
+    width: 55;
+}
 .home_slider {
    width: 100%;
    height: 10%;
@@ -77,20 +128,34 @@ button img{
     width: 100%;
     height: 10%;
     z-index: -1;
-    display: none;
+    /* display: none; */
+ }
+ .yesterday{
+    width: 100%;
+    height: 10%;
+    z-index: -10;
+    /* display: none; */
  }
  
-.home_slider_active{
-    right: 0;
+
+ 
+.home_tomorrow_active{
+    /* right: 0;
     width: 200%;
     z-index: 20;
     display: flex;
-    z-index: 1000;
+    z-index: 1000; */
+    display: none;
 
 } 
-.home_slide_active{
+.home_today_active{
     display: none;
 } 
+.home_yesterday_active{
+    display: none;
+} 
+
+
 
 .home_slider .aqq{
     display: flex;
@@ -113,7 +178,7 @@ button img{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    margin-top: -40;
+    margin-top: 200;
 }
 .home_slider .aqq .side_bar_league{
     display: block;
@@ -377,12 +442,136 @@ button img{
     display: none;
  }
 
- @media (max-width:600px){
+ @media (max-width:600px){  
+.btn_d{
+    position: relative;
+    top: 270px;
+    left: 0px;
+    width: 100%;
+    height: 1cm;
+    z-index: 20;
+}
+.todaytomorrow{
+    display: inline-flex;
+    gap: 90px;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn_d .todaytomorrow samp{
+    width: 50;
+    height: 50;
+}
+
+.btn_d .todaytomorrow h1{
+    display: block;
+    font-weight: 400;
+    font-size: 11;
+    margin: 0 0 0 0;
+    left: 1;
+    top: -2;
+    color: #fff;
+    position: absolute;
+
+}
+.btn_d .todaytomorrow .h1_today{
+    position: relative;
+    left: 15;
+
+}
+.btn_d .todaytomorrow .h1_tomorrow{
+    position: relative;
+}
+.btn_d .todaytomorrow .h1_yesterday{
+    position: relative;
+}
+
+.btn_d .todaytomorrow button{
+    margin: 0 0 0 -25;
+}
+.btn1{
+    width: 2.5cm;
+    height: 0.9cm;
+    box-shadow:inset -5px -4px 0px 20px #3dc21b;
+	background-color:#44c767;
+	border-radius:28px;
+	border: 2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 33px;
+	text-decoration:none;
+}
+.btn2{
+    width: 2.5cm;
+    height: 0.9cm;
+    box-shadow:inset -5px -4px 0px 20px #c21b1b;
+	border-radius:28px;
+	border: 2px solid #00000071;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 33px;
+	text-decoration:none;
+
+}
+.btn3{
+    width: 2.5cm;
+    height: 0.9cm;
+    box-shadow:inset -5px -4px 0px 20px #cd36ef;
+	border-radius:28px;
+	border: 2px solid #cd36ef;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 33px;
+	text-decoration:none;
+}
+
+button img{
+    position: relative;
+    display: flex;
+    top: -24;
+    left: -29;
+    width: 25;
+}
+.img_today{
+    position: relative;
+    left: -35;
+    top: -31;
+    width: 40;
+}
+.img_tomorrow{
+    position: relative;
+    /* left: -40; */
+    /* top: -34; */
+    /* width: 55; */
+
+}
+.img_yesterday{
+    position: relative;
+    left: -35;
+    top: -31;
+    width: 40;
+}
 
 .home_slider {
     width: 100%;
     height: 10%;
-    display: none;
+    top: 122;
+    position: absolute;
 }
 
 .home_slider .aqq{
@@ -393,16 +582,6 @@ button img{
     top: 5cm;
 
 }
-
-
- 
-.active{
-    right: 0;
-    width: 200%;
-    z-index: 20;
-    background: yellowgreen;
-    display: flex;
-} 
 
 
 
@@ -532,8 +711,8 @@ button img{
 
 }
 .home_slider .aqq .side_bar_league .products h1{
-    top: -17px;
-    font-size: 22px;
+    top: -14px;
+    font-size: 18px;
     font-weight: 100;
     color: var(--lightColor);
     font-family: 'Poppins', sans-serif;
