@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Des1.css">
+</head>
+
+<body>
+  <div class="container_t">
+      <div class="time">
+          <div class="time_first__match">
+              <img class="time_img" src="/image/Argentina.png" alt="">
+              <p class="First_team">${product.name_team_First} </p>
+          </div>
+
+          <div class="Match_time">
+              <h1 class="h1_v">v</h1>
+              <h1 class="h1_s">s</h1>
+          </div>
+
+          <div class="time_Second__match">
+              <img src="/image/Venezuela.png" alt="">
+              <p class="Second_team">${product.name_team_Second} </p>
+          </div>
+
+          <div id="time_team" class="products">
+
+          <div class="pattern" aria-hidden="true"></div>
+          <div class="Dark" >
+              <!-- <input class="container_toggle" type="checkbox" id="switch" name="mode"> -->
+               <h1>Dark</h1>
+              <label class="switch" for="switch">
+                  <input class="container_toggle" type="checkbox" id="switch" name="mode">
+                  <span class="slider">
+                      <div class="star star_1"></div>
+                      <div class="star star_2"></div>
+                      <div class="star star_3"></div>
+                      <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+                        <path
+                          transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+                          fill="#fff"
+                          d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
+                        ></path>
+                      </svg>
+                    </span>
+                  </input>
+
+              </label>
+          </input>
+          </div>
+        </div>
+
+        
+          <script>
+              var checkbox = document.querySelector('input[name=mode]');
+
+checkbox.addEventListener('change', function() {
+  if(this.checked) {
+      trans()
+      document.documentElement.setAttribute('data-theme', 'dark')
+  } else {
+      trans()
+      document.documentElement.setAttribute('data-theme', 'light')
+  }
+})
+
+let trans = () => {
+  document.documentElement.classList.add('transition');
+  window.setTimeout(() => {
+      document.documentElement.classList.remove('transition');
+  }, 1000)
+}
+
+
+// Function to fetch data from JSON and create multiple countdowns
+async function setupCountdowns() {
+try {
+  const response = await fetch('Argentina.json'); // تأكد من تغيير اسم الملف
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  const matches = await response.json();
+
+  // Get the container where all countdowns will be placed
+  const timeTeamContainer = document.getElementById('time_team');
+
+  // Iterate through each match in the JSON array
+  matches.forEach(match => {
+    // Check if the match object has a countDownDate
+    if (match.countDownDate) {
+      // Create a unique container for each countdown
+      const timerContainer = document.createElement('div');
+      timerContainer.id = `timer-container-${match.id}`;
+      
+      // Append the new container to the #time_team element
+      timeTeamContainer.appendChild(timerContainer);
+
+      // Start the countdown for this specific match
+      startSingleCountdown(match);
+    }
+  });
+
+} catch (error) {
+  console.error('Error fetching or parsing countdown data:', error);
+  document.getElementById('time_team').innerHTML = "Error loading match data.";
+}
+}
+
+// Function to handle a single countdown timer
+function startSingleCountdown(match) {
+const countDownDate = new Date(match.countDownDate).getTime();
+const timerId = `timer-${match.id}`;
+
+// Create the HTML elements for the countdown display
+const container = document.getElementById(`timer-container-${match.id}`);
+container.innerHTML = `
+  <div id="${timerId}">
+    <span id="days-${match.id}"></span> Days 
+    <span id="hours-${match.id}"></span> Hours 
+    <span id="minutes-${match.id}"></span> Minutes 
+    <span id="seconds-${match.id}"></span> Seconds
+  </div>
+`;
+
+const x = setInterval(function() {
+  const now = new Date().getTime();
+  const distance = countDownDate - now;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Update the HTML for this specific timer
+  document.getElementById(`days-${match.id}`).innerHTML = days;
+  document.getElementById(`hours-${match.id}`).innerHTML = hours;
+  document.getElementById(`minutes-${match.id}`).innerHTML = minutes;
+  document.getElementById(`seconds-${match.id}`).innerHTML = seconds;
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById(`${timerId}`).innerHTML = "EXPIRED";
+  }
+}, 1000);
+}
+
+// Start the whole process
+setupCountdowns();
+
+          </script>
+   
+</body>
+
+</html>
