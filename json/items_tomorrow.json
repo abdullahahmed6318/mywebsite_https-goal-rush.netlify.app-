@@ -4,20 +4,20 @@
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
       "name_team_First": "Argentina",
       "First_img": "image/Argentina.png",
-      "a_team": "//.html",
+      "a_team": "/Argentina/Argentina.html",
 
       "name_team_Second": "Ecuador",
       "Second_img": "image/Ecuador.png",
   
       "name_team_third": "Bolivia",
-      "b_team": "//.html",
+      "b_team": "/Brazil/Brazil.html",
       "third_img": "image/Bolivia.png",
       "name_team_fourth": "Brazil",
       "fourth_img": "image/Brazil.png",
   
       "name_team_Five": "Chile",
       "Five_img": "image/Chile.png",
-      "r_team": "//.html",
+      "r_team": "/Uruguay/Uruguay.html",
       "name_team_sixth": "Uruguay",
       "sixth_img": "image/Uruguay.png",
   
