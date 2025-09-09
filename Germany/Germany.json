@@ -3,11 +3,11 @@
     "id": 1,
     "side_bar_league": "",
     "countDownDate": "Sep 4, 2025 22:45:00",
-    "name_team_First":"Germany",
+    "name_team_First":"England",
     "First_img": "/image/Germany.png",
-    "iframe": "",
-    "name_team_Second": "Northern Ireland",
-    "Second_img": "/image/Northern_Ireland.png",
+    "iframe": "https://pl.buzkora.site/albaplayer/bein22/?serv=0",
+    "name_team_Second": "Serbia",
+    "Second_img": "/image/Serbia.png",
     "offers": {
     "type": "معلومات",
     "Championship": "World Cup Qual. UEFA A , Round 6 : البطولة  ",
@@ -21,3 +21,4 @@
   }
   }
 ]
+
