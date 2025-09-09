@@ -3,11 +3,11 @@
     "id": 1,
     "side_bar_league": "",
     "countDownDate": "Sep 5, 2025 22:30:00",
-    "name_team_First":"Egypt",
-    "First_img": "/image/Egypt.png",
-    "iframe": "https://pl.buzkora.site/albaplayer/ssc-1/?serv=0",
-    "name_team_Second": "Ethiopia",
-    "Second_img": "/image/Ethiopia.png",
+    "name_team_First":"Portugal",
+    "First_img": "/image/Portugal.png",
+    "iframe": "https://pl.buzkora.site/albaplayer/bein3/?serv=0",
+    "name_team_Second": "Hungary",
+    "Second_img": "/image/Hungary.png",
     "offers": {
     "type": "معلومات",
     "Championship": "World Cup Qualification, CONMEBOL , Round 17 : البطولة  ",
@@ -22,4 +22,5 @@
   }
 
 ]
+
 
