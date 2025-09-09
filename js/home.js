@@ -244,7 +244,7 @@
                       <span>
                               <a class="url"  style="${displayStyle_seven}"data-url="${product.b_team}" >
                               <div class="The_seven__match">
-                                <img src="${product.First_img}" alt="">
+                                <img src="${product.seven_img}" alt="">
                               <p class="First_team"> ${product.name_team_seven}</p>
                                 </div>
                                 <div class="The_Match_time">
@@ -387,7 +387,7 @@
                       <span>
                               <a class="url"  style="${displayStyle_seven}"data-url="${product.b_team}" >
                               <div class="The_seven__match">
-                                <img src="${product.First_img}" alt="">
+                                <img src="${product.seven_img}" alt="">
                               <p class="First_team"> ${product.name_team_seven}</p>
                                 </div>
                                 <div class="The_Match_time">
@@ -445,6 +445,10 @@
 
 
   var cart = document.querySelector('.main-menu');
+  var btn_tomorrow = document.querySelector('.tomorrow');
+  var btn_today = document.querySelector('.today');
+  var btn_yesterday = document.querySelector('.yesterday');
+
   function open_cart() {
       cart.classList.add('active')
   }
@@ -453,20 +457,19 @@
       cart.classList.remove('active')
   }
                   
-  var btn_tomorrow = document.querySelector('.tomorrow');
-  var btn_today = document.querySelector('.today');
-  var btn_yesterday = document.querySelector('.yesterday');
   function open_today() {
     btn_today.classList.remove('home_today_active')
     btn_tomorrow.classList.add('home_tomorrow_active')
     btn_yesterday.classList.add('home_yesterday_active')
+    btn_today.classList.remove('today')
 
   }
 
   function close_tomorrow() {
-    btn_today.classList.remove('home_today_active')
+    btn_today.classList.add('home_today_active')
     btn_tomorrow.classList.remove('home_tomorrow_active')
     btn_yesterday.classList.add('home_yesterday_active')
+    btn_tomorrow.classList.remove('tomorrow')
 
   }
 
@@ -474,6 +477,8 @@
     btn_today.classList.add('home_today_active')
     btn_tomorrow.classList.add('home_tomorrow_active')
     btn_yesterday.classList.remove('home_yesterday_active')
+    btn_yesterday.classList.remove('yesterday')
+
   }  
           
 

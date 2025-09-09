@@ -1,0 +1,119 @@
+[
+    {
+      "id": 1,
+      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA D , Round 6",
+      "name_team_First": "Ukraine",
+      "First_img": "image/Ukraine.png",
+      "a_team": "/Ukraine/Ukraine.html",
+
+      "name_team_Second": "Azerbaijan",
+      "Second_img": "image/Azerbaijan.png",
+  
+      "name_team_third": "France",
+      "b_team": "/Brazil/France.html",
+      "third_img": "image/France.png",
+      "name_team_fourth": "Iceland",
+      "fourth_img": "image/Iceland.png",
+  
+      "name_team_Five": "",
+      "Five_img": "image/Peru.png",
+      "r_team": "/Uruguay/Uruguay.html",
+      "name_team_sixth": "",
+      "sixth_img": "image/Uruguay.png",
+  
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "name_team_eighth": "",
+      "eighth_img": "image/FC_Barcelona.png",
+  
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 2,
+      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA F , Round 2",
+      "name_team_First": "Portugal",
+      "First_img": "image/Portugal.png",
+      "a_team": "/Spain/Portugal.html",
+
+      "name_team_Second": "Hungary",
+      "Second_img": "image/Hungary.png",
+      "name_team_third": "",
+      "b_team": "h.html",
+      "third_img": "image/FC_Barcelona.png",
+      "name_team_fourth": "FC_Blona",
+      "fourth_img": "image/FC_Barcelona.png",
+      "name_team_Five": "",
+      "Five_img": "image/FC_Barcelona.png",
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 3,
+      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA K , Round 6 ",
+      "name_team_First": "England",
+      "First_img": "image/England.png",
+      "a_team": "/England/England.html",
+
+      "name_team_Second": "Serbia",
+      "Second_img": "image/Serbia.png",
+      
+      "name_team_third": "",
+      "b_team": "h.html",
+      "third_img": "image/FC_Barcelona.png",
+      "name_team_fourth": "",
+      "fourth_img": "image/FC_Barcelona.png",
+      "name_team_Five": "",
+      "Five_img": "image/FC_Barcelona.png",
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+        "id": 4,
+        "side_bar_league": "🏆⚽️FIFA World Cup, Qualification CAF, Group A",
+        "name_team_First": "Egypt",
+        "First_img": "image/Egypt.png",
+        "a_team": "/Egypt/Egypt.html",
+
+        "name_team_Second": "Burkina Faso",
+        "Second_img": "image/Burkina_Faso.png",
+
+        "name_team_third": "",
+        "b_team": "h.html",
+        "third_img": "image/FC_Barcelona.png",
+        "name_team_fourth": "",
+        "fourth_img": "image/FC_Barcelona.png",
+        "name_team_Five": "",
+        "Five_img": "image/FC_Barcelona.png",
+        "name_team_sixth": "Bela",
+        "sixth_img": "image/FC_Barcelona.png",
+        "name_team_seven": "",
+        "seven_img": "image/FC_Barcelona.png",
+        "name_team_eighth": "Bela",
+        "eighth_img": "image/FC_Barcelona.png",
+        "name_team_Ninth": "",
+        "Ninth_img": "image/FC_Barcelona.png",
+        "name_team_tenth": "Bqela",
+        "tenth_img": "image/FC_Barcelona.png"
+    }
+    
+  
+  ]
