@@ -3,6 +3,7 @@
     top: 10cm;
     background: rgb(49, 49, 49);
     width: 100%;
+    z-index: 15;
 }
 
 footer .container{
@@ -14,28 +15,27 @@ footer .container{
 
 }
 
+
 footer .container .big_row{
-    width: 14%;
-    height: 50%;
-    background: aqua;
-    display: none;
+    position: relative;
+    left: 20px;
+    width: 20%;
+    height: 140px;
 
 }
 
 footer .container .big_row .hotline{
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    /* margin: 15px 0; */
     gap: 10px;
+    width: 100%;
+    height: 100%;
 
 }
 
-footer .container .big_row .hotline i{
-    font-size: 60px;
-    color: aqua;
-    display: none;
-
-
+footer .container .big_row .hotline img{
+    width: 100;
 }
 footer .container .big_row .hotline h5{
     color: aliceblue;

@@ -3,6 +3,7 @@ footer{
     top: 80cm;
     background: rgb(49, 49, 49);
     width: 100%;
+    z-index: 15;
 }
 
 footer .container{
@@ -10,32 +11,28 @@ footer .container{
     justify-content: space-between;
     padding: 40px 0;
     width: 100%;
-
-
 }
 
 footer .container .big_row{
-    width: 14%;
-    height: 50%;
-    background: aqua;
-    display: none;
+    position: relative;
+    left: 20px;
+    width: 20%;
+    height: 140px;
 
 }
 
 footer .container .big_row .hotline{
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    /* margin: 15px 0; */
     gap: 10px;
+    width: 100%;
+    height: 100%;
 
 }
 
-footer .container .big_row .hotline i{
-    font-size: 60px;
-    color: aqua;
-    display: none;
-
-
+footer .container .big_row .hotline img{
+    width: 100;
 }
 footer .container .big_row .hotline h5{
     color: aliceblue;
@@ -271,9 +268,10 @@ footer .social-menu ul li:nth-child(5) a:hover{
         right: -100px;
         padding: 0;
         margin: 0;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 300%);
         display: flex;
         z-index: 1000;
+
     }
     
     footer .social-menu p{
@@ -342,4 +340,20 @@ footer .social-menu ul li:nth-child(5) a:hover{
     footer .social-menu ul li:nth-child(5) a:active{
         background-color: #ff7575;
     }
+
+    footer .container .big_row .hotline{
+        display: flex;
+        align-items: center;
+        /* margin: 15px 0; */
+        gap: 10px;
+        width: 300;
+        height: 100;
+        background: red;
+        position: relative;
+        top: -40px;
+
+    
+    }
+    
+    
 }

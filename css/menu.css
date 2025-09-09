@@ -237,7 +237,7 @@ opacity:1;
 .main-menu {
 background: var(--menu);
 position:fixed;
-z-index: 20;
+z-index: 10;
 top: 177px;
 bottom:0;
 height: 67.5%;
