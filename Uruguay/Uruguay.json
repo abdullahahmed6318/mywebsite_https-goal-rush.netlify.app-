@@ -2,21 +2,21 @@
   {
     "id": 1,
     "side_bar_league": "",
-    "countDownDate": "Sep 5, 2025 22:45:00",
-    "name_team_First":"Uruguay",
-    "First_img": "/image/Uruguay.png",
+    "countDownDate": "Sep 10, 2025 2:30:00",
+    "name_team_First":"Chile",
+    "First_img": "/image/Chile.png",
     "iframe": "",
-    "name_team_Second": "Slovakia",
-    "Second_img": "/image/Slovakia.png",
+    "name_team_Second": "Uruguay",
+    "Second_img": "/image/Uruguay.png",
     "offers": {
     "type": "معلومات",
-    "Championship": "World Cup Qual. UEFA A, Round 1 : البطولة  ",
+    "Championship": " : البطولة  ",
     "channel": "beIN SPORTS 3 : القناة",
     "commentator": " : المعلق",
-    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:45 بتوقيت مصر ",
-    "stadium": "  الملعب : تيهيلني بول",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة:    ",
+    "stadium": "  الملعب :  ",
     "Formation": "",
-    "referee":" الحكم : سردار غوزوبويوك"
+    "referee":" الحكم :  "
 
   }
   }
