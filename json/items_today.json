@@ -36,7 +36,7 @@
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA F , Round 2",
       "name_team_First": "Portugal",
       "First_img": "image/Portugal.png",
-      "a_team": "/Spain/Portugal.html",
+      "a_team": "/Egypt/Egypt.html",
 
       "name_team_Second": "Hungary",
       "Second_img": "image/Hungary.png",
@@ -63,7 +63,7 @@
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA K , Round 6 ",
       "name_team_First": "England",
       "First_img": "image/England.png",
-      "a_team": "/England/England.html",
+      "a_team": "/Germany/Germany.html",
 
       "name_team_Second": "Serbia",
       "Second_img": "image/Serbia.png",
@@ -118,3 +118,4 @@
   
 
   ]
+
