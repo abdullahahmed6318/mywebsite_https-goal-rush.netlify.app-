@@ -10,7 +10,7 @@
       "Second_img": "image/Azerbaijan.png",
   
       "name_team_third": "France",
-      "b_team": "/Brazil/France.html",
+      "b_team": "/France/France.html",
       "third_img": "image/France.png",
       "name_team_fourth": "Iceland",
       "fourth_img": "image/Iceland.png",
@@ -116,4 +116,5 @@
     }
     
   
+
   ]
