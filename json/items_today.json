@@ -2,37 +2,12 @@
   "videos": [
     {
       "id": 1,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
       "name_team_First": "Argentina",
-      "First_img": "image/Argentina.png",
-      "a_team": "/Argentina/Argentina.html",
-
-      "name_team_Second": "Ecuador",
-      "Second_img": "image/Ecuador.png",
-
-      "name_team_third": "Bolivia",
-      "b_team": "/Brazil/Brazil.html",
-      "third_img": "image/Bolivia.png",
-      "name_team_fourth": "Brazil",
-      "fourth_img": "image/Brazil.png",
-
-      "name_team_Five": "Chile",
-      "Five_img": "image/Chile.png",
-      "r_team": "/Uruguay/Uruguay.html",
-      "name_team_sixth": "Uruguay",
-      "sixth_img": "image/Uruguay.png",
-
-      "name_team_seven": "Venezuela",
-      "seven_img": "image/Venezuela.png",
-      "name_team_eighth": "Colombia",
-      "eighth_img": "image/Colombia.png",
-
-      "name_team_Ninth": "",
-      "Ninth_img": "image/FC_Barcelona.png",
-      "name_team_tenth": "Bqela",
-      "tenth_img": "image/FC_Barcelona.png"
+      "First_img": "Argentina.png",
+      "a_team": "/Argentina/Argentina.html"
     }
-
   ]
 }
 
