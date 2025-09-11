@@ -6,13 +6,16 @@
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
       "name_team_First": "Argentina",
       "First_img": "/image/Argentina.png",
+      "First_img_app": "Argentina.png",
       "a_team": "/Argentina/Argentina.html",
+      
       "name_team_Second": "Ecuador",
       "Second_img": "image/Ecuador.png"
 
     }
   ]
 }
+
 
 
 
