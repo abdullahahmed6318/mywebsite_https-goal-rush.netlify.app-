@@ -11,8 +11,20 @@
       "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png"
 
     }
+     {
+      "id": 1,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
+      "name_team_First": "Argentina",
+      "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
+      "a_team": "/Argentina/Argentina.html",
+      "name_team_Second": "Ecuador",
+      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png"
+
+    }
   ]
 }
+
 
 
 
