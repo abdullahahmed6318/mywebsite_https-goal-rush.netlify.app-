@@ -6,7 +6,7 @@
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
       "name_team_First": "Argentina",
       "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
-      "a_team": "/Argentina/Argentina.html",
+      "a_team": "/Argentina/AnotherActivity.java",
       "name_team_Second": "Ecuador",
       "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png",
       "name_team_third": "teamsLayout",
@@ -33,6 +33,7 @@
   
   ]
 }
+
 
 
 
