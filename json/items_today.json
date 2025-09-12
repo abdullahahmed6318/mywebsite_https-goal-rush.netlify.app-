@@ -7,22 +7,7 @@
       "name_team_First": "Argentina",
       "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
       "a_team": "/Argentina/AnotherActivity.java",
-      "activityPath": "activityPath.java",
-      "name_team_Second": "Ecuador",
-      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png",
-      "name_team_third": "teamsLayout",
-      "b_team": "/Brazil/Brazil.html",
-      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
-      "name_team_fourth": "Brazil",
-      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png"
-    },
-     {
-      "id": 2,
-      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
-      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
-      "name_team_First": "Argentina",
-      "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
-      "a_team": "/Argentina/Argentina.html",
+      "another_activity_file": "activityPath.java",
       "name_team_Second": "Ecuador",
       "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png",
       "name_team_third": "teamsLayout",
@@ -31,9 +16,10 @@
       "name_team_fourth": "Brazil",
       "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png"
     }
-  
+    
   ]
 }
+
 
 
 
