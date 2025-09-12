@@ -23,8 +23,12 @@
       "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
       "a_team": "/Argentina/Argentina.html",
       "name_team_Second": "Ecuador",
-      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png"
-
+      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png",
+      "name_team_third": "Bolivia",
+      "b_team": "/Brazil/Brazil.html",
+      "third_img": "image/Bolivia.png",
+      "name_team_fourth": "Brazil",
+      "fourth_img": "image/Brazil.png"
     },
    {
       "id": 3,
@@ -34,11 +38,16 @@
       "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
       "a_team": "/Argentina/Argentina.html",
       "name_team_Second": "Ecuador",
-      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png"
-
+      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png",
+      "name_team_third": "Bolivia",
+      "b_team": "/Brazil/Brazil.html",
+      "third_img": "image/Bolivia.png",
+      "name_team_fourth": "Brazil",
+      "fourth_img": "image/Brazil.png"
     }
   ]
 }
+
 
 
 
