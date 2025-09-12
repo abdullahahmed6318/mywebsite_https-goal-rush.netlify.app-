@@ -27,7 +27,7 @@
             
 
             
-              data.forEach(product => {
+              data.videos.forEach(product => {
                 const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
                 const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';

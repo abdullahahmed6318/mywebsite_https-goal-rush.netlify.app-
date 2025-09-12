@@ -4,21 +4,46 @@
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
-      "name_team_First": "Argentina",
-      "First_img": "https://goal-rush.netlify.app/image/Argentina.png",
-      "a_team": "/Argentina/AnotherActivity",
+
+      "name_team_First": "zamalek",
+      "First_img": "image/Teams/zamalek.png",
+
+      "a_team": "/zamalek/zamalek.html",
       "another_activity_file": "AnotherActivity",
-      "name_team_Second": "Ecuador",
-      "Second_img": "https://goal-rush.netlify.app/image/Ecuador.png",
+
+      "name_team_Second": "al masry",
+      "Second_img": "image/Teams/al.masry.png",
+
       "name_team_third": "teamsLayout",
+
       "b_team": "/Brazil/Brazil.html",
       "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
+
       "name_team_fourth": "Brazil",
-      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png"
+      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
+
+      "name_team_Five": "2D",
+      "Five_img": "image/FC_Barcelona.png",
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "RR",
+      "seven_img": "image/FC_Barcelona.png",
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "HH",
+      "Ninth_img": "image/FC_Barcelona.png",
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
     }
     
   ]
 }
+
 
 
 
