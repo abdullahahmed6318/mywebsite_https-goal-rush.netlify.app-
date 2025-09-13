@@ -14,21 +14,21 @@
       "name_team_Second": "al masry",
       "Second_img": "image/Teams/al.masry.png",
 
-      "name_team_third": "",
+      "name_team_third": "zamalek",
       "b_team": "/Brazil/Brazil.html",
       "third_activity_file": "AnotherActivity",
       "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
-      "name_team_fourth": "",
+      "name_team_fourth": "zamalek",
       "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
 
-      "name_team_Five": "",
+      "name_team_Five": "zamalek",
       "Five_img": "image/FC_Barcelona.png",
 
       "name_team_sixth": "Bela",
       "sixth_img": "image/FC_Barcelona.png",
 
-      "name_team_seven": "",
+      "name_team_seven": "zamalek",
       "seven_img": "image/FC_Barcelona.png",
 
       "name_team_eighth": "Bela",
@@ -43,6 +43,7 @@
     
   ]
 }
+
 
 
 
