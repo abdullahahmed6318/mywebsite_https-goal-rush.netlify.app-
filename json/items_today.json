@@ -13,11 +13,10 @@
 
       "name_team_Second": "al masry",
       "Second_img": "image/Teams/al.masry.png",
-      "Second_activity_file": "AnotherActivity",
 
       "name_team_third": "",
-
       "b_team": "/Brazil/Brazil.html",
+      "third_activity_file": "AnotherActivity",
       "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
       "name_team_fourth": "",
@@ -44,6 +43,7 @@
     
   ]
 }
+
 
 
 
