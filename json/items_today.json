@@ -49,7 +49,7 @@
       "First_img": "image/Teams/zamalek.png",
 
       "a_team": "/zamalek/zamalek.html",
-      "another_activity_file": "AnotherActivity",
+      "another_activity_file": "a",
 
       "name_team_Second": "al masry",
       "Second_img": "image/Teams/al.masry.png",
@@ -123,6 +123,7 @@
     
   ]
 }
+
 
 
 
