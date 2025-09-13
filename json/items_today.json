@@ -17,10 +17,10 @@
       "name_team_third": "zamalek",
       "b_team": "/Brazil/Brazil.html",
       "third_activity_file": "AnotherActivity",
-      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
+      "third_img": "image/Bolivia.png",
 
       "name_team_fourth": "zamalek",
-      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
+      "fourth_img": "image/Brazil.png",
 
       "name_team_Five": "zamalek",
       "Five_img": "image/FC_Barcelona.png",
@@ -38,11 +38,12 @@
       "Ninth_img": "image/FC_Barcelona.png",
 
       "name_team_tenth": "Bqela",
-      "tenth_img": "image/FC_Barcelona.png"
+      "tenth_img": "https://goal-rush.netlify.app/image/FC_Barcelona.png"
     }
     
   ]
 }
+
 
 
 
