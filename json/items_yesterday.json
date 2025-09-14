@@ -7,14 +7,14 @@
 
       "name_team_First": "zamalek",
       "First_img": "image/Teams/zamalek.png",
-      "First_team": "/zamalek/zamalek.html",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "al masry",
       "Second_img": "image/Teams/al.masry.png",
 
       "name_team_third": "",
-      "third_team": "/Brazil/Brazil.html",
+      "third_team": "//.html",
       "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
       "name_team_fourth": "",
@@ -22,7 +22,7 @@
 
       "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
-      "Five_team": "/Brazil/Brazil.html",
+      "Five_team": "//.html",
 
 
       "name_team_sixth": "Bela",
@@ -50,15 +50,15 @@
       "side_bar_league": "🏆⚽️ Saudi Pro Laegue",
 
       "name_team_First": "Al-Hilal",
-      "First_img": "image/Teams/.png",
-      "First_team": "/zamalek/zamalek.html",
+      "First_img": "image/Teams/Al-Hilal.png",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Al-Qadsiah",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Al-Qadsiah.png",
 
       "name_team_third": "",
-      "third_team": "/Brazil/Brazil.html",
+      "third_team": "//.html",
       "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
       "name_team_fourth": "",
@@ -94,23 +94,23 @@
       "side_bar_league": "🏆⚽️ Premier League",
 
       "name_team_First": "Forest",
-      "First_img": "image/Teams/.png",
-      "First_team": "/zamalek/zamalek.html",
+      "First_img": "image/Teams/Nottingham Forest FC.png",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Arsenl",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Arsenal.png",
 
       "name_team_third": "brentord",
-      "third_team": "/Brazil/Brazil.html",
-      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
+      "third_team": "//.html",
+      "third_img": "image/Teams/Brentford FC.png",
 
       "name_team_fourth": "chelsea",
       "fourth_img": "image/Teams/Chelsea_FC.png",
 
       "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
-      "Five_team": "/Brazil/Brazil.html",
+      "Five_team": "//.html",
 
 
       "name_team_sixth": "Bela",
@@ -139,18 +139,18 @@
 
       "name_team_First": "Real madrid",
       "First_img": "image/Teams/Real_Madrid_CF.png",
-      "First_team": "/zamalek/zamalek.html",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Real socidad",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Real Sociedad.png",
 
       "name_team_third": "Atl. madrid",
-      "third_team": "/Brazil/Brazil.html",
+      "third_team": "//.html",
       "third_img": "image/Teams/Atletico_Madrid_Logo.png",
 
-      "name_team_fourth": "villarreal",
-      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
+      "name_team_fourth": "Villarreal",
+      "fourth_img": "image/Teams/Villarreal CF.png",
 
       "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
@@ -181,16 +181,16 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏆⚽️ bundesliga",
 
-      "name_team_First": "bayern",
-      "First_img": "image/Teams/.png",
-      "First_team": "/zamalek/zamalek.html",
+      "name_team_First": "FC Bayern",
+      "First_img": "image/Teams/FC Bayern Munich.png",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "HSV",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Hamburger SV_HSV.png",
 
       "name_team_third": "",
-      "third_team": "/Brazil/Brazil.html",
+      "third_team": "//.html",
       "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
       "name_team_fourth": "",
@@ -226,12 +226,12 @@
       "side_bar_league": "🏆⚽️ serie a",
 
       "name_team_First": "juventus",
-      "First_img": "image/Teams/.png",
+      "First_img": "image/Teams/juventus.png",
       "First_team": "/zamalek/zamalek.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "lnter",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Inter Milan.png",
 
       "name_team_third": "",
       "third_team": "/Brazil/Brazil.html",
