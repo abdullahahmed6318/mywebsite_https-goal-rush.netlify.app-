@@ -17,8 +17,8 @@ footer .container .big_row{
     position: relative;
     left: 20px;
     width: 20%;
-    height: 140px;
-
+    height: 100;
+    top: 35;
 }
 
 footer .container .big_row .hotline{
@@ -145,7 +145,7 @@ footer .buttom_footer .payment_img img:hover{
 
 footer .social-menu ul{
     position: absolute;
-    top: 37%;
+    top: 65%;
     right: -140px;
     padding: 0;
     margin: 0;

@@ -48,7 +48,7 @@
                         </div>
                   <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
                     <span>
-                              <a class="url" style="${displayStyle}" data-url="${product.a_team}">
+                              <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
                                 <img src="${product.First_img}" alt="">
                               <p class="First_team"> ${product.name_team_First}</p>
@@ -64,7 +64,7 @@
                     </span>
                               // 
                     <span>
-                              <a class="url" style="${displayStyle_Second}" data-url="${product.b_team}">
+                              <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
   ">
                                 <img src="${product.third_img}" alt="">
@@ -82,7 +82,7 @@
                     </span>
                     //  
                     <span>
-                              <a class="url" style="${displayStyle_Five}" data-url="${product.r_team}">
+                              <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
                                 <img src="${product.Five_img}" alt="">
                               <p class="First_team"> ${product.name_team_Five}</p>
@@ -99,7 +99,7 @@
                       </span>
                       // 
                       <span>
-                              <a class="url"  style="${displayStyle_seven}"data-url="${product.b_team}" >
+                              <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
                                 <img src="${product.seven_img}" alt="">
                               <p class="First_team"> ${product.name_team_seven}</p>
@@ -116,7 +116,7 @@
                       </span>
                       // 
                       <span>
-                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.b_team}">
+                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
                                 <img src="${product.Ninth_img}" alt="">
                               <p class="First_team"> ${product.name_team_Ninth}</p>
@@ -170,7 +170,7 @@
             
 
             
-              data.forEach(product => {
+              data.videos.forEach(product => {
                 const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
                 const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
@@ -191,7 +191,7 @@
                         </div>
                   <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
                     <span>
-                              <a class="url" style="${displayStyle}" data-url="${product.a_team}">
+                              <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
                                 <img src="${product.First_img}" alt="">
                               <p class="First_team"> ${product.name_team_First}</p>
@@ -207,7 +207,7 @@
                     </span>
                               // 
                     <span>
-                              <a class="url" style="${displayStyle_Second}" data-url="${product.b_team}">
+                              <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
   ">
                                 <img src="${product.third_img}" alt="">
@@ -225,7 +225,7 @@
                     </span>
                     //  
                     <span>
-                              <a class="url" style="${displayStyle_Five}" data-url="${product.r_team}">
+                              <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
                                 <img src="${product.Five_img}" alt="">
                               <p class="First_team"> ${product.name_team_Five}</p>
@@ -242,7 +242,7 @@
                       </span>
                       // 
                       <span>
-                              <a class="url"  style="${displayStyle_seven}"data-url="${product.b_team}" >
+                              <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
                                 <img src="${product.seven_img}" alt="">
                               <p class="First_team"> ${product.name_team_seven}</p>
@@ -259,7 +259,7 @@
                       </span>
                       // 
                       <span>
-                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.b_team}">
+                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
                                 <img src="${product.First_img}" alt="">
                               <p class="First_team"> ${product.name_team_Ninth}</p>
@@ -313,7 +313,7 @@
             
 
             
-              data.forEach(product => {
+              data.videos.forEach(product => {
                 const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
                 const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
@@ -334,7 +334,7 @@
                         </div>
                   <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
                     <span>
-                              <a class="url" style="${displayStyle}" data-url="${product.a_team}">
+                              <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
                                 <img src="${product.First_img}" alt="">
                               <p class="First_team"> ${product.name_team_First}</p>
@@ -350,7 +350,7 @@
                     </span>
                               // 
                     <span>
-                              <a class="url" style="${displayStyle_Second}" data-url="${product.b_team}">
+                              <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
   ">
                                 <img src="${product.third_img}" alt="">
@@ -368,7 +368,7 @@
                     </span>
                     //  
                     <span>
-                              <a class="url" style="${displayStyle_Five}" data-url="${product.r_team}">
+                              <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
                                 <img src="${product.Five_img}" alt="">
                               <p class="First_team"> ${product.name_team_Five}</p>
@@ -385,10 +385,10 @@
                       </span>
                       // 
                       <span>
-                              <a class="url"  style="${displayStyle_seven}"data-url="${product.b_team}" >
+                              <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
                                 <img src="${product.seven_img}" alt="">
-                              <p class="First_team"> ${product.name_team_seven}</p>
+                              <p class="seven_team"> ${product.name_team_seven}</p>
                                 </div>
                                 <div class="The_Match_time">
                                     <h1>vs</h1>
@@ -402,10 +402,10 @@
                       </span>
                       // 
                       <span>
-                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.b_team}">
+                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
                                 <img src="${product.First_img}" alt="">
-                              <p class="First_team"> ${product.name_team_Ninth}</p>
+                              <p class="Ninth_team"> ${product.name_team_Ninth}</p>
                                 </div>
                                 <div class="The_Match_time">
                                     <h1>vs</h1>

@@ -3,167 +3,356 @@
     {
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
-      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
+      "side_bar_league": "🏆⚽️ Egyptlian Premier League",
 
-      "name_team_First": "zamalek",
-      "First_img": "image/Teams/zamalek.png",
-
-      "a_team": "/zamalek/zamalek.html",
+      "name_team_First": "Al Ahly",
+      "First_img": "image/Teams/Al_Ahly_SC_logo.png",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "al masry",
+      "name_team_Second": "ENPPI",
       "Second_img": "image/Teams/al.masry.png",
 
-      "name_team_third": "zamalek",
-      "b_team": "/Brazil/Brazil.html",
-      "third_activity_file": "AnotherActivity",
-      "third_img": "image/Bolivia.png",
+      "name_team_third": "",
+      "third_team": "/Brazil/Brazil.html",
+      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
-      "name_team_fourth": "zamalek",
-      "fourth_img": "image/Brazil.png",
+      "name_team_fourth": "",
+      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
 
-      "name_team_Five": "zamalek",
+      "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
+      "Five_team": "/Brazil/Brazil.html",
+
 
       "name_team_sixth": "Bela",
       "sixth_img": "image/FC_Barcelona.png",
 
-      "name_team_seven": "zamalek",
+      "name_team_seven": "",
       "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
 
       "name_team_eighth": "Bela",
       "eighth_img": "image/FC_Barcelona.png",
 
       "name_team_Ninth": "",
       "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
 
       "name_team_tenth": "Bqela",
-      "tenth_img": "https://goal-rush.netlify.app/image/FC_Barcelona.png"
+      "tenth_img": "image/FC_Barcelona.png"
     },
-        {
+    {
       "id": 2,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
-      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
+      "side_bar_league": "🏆⚽️ Saudi Pro Laegue",
 
-      "name_team_First": "zamalek",
-      "First_img": "image/Teams/zamalek.png",
-
-      "a_team": "/zamalek/zamalek.html",
-      "another_activity_file": "a",
-
-      "name_team_Second": "al masry",
-      "Second_img": "image/Teams/al.masry.png",
-
-      "name_team_third": "zamalek",
-      "b_team": "/Brazil/Brazil.html",
-      "third_activity_file": "AnotherActivity",
-      "third_img": "image/Bolivia.png",
-
-      "name_team_fourth": "zamalek",
-      "fourth_img": "image/Brazil.png",
-
-      "name_team_Five": "zamalek",
-      "Five_img": "image/FC_Barcelona.png",
-
-      "name_team_sixth": "Bela",
-      "sixth_img": "image/FC_Barcelona.png",
-
-      "name_team_seven": "zamalek",
-      "seven_img": "image/FC_Barcelona.png",
-
-      "name_team_eighth": "Bela",
-      "eighth_img": "image/FC_Barcelona.png",
-
-      "name_team_Ninth": "",
-      "Ninth_img": "image/FC_Barcelona.png",
-
-      "name_team_tenth": "Bqela",
-      "tenth_img": "https://goal-rush.netlify.app/image/FC_Barcelona.png"
-    };
-        {
-      "id": 3,
-      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
-      "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A , Round 6",
-
-      "name_team_First": "zamalek",
-      "First_img": "image/Teams/zamalek.png",
-
-      "a_team": "/zamalek/zamalek.html",
+      "name_team_First": "Al-Nassr",
+      "First_img": "image/Teams/.png",
+      "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "al masry",
-      "Second_img": "image/Teams/al.masry.png",
+      "name_team_Second": "Al-Kholood",
+      "Second_img": "image/Teams/.png",
 
-      "name_team_third": "zamalek",
-      "b_team": "/Brazil/Brazil.html",
-      "third_activity_file": "AnotherActivity",
-      "third_img": "image/Bolivia.png",
+      "name_team_third": "",
+      "third_team": "//.html",
+      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
 
-      "name_team_fourth": "zamalek",
-      "fourth_img": "image/Brazil.png",
+      "name_team_fourth": "",
+      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
 
-      "name_team_Five": "zamalek",
+      "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
+      "Five_team": "/Brazil/Brazil.html",
+
 
       "name_team_sixth": "Bela",
       "sixth_img": "image/FC_Barcelona.png",
 
-      "name_team_seven": "zamalek",
+      "name_team_seven": "",
       "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
 
       "name_team_eighth": "Bela",
       "eighth_img": "image/FC_Barcelona.png",
 
       "name_team_Ninth": "",
       "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
 
       "name_team_tenth": "Bqela",
-      "tenth_img": "https://goal-rush.netlify.app/image/FC_Barcelona.png"
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 3,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ Premier League",
+
+      "name_team_First": "Liverpool",
+      "First_img": "image/Teams/Liverpool_FC.png",
+      "First_team": "//.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "Burnley",
+      "Second_img": "image/Teams/.png",
+
+      "name_team_third": "Man utd",
+      "third_team": "//.html",
+      "third_img": "image/Teams/Manchester_United_FC.png",
+
+      "name_team_fourth": "Man city",
+      "fourth_img": "image/Teams/Manchester_City_FC.png",
+
+      "name_team_Five": "",
+      "Five_img": "image/FC_Barcelona.png",
+      "Five_team": "/Brazil/Brazil.html",
+
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 4,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ Laliga",
+
+      "name_team_First": "Barcelona",
+      "First_img": "image/Teams/FC_Barcelona.png",
+      "First_team": "/zamalek/zamalek.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "valencia",
+      "Second_img": "image/Teams/.png",
+
+      "name_team_third": "",
+      "third_team": "//.html",
+      "third_img": "image/Teams/",
+
+      "name_team_fourth": "",
+      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
+
+      "name_team_Five": "",
+      "Five_img": "image/FC_Barcelona.png",
+      "Five_team": "/Brazil/Brazil.html",
+
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 6,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ serie a",
+
+      "name_team_First": "Roma",
+      "First_img": "image/Teams/.png",
+      "First_team": "//.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "Torino",
+      "Second_img": "image/Teams/.png",
+
+      "name_team_third": "milan",
+      "third_team": "//.html",
+      "third_img": "image/Teams/.png",
+
+      "name_team_fourth": "Bologna",
+      "fourth_img": "image/Teams/.png",
+
+      "name_team_Five": "",
+      "Five_img": "image/.png",
+      "Five_team": "//.html",
+
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 7,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ Ligue 1",
+
+      "name_team_First": "PSG",
+      "First_img": "image/Teams/.png",
+      "First_team": "//.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "Lens",
+      "Second_img": "image/Teams/.png",
+
+      "name_team_third": "Rennes",
+      "third_team": "//.html",
+      "third_img": "image/Teams/.png",
+
+      "name_team_fourth": "Lyon",
+      "fourth_img": "image/Teams/.png",
+
+      "name_team_Five": "",
+      "Five_img": "image/.png",
+      "Five_team": "//.html",
+
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 8,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ FIFA Intercontinental Cup , Round 1",
+
+      "name_team_First": "Pyramids",
+      "First_img": "image/Teams/.png",
+      "First_team": "//.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "Auckland City",
+      "Second_img": "image/Teams/.png",
+
+      "name_team_third": "",
+      "third_team": "//.html",
+      "third_img": "image/Teams/.png",
+
+      "name_team_fourth": "",
+      "fourth_img": "image/Teams/.png",
+
+      "name_team_Five": "",
+      "Five_img": "image/.png",
+      "Five_team": "//.html",
+
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
+    },
+    {
+      "id": 5,
+      "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
+      "side_bar_league": "🏆⚽️ bundesliga",
+
+      "name_team_First": "",
+      "First_img": "image/Teams/.png",
+      "First_team": "//.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "",
+      "Second_img": "image/Teams/.png",
+
+      "name_team_third": "",
+      "third_team": "//.html",
+      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
+
+      "name_team_fourth": "",
+      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
+
+      "name_team_Five": "",
+      "Five_img": "image/FC_Barcelona.png",
+      "Five_team": "/Brazil/Brazil.html",
+
+
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
+
+      "name_team_Ninth": "",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
+
+
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
     }
+
     
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
