@@ -29,7 +29,7 @@
 
       "name_team_seven": "Tottenham",
       "seven_img": "image/Teams/Tottenham Hotspur F.C.png",
-      "seven_team": "/Brazil/Brazil.html",
+      "seven_team": "//.html",
 
 
       "name_team_eighth": "Villarreal",
@@ -37,7 +37,7 @@
 
       "name_team_Ninth": "Benfica",
       "Ninth_img": "image/Teams/Benfica.png",
-      "Ninth_team": "/Brazil/Brazil.html",
+      "Ninth_team": "//.html",
 
 
       "name_team_tenth": "Qarabağ",
@@ -400,3 +400,4 @@
     
   ]
 }
+
