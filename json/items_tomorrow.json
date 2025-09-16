@@ -35,8 +35,8 @@
       "name_team_eighth": "Inter",
       "eighth_img": "image/Teams/Inter Milan.png",
 
-      "name_team_Ninth": "Inter",
-      "Ninth_img": "image/Teams/Inter Milan.png",
+      "name_team_Ninth": "",
+      "Ninth_img": "image/Teams/.png",
       "Ninth_team": "//.html",
 
 
@@ -400,6 +400,7 @@
     
   ]
 }
+
 
 
 
