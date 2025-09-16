@@ -323,7 +323,6 @@ button img{
 
 .home_slider .aqq .aaa a p{
     margin-top: 10%;
-
 }
 
 .home_slider .aqq .aaa .The_Match_time{
@@ -378,7 +377,7 @@ button img{
     left: 0;
     right: 0;
     background-position: 10px 10px;
-    width: 50px;
+    max-width: 35px;
 
 }
 
