@@ -5,30 +5,30 @@
       "side_bar_league": "🏆⚽️ Uefa champions league  , Round 1",
 
       "name_team_First": "bayern",
-      "First_img": "image/Teams/Athletic Club.png",
+      "First_img": "image/Teams/FC Bayern Munich.png",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Chelsea",
-      "Second_img": "image/Teams/Arsenal.png",
+      "Second_img": "image/Teams/Chelsea_FC.png",
 
-      "name_team_third": "Real Madrid",
+      "name_team_third": "Liverpool",
       "third_team": "//.html",
-      "third_img": "image/Teams/Real_Madrid_CF.png",
+      "third_img": "image/Teams/Liverpool_FC.png",
 
-      "name_team_fourth": "Marseille",
-      "fourth_img": "image/Teams/Olympique de Marseille.png",
+      "name_team_fourth": "Atletico Madrid",
+      "fourth_img": "image/Teams/Atletico_Madrid_Logo.png",
 
-      "name_team_Five": "juventus",
-      "Five_img": "image/Teams/juventus.png",
+      "name_team_Five": "PSG",
+      "Five_img": "image/Teams/Paris Saint-Germain_PSG_FC.png",
       "Five_team": "//.html",
 
 
-      "name_team_sixth": "Dortmund",
-      "sixth_img": "image/Teams/Borussia Dortmund.png",
+      "name_team_sixth": "Atalanta",
+      "sixth_img": "image/Teams/Atalanta.png",
 
-      "name_team_seven": "Tottenham",
-      "seven_img": "image/Teams/Tottenham Hotspur F.C.png",
+      "name_team_seven": "Ajax",
+      "seven_img": "image/Teams/AFC Ajax.png",
       "seven_team": "/Brazil/Brazil.html",
 
 
@@ -400,3 +400,4 @@
     
   ]
 }
+
