@@ -29,18 +29,18 @@
 
       "name_team_seven": "Ajax",
       "seven_img": "image/Teams/AFC Ajax.png",
-      "seven_team": "/Brazil/Brazil.html",
+      "seven_team": "//.html",
 
 
       "name_team_eighth": "Villarreal",
       "eighth_img": "image/Teams/Villarreal CF.png",
 
-      "name_team_Ninth": "Benfica",
-      "Ninth_img": "image/Teams/Benfica.png",
-      "Ninth_team": "/Brazil/Brazil.html",
+      "name_team_Ninth": "Inter",
+      "Ninth_img": "image/Teams/Inter Milan.png",
+      "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "Qarabağ",
+      "name_team_tenth": "",
       "tenth_img": "image/.png"
     },
 
@@ -400,4 +400,5 @@
     
   ]
 }
+
 
