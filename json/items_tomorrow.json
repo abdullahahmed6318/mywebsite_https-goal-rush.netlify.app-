@@ -32,8 +32,8 @@
       "seven_team": "//.html",
 
 
-      "name_team_eighth": "Villarreal",
-      "eighth_img": "image/Teams/Villarreal CF.png",
+      "name_team_eighth": "Inter",
+      "eighth_img": "image/Teams/Inter Milan.png",
 
       "name_team_Ninth": "Inter",
       "Ninth_img": "image/Teams/Inter Milan.png",
@@ -400,5 +400,6 @@
     
   ]
 }
+
 
 
