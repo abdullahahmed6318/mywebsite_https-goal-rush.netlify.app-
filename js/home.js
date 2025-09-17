@@ -394,7 +394,7 @@
                                     <h1>vs</h1>
                                   </div>
                                 <div class="The_eighth__match">
-                                  <img src="${product.Second_img}" alt="">
+                                  <img src="${product.eighth_img}" alt="">
                                 <p class="Second_team">${product.name_team_eighth}  </p>
                                   </div>
                                 
@@ -404,14 +404,14 @@
                       <span>
                               <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
-                                <img src="${product.First_img}" alt="">
+                                <img src="${product.Ninth_img}" alt="">
                               <p class="Ninth_team"> ${product.name_team_Ninth}</p>
                                 </div>
                                 <div class="The_Match_time">
                                     <h1>vs</h1>
                                   </div>
                                 <div class="The_tenth__match">
-                                  <img src="${product.Second_img}" alt="">
+                                  <img src="${product.tenth_img}" alt="">
                                 <p class="Second_team">${product.name_team_tenth}  </p>
                                   </div>
                                 
