@@ -34,7 +34,7 @@
                 const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
                 const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
                 const displayStyle_ = (product.name_team_Ninth === '') ? 'height: 500;' : '';
-                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 300;' : '';
+                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 320;' : '';
                 const displayStyle_2 = (product.name_team_Five === '') ? 'height: 240;' : '';
                 const displayStyle_3 = (product.name_team_third === '') ? 'height: 140;' : '';
 
@@ -177,7 +177,7 @@
                 const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
                 const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
                 const displayStyle_ = (product.name_team_Ninth === '') ? 'height: 500;' : '';
-                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 300;' : '';
+                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 320;' : '';
                 const displayStyle_2 = (product.name_team_Five === '') ? 'height: 240;' : '';
                 const displayStyle_3 = (product.name_team_third === '') ? 'height: 140;' : '';
 
@@ -320,7 +320,7 @@
                 const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
                 const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
                 const displayStyle_ = (product.name_team_Ninth === '') ? 'height: 500;' : '';
-                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 300;' : '';
+                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 320;' : '';
                 const displayStyle_2 = (product.name_team_Five === '') ? 'height: 240;' : '';
                 const displayStyle_3 = (product.name_team_third === '') ? 'height: 140;' : '';
 
