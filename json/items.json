@@ -1,106 +1,132 @@
 [
   {
+    "id": 0,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 185,
+    "old_price": 225,
+    "seven_team": "/a/a.html",
+
+    "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+  },
+  {
     "id": 1,
-    "side_bar_league": "🏆⚽️ World Cup Qual. UEFA E",
-    "name_team_First": "Spain",
-    "First_img": "image/Spain.png",
-    "a_team": "/Spain/Spain.html",
-    "name_team_Second": "Bulgaria",
-    "Second_img": "image/Bulgaria.webp",
-    "name_team_third": "",
-    "b_team": "h.html",
-    "third_img": "image/FC_Barcelona.png",
-    "name_team_fourth": "FC_Blona",
-    "fourth_img": "image/FC_Barcelona.png",
-    "name_team_Five": "",
-    "Five_img": "image/FC_Barcelona.png",
-    "name_team_sixth": "Bela",
-    "sixth_img": "image/FC_Barcelona.png",
-    "name_team_seven": "",
-    "seven_img": "image/FC_Barcelona.png",
-    "name_team_eighth": "Bela",
-    "eighth_img": "image/FC_Barcelona.png",
-    "name_team_Ninth": "",
-    "Ninth_img": "image/FC_Barcelona.png",
-    "name_team_tenth": "Bqela",
-    "tenth_img": "image/FC_Barcelona.png"
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 100,
+    "old_price": 120,
+    "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+
   },
   {
     "id": 2,
-    "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A",
-    "name_team_First": "Slovakia",
-    "First_img": "image/Slovakia.png",
-    "a_team": "/Germany/Germany.html",
-    "name_team_Second": "Germany",
-    "Second_img": "image/Germany.png",
-    "name_team_third": "",
-    "b_team": "h.html",
-    "third_img": "image/FC_Barcelona.png",
-    "name_team_fourth": "FC_Blona",
-    "fourth_img": "image/FC_Barcelona.png",
-    "name_team_Five": "",
-    "Five_img": "image/FC_Barcelona.png",
-    "name_team_sixth": "Bela",
-    "sixth_img": "image/FC_Barcelona.png",
-    "name_team_seven": "",
-    "seven_img": "image/FC_Barcelona.png",
-    "name_team_eighth": "Bela",
-    "eighth_img": "image/FC_Barcelona.png",
-    "name_team_Ninth": "",
-    "Ninth_img": "image/FC_Barcelona.png",
-    "name_team_tenth": "Bqela",
-    "tenth_img": "image/FC_Barcelona.png"
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 140,
+    "old_price": 200,
+    "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+
   },
   {
     "id": 3,
-    "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A",
-    "name_team_First": "Netherlands",
-    "First_img": "image/Netherlands.webp",
-    "a_team": "/Poland/Poland.html",
-    "name_team_Second": "Poland",
-    "Second_img": "image/Poland.webp",
-    "name_team_third": "",
-    "b_team": "h.html",
-    "third_img": "image/FC_Barcelona.png",
-    "name_team_fourth": "FC_Blona",
-    "fourth_img": "image/FC_Barcelona.png",
-    "name_team_Five": "",
-    "Five_img": "image/FC_Barcelona.png",
-    "name_team_sixth": "Bela",
-    "sixth_img": "image/FC_Barcelona.png",
-    "name_team_seven": "",
-    "seven_img": "image/FC_Barcelona.png",
-    "name_team_eighth": "Bela",
-    "eighth_img": "image/FC_Barcelona.png",
-    "name_team_Ninth": "",
-    "Ninth_img": "image/FC_Barcelona.png",
-    "name_team_tenth": "Bqela",
-    "tenth_img": "image/FC_Barcelona.png"
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 90,
+    "old_price": 110,
+    "description": "rqawsrfdwasdfcsfdvdxfvdfgfdgdfhgbfgcxhfghbngfhjngfvjnghjghjnghjkghnjmesdrfsedtgrfrdftg"
+
   },
   {
     "id": 4,
-    "side_bar_league": "🏆⚽️ World Cup Qual. UEFA A",
-    "name_team_First": "Belgium",
-    "First_img": "image/Belgium.png",
-    "a_team": "/Belgium/Belgium.html",
-    "name_team_Second": "Liechtenstein",
-    "Second_img": "image/Liechtenstein.png",
-    "name_team_third": "",
-    "b_team": "h.html",
-    "third_img": "image/FC_Barcelona.png",
-    "name_team_fourth": "FC_Blona",
-    "fourth_img": "image/FC_Barcelona.png",
-    "name_team_Five": "",
-    "Five_img": "image/FC_Barcelona.png",
-    "name_team_sixth": "Bela",
-    "sixth_img": "image/FC_Barcelona.png",
-    "name_team_seven": "",
-    "seven_img": "image/FC_Barcelona.png",
-    "name_team_eighth": "Bela",
-    "eighth_img": "image/FC_Barcelona.png",
-    "name_team_Ninth": "",
-    "Ninth_img": "image/FC_Barcelona.png",
-    "name_team_tenth": "Bqela",
-    "tenth_img": "image/FC_Barcelona.png"
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 350,
+    "old_price": 420
+
+  },
+  {
+    "id": 5,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 115,
+    "old_price": 235
+  },
+  {
+    "id": 6,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 225,
+    "old_price": 280
+  },
+  {
+    "id": 7,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 150,
+    "old_price": 200
+  },
+  {
+    "id": 8,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 180
+  },
+  {
+    "id": 9,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 300
+  },
+  {
+    "id": 10,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 250
+  },
+  {
+    "id": 11,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 120
+  },
+  {
+    "id": 12,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 90
+  },
+  {
+    "id": 13,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 129
+  },
+  {
+    "id": 14,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 180
+  },
+  {
+    "id": 15,
+    "img": "img/nikon/Lens/nikon 50mm 1.4.jpg",
+    "img_hover": "img/nikon/Lens/img_hover/nikon 50mm 1.4.webp",
+    "name": "Original Mobile Android Dual SIM Smart Phone G3",
+    "price": 60
   }
 ]
