@@ -231,6 +231,7 @@ footer .social-menu ul li:nth-child(5) a:hover{
         margin-top  : 100%;
         position: relative;
         /* background: #b50000; */
+        display: none;
     }
     
     footer .container{

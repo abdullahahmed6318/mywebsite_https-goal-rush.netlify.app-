@@ -3,14 +3,13 @@
 .news{
     position: absolute;
     width: 10cm;
-    height: 50cm;
+    height: 23cm;
     border: solid var( --lightColor);
-    left: 20;
-    top: 4cm;
+    left: 90;
+    top: 4.2cm;
     overflow: hidden;
     background: var( --container_t);
     border-radius: 10px;
-    display: none;      
 
 }
 @media (max-width:600px){
