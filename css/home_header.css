@@ -111,7 +111,7 @@ header a h1{
     position: relative;
     font-size: 18px;
     font-weight: 100;
-    left: -100px;
+    left: -150px;
 }
 
 header nav{
@@ -122,5 +122,6 @@ header .links{
 }
 
 }
+
 
 
