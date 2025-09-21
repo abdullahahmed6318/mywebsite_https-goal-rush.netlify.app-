@@ -8,7 +8,6 @@ header{
     z-index: 20;
     background: var(--header);
     
-
 }
 header .top-nav{
     display: flex;
@@ -18,19 +17,19 @@ header .top-nav{
 }
 header .top-nav img{
     position: relative;
-    width: 150px;
+    width: 100;
     left: 0;
     right: 0;
     color: var(--lighth1);
 }
 
 header a h1{
-    font-size: 30px;
+    font-size: 25;
     font-family: "Playwrite MX Guides", cursive;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     position: relative;
-    left: -37cm;
+    left: -39.2cm;
     color: var(--lighth1);
 }
 header .top-nav .logo.img{
@@ -76,7 +75,7 @@ header .links ul li::after{
     left: 0;
     width: 0%;
     height: 2px;
-    background: blue;
+    background: var(--lighth1);
     transition: 0.3s ease-in-out;
 }
 header .links ul li:active::after,
@@ -109,6 +108,7 @@ header .top-nav img{
 }
 
 header a h1{
+    position: relative;
     font-size: 23px;
     font-weight: 100;
     left: -130px;

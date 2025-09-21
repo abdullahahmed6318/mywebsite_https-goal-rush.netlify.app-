@@ -26,10 +26,10 @@
 	}
 }
 
-body{
+/* body{
     height: 230vh;
     background: var(--lightboby);
-}
+} */
 
 
 
@@ -514,10 +514,10 @@ section .Before_the_start .h12{
 
 /* // m */
 @media (max-width:600px){
-    body{
+    /* body{
         height: 130vh;
         background: var(--lightboby);
-    }
+    } */
     
     .container_t{
         width: 390px;

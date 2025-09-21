@@ -28,17 +28,46 @@
 
             
               data.videos.forEach(product => {
-                const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
-                const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
-                const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
-                const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
-                const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
-                const displayStyle_ = (product.name_team_Ninth === '') ? 'height: 500;' : '';
-                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 320;' : '';
-                const displayStyle_2 = (product.name_team_Five === '') ? 'height: 240;' : '';
-                const displayStyle_3 = (product.name_team_third === '') ? 'height: 140;' : '';
+                // الدوال المنطقية
+                const getProductHeights = () => {
+                  // تحديد الارتفاعات للموبايل
+                  const mobileHeights = {
+                    first: product.name_team_First !== '' ? '100px' : null,
+                    third: product.name_team_third !== '' ? '190px' : null,
+                    five: product.name_team_Five !== '' ? '290px' : null,
+                    seven: product.name_team_seven !== '' ? '390px;' : null,
+                    Ninth: product.name_team_seven !== '' ? '490px;' : null,
 
-                swiper_items_sale.innerHTML += 
+                  };
+                
+                  // تحديد الارتفاعات للكمبيوتر
+                  const desktopHeights = {
+                    first: product.name_team_First !== '' ? '100px' : null,
+                    third: product.name_team_third !== '' ? '200px' : null,
+                    five: product.name_team_Five !== '' ? '290px' : null,
+                    seven: product.name_team_seven !== '' ? '390px;' : null,
+                    Ninth: product.name_team_seven !== '' ? '490px;' : null,
+
+                  };
+                
+                  // التحقق من حجم الشاشة وإرجاع الكائن المناسب
+                  if (window.innerWidth <= 600) {
+                    return mobileHeights;
+                  } else {
+                    return desktopHeights;
+                  }
+                };
+
+  // باقي الكود الخاص بك
+  const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
+  const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
+  const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
+  const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
+  const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
+
+  // هنا نستخدم الدالة getProductHeight() بدلاً من displayStyle_one
+  const productHeights = getProductHeights();
+                  swiper_items_sale.innerHTML += 
                 `
               
                   <div class="side_bar_league" style="${displayStyle}">
@@ -46,9 +75,8 @@
                                   <h1>${product.side_bar_league}</h1>
                         </div>
                         </div>
-                  <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
-                    <span>
-                              <a class="url" style="${displayStyle}" data-url="${product.First_team}">
+    <div class="aaa" style="${productHeights.first ? 'height: ' + productHeights.first + ';' : ''} ${productHeights.third ? 'height: ' + productHeights.third + ';' : ''} ${productHeights.five ? 'height: ' + productHeights.five + ';' : ''} ${productHeights.seven ? 'height: ' + productHeights.seven + ';' : ''} ${productHeights.Ninth ? 'height: ' + productHeights.Ninth + ';' : ''}  ${displayStyle}"> 
+                                 <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
                                 <img src="${product.First_img}" alt="">
                               <p class="First_team">${product.name_team_First}</p>
@@ -62,7 +90,7 @@
                                   </div>
                               </a>
                     </span>
-                              // 
+                               
                     <span>
                               <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
@@ -80,7 +108,7 @@
                                 
                               </a>
                     </span>
-                    //  
+                      
                     <span>
                               <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
@@ -97,7 +125,7 @@
                                 
                               </a>
                       </span>
-                      // 
+                       
                       <span>
                               <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
@@ -114,7 +142,7 @@
                                 
                               </a>
                       </span>
-                      // 
+                       
                       <span>
                               <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
@@ -176,10 +204,14 @@
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
                 const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
                 const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
-                const displayStyle_ = (product.name_team_Ninth === '') ? 'height: 500;' : '';
-                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 320;' : '';
-                const displayStyle_2 = (product.name_team_Five === '') ? 'height: 240;' : '';
-                const displayStyle_3 = (product.name_team_third === '') ? 'height: 140;' : '';
+                const displayStyle_one = (product.name_team_third !== '') ? 'height: 190px;' : ''; 
+                const displayStyle_two = (product.name_team_Five !== '') ? 'height: 290px;' : ''; 
+                const displayStyle_Three = (product.name_team_seven !== '') ? 'height: 390px;' : ''; 
+                const displayStyle_five = (product.name_team_Ninth !== '') ? 'height: 490px;' : ''; 
+                const displayStyle_ = (product.name_team_Ninth === '') ? '' : '';
+                const displayStyle_1 = (product.name_team_seven === '') ? '' : '';
+                const displayStyle_2 = (product.name_team_Five === '') ? 'display: none;' : '';
+                const displayStyle_3 = (product.name_team_third === '') ? '' : '';
 
                 swiper_items_sale.innerHTML += 
                 `
@@ -189,7 +221,7 @@
                                   <h1>${product.side_bar_league}</h1>
                         </div>
                         </div>
-                  <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
+                  <div class="aaa"  style="${displayStyle_one} ${displayStyle_two} ${displayStyle_Three} ${displayStyle_five} ${displayStyle} " >
                     <span>
                               <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
@@ -205,7 +237,7 @@
                                   </div>
                               </a>
                     </span>
-                              // 
+                               
                     <span>
                               <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
@@ -223,7 +255,7 @@
                                 
                               </a>
                     </span>
-                    //  
+                    
                     <span>
                               <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
@@ -240,7 +272,7 @@
                                 
                               </a>
                       </span>
-                      // 
+                      
                       <span>
                               <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
@@ -257,7 +289,7 @@
                                 
                               </a>
                       </span>
-                      // 
+                      
                       <span>
                               <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
@@ -319,10 +351,14 @@
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
                 const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
                 const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
-                const displayStyle_ = (product.name_team_Ninth === '') ? 'height: 500;' : '';
-                const displayStyle_1 = (product.name_team_seven === '') ? 'height: 320;' : '';
-                const displayStyle_2 = (product.name_team_Five === '') ? 'height: 240;' : '';
-                const displayStyle_3 = (product.name_team_third === '') ? 'height: 140;' : '';
+                const displayStyle_one = (product.name_team_third !== '') ? 'height: 190px;' : ''; 
+                const displayStyle_two = (product.name_team_Five !== '') ? 'height: 290px;' : ''; 
+                const displayStyle_Three = (product.name_team_seven !== '') ? 'height: 390px;' : ''; 
+                const displayStyle_five = (product.name_team_Ninth !== '') ? 'height: 490px;' : ''; 
+                const displayStyle_ = (product.name_team_Ninth === '') ? '' : '';
+                const displayStyle_1 = (product.name_team_seven === '') ? '' : '';
+                const displayStyle_2 = (product.name_team_Five === '') ? 'display: none;' : '';
+                const displayStyle_3 = (product.name_team_third === '') ? '' : '';
 
                 swiper_items_sale.innerHTML += 
                 `
@@ -332,7 +368,7 @@
                                   <h1>${product.side_bar_league}</h1>
                         </div>
                         </div>
-                  <div class="aaa" style="${displayStyle_} ${displayStyle_1} ${displayStyle_2} ${displayStyle_3}" >
+                  <div class="aaa"  style="${displayStyle_one} ${displayStyle_two} ${displayStyle_Three}  ${displayStyle_five}  ${displayStyle} " >
                     <span>
                               <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
@@ -348,7 +384,7 @@
                                   </div>
                               </a>
                     </span>
-                              // 
+                              
                     <span>
                               <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
@@ -366,7 +402,7 @@
                                 
                               </a>
                     </span>
-                    //  
+                      
                     <span>
                               <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
@@ -383,7 +419,7 @@
                                 
                               </a>
                       </span>
-                      // 
+                       
                       <span>
                               <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
@@ -400,7 +436,7 @@
                                 
                               </a>
                       </span>
-                      // 
+                       
                       <span>
                               <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">

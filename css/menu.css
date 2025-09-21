@@ -242,7 +242,7 @@ top: 177px;
 bottom:0;
 height: 67.5%;
 left:0;
-width:55px;
+width:10;
 overflow:hidden;
 -webkit-transition:width .2s linear;
 transition:width .2s linear;
@@ -429,9 +429,11 @@ display: none;display: none;
 
 
 .fa-bars{
+  display: none;
 
 }
 .fa-xmark{
+  display: none;
 
 }
 

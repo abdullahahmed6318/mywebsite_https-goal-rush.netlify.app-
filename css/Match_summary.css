@@ -1,8 +1,8 @@
-
+/* 
 body{
     height: 23vh;
     background: var(--lightboby);
-}
+} */
 
 
 
@@ -38,12 +38,15 @@ section{
 	font-weight: bold;
 }
 
-section:after {
-	filter: blur(20px);
-}
 section iframe {
 	/* filter: blur(20px); */
     z-index: 3;
+    width: 1000;
+    height: 500;
+    left: 12px;
+    position: relative;
+
+
 }
 section .Before_the_start{
     position: absolute;

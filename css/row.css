@@ -1,6 +1,6 @@
 footer{
     position: relative;
-    top: 80cm;
+    margin-top  : 100%;
     background: rgb(49, 49, 49);
     width: 100%;
     z-index: 15;
@@ -224,14 +224,18 @@ footer .social-menu ul li:nth-child(5) a:hover{
     background-color: #ff7575;
 }
 @media (max-width:600px){
+
     footer{
-        top: 51cm;
+        position: relative;
         width: 100%;
+        margin-top  : 100%;
+        position: relative;
+        /* background: #b50000; */
     }
     
     footer .container{
-        padding: 50px 0;
         width: 100%;
+        
     }
     footer .buttom_footer{
         background: rgb(20, 20, 20);
@@ -263,7 +267,9 @@ footer .social-menu ul li:nth-child(5) a:hover{
     
     
     footer .social-menu ul{
-        position: absolute;
+        display: none;
+
+        position: sticky;
         top: 37%;
         right: -100px;
         padding: 0;
@@ -275,7 +281,7 @@ footer .social-menu ul li:nth-child(5) a:hover{
     }
     
     footer .social-menu p{
-        position: absolute;
+        position: sticky;
         top: -30%;
         right: 160px;
         transform: translate(-50%, -50%);
@@ -287,6 +293,8 @@ footer .social-menu ul li:nth-child(5) a:hover{
     footer .social-menu ul li{
         list-style: none;
         margin: 0 15px;
+        display: none;
+
     }
     
     footer .social-menu ul li .fab{
@@ -294,6 +302,8 @@ footer .social-menu ul li:nth-child(5) a:hover{
         line-height: 29px;
         transition: .3s;
         color: #000;
+        display: none;
+
     }
     
     footer .social-menu ul li .fa-facebook-f{
@@ -349,8 +359,9 @@ footer .social-menu ul li:nth-child(5) a:hover{
         width: 300;
         height: 100;
         background: red;
-        position: relative;
+        position: sticky;
         top: -40px;
+        display: none;
 
     
     }

@@ -1,0 +1,110 @@
+
+
+.ssummary{
+    position: absolute;
+    width: 10cm;
+    height: 23cm;
+    border: solid var( --lightColor);
+    left: 38.2cm;
+    top: 4.2cm;
+    background: var( --container_t);
+    border-radius: 10px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    
+}
+
+.light_mode{
+    scrollbar-color: #ffffff #dedede; 
+
+  }
+
+.dark-theme {
+    scrollbar-color: #4f4f4f #292929; 
+
+  }
+
+/* ::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--lightboby);
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--webkit-scrollbar-thumb);
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } */
+
+
+.Videos {
+    position: relative;
+    width: 100%;
+    height: 300%;
+    top: 0;
+    margin: 0 0 0 0;
+    /* background: yellowgreen; */
+    display: inline-block;
+
+}
+
+.Videos .url{
+    position: relative;
+    width: 100%;
+    height: 230px;
+    background: rgba(90, 90, 90, 0.152);
+    margin-top: 15px;
+    cursor: pointer;
+}
+.Videos div h1{
+    color: var(--lighth1);
+    font-weight: 500;
+    font-size: 14;
+}
+
+.swiper-slide--one {
+    background:url('https://i.ytimg.com/vi/ewSjMbKgtaA/maxresdefault.jpg') no-repeat center/cover; /* غيّر الصورة */
+    width: 100%;
+    height: 70%;
+    background-size: 100% 100%;
+}
+
+.swiper-slide--two {
+    background: url('https://i.ytimg.com/vi/M4vr58eB_yw/maxresdefault.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+}
+
+.swiper-slide--three {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--four {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70%;
+    display: none;
+
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://images.unsplash.com/photo-1598977123118-4e30ba3c4f5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat 50% 50%/cover;
+}
+
+
+
+
+@media (max-width:600px){
+    .ssummary{
+      
+        display: none;
+    }
+   
+
+}
+

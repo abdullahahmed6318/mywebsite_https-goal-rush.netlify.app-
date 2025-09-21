@@ -1,0 +1,24 @@
+
+
+.news{
+    position: absolute;
+    width: 10cm;
+    height: 50cm;
+    border: solid var( --lightColor);
+    left: 20;
+    top: 4cm;
+    overflow: hidden;
+    background: var( --container_t);
+    border-radius: 10px;
+    display: none;      
+
+}
+@media (max-width:600px){
+    .news{
+      
+        display: none;
+    }
+  
+
+}
+
