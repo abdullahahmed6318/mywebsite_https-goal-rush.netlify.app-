@@ -462,7 +462,7 @@ button img{
  }
 
 
- @media (max-width:768px){  
+ @media (max-width:834px){  
     .btn_d{
         position: relative;
         top: 190px;

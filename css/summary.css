@@ -93,12 +93,12 @@
 }
 
 
-@media (max-width:768px){
+@media (max-width:834px){
     .ssummary{
         position: absolute;
     z-index: 19;
     width: 10cm;
-    height: 23cm;
+    height: 100%;
     border: solid var( --lightColor);
     left: 100%;
     top: 4cm;
