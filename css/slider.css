@@ -492,12 +492,13 @@ button img{
     height: 50;
     position: relative;
     left: -17;
-    margin: 0 30 0 10;
+    margin: 0 20 0 10;
 }
 
 
 .btn2{
-    
+    position: absolute;
+    left: 10px;
     display: flex;
     height: 30;
     padding: 0;
@@ -510,6 +511,7 @@ button img{
     background:  #c21b1b;
 
 }
+
 .h1_today , .icon_today , .h1_tomorrow ,.icon_tomorrow , .h1_yesterday ,.icon_yesterday {
     display: flex;
     align-items: center;
