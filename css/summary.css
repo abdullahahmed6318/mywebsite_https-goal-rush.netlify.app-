@@ -15,6 +15,7 @@
     
 }
 
+
 .light_mode{
     scrollbar-color: #ffffff #dedede; 
 
@@ -92,6 +93,46 @@
 }
 
 
+@media (max-width:768px){
+    .ssummary{
+        position: absolute;
+    z-index: 19;
+    width: 10cm;
+    height: 23cm;
+    border: solid var( --lightColor);
+    left: 100%;
+    top: 4cm;
+    background: var( --container_t);
+    border-radius: 10px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    /* display: none; */
+    
+        /* display: none; */
+    }
+    .Videos {
+        position: relative;
+        width: 100%;
+        height: 300%;
+        top: 0;
+        margin: 0 0 0 0;
+        /* background: yellowgreen; */
+        display: inline-block;
+        display: none;
+    
+    }
+    
+    .Videos .url{
+        position: relative;
+        width: 100%;
+        height: 230px;
+        background: rgba(90, 90, 90, 0.152);
+        margin-top: 15px;
+        cursor: pointer;
+        display: none;
+    }
+
+}
 
 
 @media (max-width:600px){

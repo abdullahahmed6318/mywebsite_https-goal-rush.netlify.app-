@@ -332,6 +332,18 @@ body.dark-theme .theme-toggle-indicator {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+
+  .sidebar {
+    top: 150;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+
 /* Responsive media query code for small screens */
 @media (max-width: 600px) {
  
