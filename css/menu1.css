@@ -343,6 +343,61 @@ body.dark-theme .theme-toggle-indicator {
 
 }
 
+/* Responsive media query code for small screens */
+@media (max-width: 834px) {
+ 
+
+  body:has(.sidebar:not(.collapsed))::before {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  body:has(.sidebar:not(.collapsed)) {
+    overflow: hidden;
+  }
+
+  .site-nav {
+    display: block;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 90;
+    left: 0;
+    height: 100%;
+    z-index: 20;
+    width: 100%;
+    transition: left 0.4s ease;
+  }
+
+  header .sidebar-toggleadd{
+    display: flex;
+  }
+
+  .sidebar-header .header-logo {
+    width: 200px;
+    height: 150px;
+    left: -50px;
+  }
+  
+  .sidebar-header h1 {
+    font-size: 44;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 100;
+    font-style: normal;
+    left: -200px;
+  }
+  
+
+  .sidebar.collapsed {
+    left: -270px;
+    width: 270px;
+  }
+
+  .container .main-content {
+    padding: 30px 20px;
+  }
+}
 
 /* Responsive media query code for small screens */
 @media (max-width: 600px) {

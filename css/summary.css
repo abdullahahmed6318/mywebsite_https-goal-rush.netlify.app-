@@ -96,19 +96,29 @@
 @media (max-width:834px){
     .ssummary{
         position: absolute;
+        width: 4cm;
+        height: 23cm;
+        border: solid var( --lightColor);
+        left: 650;
+        top: 2.5cm;
+        overflow: hidden;
+        background: var( --container_t);
+        border-radius: 10px;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+    
+
+    /* position: absolute;
     z-index: 19;
-    width: 10cm;
-    height: 100%;
+    width: 4cm;
+    height: 23cm;
     border: solid var( --lightColor);
-    left: 100%;
-    top: 4cm;
+    left: 650;
+    top: 4.2cm;
     background: var( --container_t);
     border-radius: 10px;
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    /* display: none; */
+    display: none; */
     
-        /* display: none; */
     }
     .Videos {
         position: relative;

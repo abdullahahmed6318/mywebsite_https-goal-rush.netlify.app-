@@ -82,7 +82,58 @@ header .links ul li:active::after,
 header .links ul li:hover::after{
     width: 100%;
 }
+@media (max-width:834px){
 
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 30;
+        background: var(--header);
+    }
+    header .top-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 0;
+    }
+    header .top-nav img{
+        width: 60px;
+        left: 0;
+        right: 0;
+    }
+    
+    header a h1{
+        position: relative;
+        font-size: 18px;
+        font-weight: 100;
+        left: -15cm;
+    }
+
+    header .links{
+        justify-content: space-around;
+    }
+    
+    header .links ul{
+        gap: 150px;
+        left: 0;
+    }
+    header .links ul li{
+        padding: 5px 0;
+    }
+    header .links ul li a{
+        font-weight: 100;
+        font-size: 18px;
+    }
+
+    header .sidebar-toggleadd{
+        display: flex;
+      }
+      
+
+    }
+    
 
 @media (max-width:600px){
   

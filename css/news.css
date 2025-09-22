@@ -12,10 +12,19 @@
     border-radius: 10px;
 
 }
-@media (max-width:768px){
+@media (max-width:834px){
     .news{
-      
-        display: none;
+        position: absolute;
+        width: 4cm;
+        height: 23cm;
+        border: solid var( --lightColor);
+        left: 10;
+        top: 2.5cm;
+        overflow: hidden;
+        background: var( --container_t);
+        border-radius: 10px;
+    
+        /* display: none; */
     }
   
 
