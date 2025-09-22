@@ -77,35 +77,39 @@
 
   .play-badge {
     gap: var(--badge-gap);
-    padding: 0 0 0 10;
+    padding: 0 10 0 10;
   }
 
   
   .icon {
-    width: 40;
-    height: 30;
+    width: 10;
+    height: 40;
   }
   
   .icon img {
-    height: 30;
+    height: 100%;
     width: 0;
     display: block;
   } 
+
   .badge-text {
-    width: 113;
+    width: 11;
     height: 31;
-    /* background: red; */
-    font-size: 20px;
+    font-size: 12px;
     position: relative;
-    left: 1;
+    left: -1;
+    /* background: #fff; */
+    top: -5;
+
   }
 
   .small {
     /* background: red; */
-    width: 113;
+    width: 71;
     height: 31;
     position: relative;
-    left: 15;
+    left: -5;
+    top: 5;
     font-size: 15px
   }
 }

@@ -6,7 +6,7 @@
     width: 10cm;
     height: 23cm;
     border: solid var( --lightColor);
-    left: 38.2cm;
+    /* left: 1450; */
     top: 4.2cm;
     background: var( --container_t);
     border-radius: 10px;
@@ -14,6 +14,24 @@
     scrollbar-width: thin;
     
 }
+/* 1080p */
+@media (max-width:1900px){
+    .ssummary{
+        position: absolute;
+        left: 1450;
+        top: 4.2cm;
+    }
+    
+}
+/* -1080p */
+@media (min-width:1920px){
+    .ssummary{
+        left: 1510;
+        top: 4.2cm;
+    }
+    
+}
+
 
 
 .light_mode{
@@ -92,7 +110,46 @@
     height: 70%;
 }
 
+  /* pc 4k Hd */
+  @media (min-width:3800px){
 
+    .ssummary{
+        position: absolute;
+        z-index: 19;
+        width: 23cm;
+        height: 40cm;
+        border: solid var( --lightColor);
+        left: 78cm;
+        top: 11.2cm;
+        background: var( --container_t);
+        border-radius: 10px;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        
+    }
+  }
+
+/* pc 720p Hd */
+@media (max-width:1280px){
+    .ssummary{
+        width: 7cm;
+        height: 23cm;
+        left: 1000;
+        top: 4.2cm;
+
+    /* position: absolute;
+    z-index: 19;
+    width: 4cm;
+    height: 23cm;
+    border: solid var( --lightColor);
+    left: 650;
+    top: 4.2cm;
+    background: var( --container_t);
+    border-radius: 10px;
+    display: none; */
+    
+    }
+}
 @media (max-width:834px){
     .ssummary{
         position: absolute;

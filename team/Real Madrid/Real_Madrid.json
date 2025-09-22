@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Sep 22, 2026 22:30:00",
+    "name_team_First":"fc Barcelona",
+    "First_img": "/image/FC_Barcelona.png",
+    "iframe": "",
+    "name_team_Second": "Rayo Vallecano",
+    "Second_img": "/image/Rayo_Vallecano.png",
+    "offers": {
+    "type": "معلومات عن مباراة رايو فاليكانو و برشلونة",
+    "Championship": "Football, Spain, LaLiga, Round 3 : البطولة  ",
+    "channel": "beIN SPORTS 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 22:30 بتوقيت مصر ",
+    "stadium": "  الملعب : سيوداد دي فالنسيا",
+    "Formation": "/image/Formation/Screenshot 2025-09-22 at 18-08-17 Barcelona vs Getafe live score H2H and lineups Sofascore.pn"
+
+  }
+  }
+]

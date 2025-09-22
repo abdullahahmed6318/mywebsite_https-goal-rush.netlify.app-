@@ -7,6 +7,7 @@
 }
 
 body {
+  /* width: 10vh; */
   /* height: 100vh; */
   background: var(--lightboby);
   display: flex;
@@ -99,18 +100,18 @@ html {
     --header: linear-gradient(5deg,var(--Wisteria),var(--black));
     --lighth1: #d9b9ff;
     --light_a: #c9c9c9;
-    --Before_the_start: #FFBD07;
+    --Before_the_start: #4a4a4a69;
     --time_border_before: #FFBD07;
-    --lightCount_Down_Timer:  #FFBD07;
+    --lightCount_Down_Timer:  #aaa;
     --lightinformation: linear-gradient(0deg, #232323, #3d3d3d);
     --lightboby: #292929;
     --lightColor: #fff;
     --lightColor2: #ffffff;
-    --container_t:#0000005f;
+    --container_t:#171c1f;
     --menu: #0000005f;
     --menu_m: #0000005f;
-    --time: #000000;
-    --timebefore: rgb(255, 0, 0);
+    --time: #29292931;
+    --timebefore: #aaa;
     --webkit-scrollbar-thumb: #4f4f4f;
 
   }

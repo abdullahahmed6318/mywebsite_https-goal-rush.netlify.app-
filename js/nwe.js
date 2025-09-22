@@ -5,15 +5,19 @@ fetch("/Match summary/Match_summary.json")
     .then(response => response.json())
     .then(data => {
         const swiper_items_sale = document.getElementById("Videos");
-        
         all_products_json = data;
         
         data.videos.forEach(video => {
+            const displayStyleOneTeam = video.id === '' ? 'display: none;' : '';
+            const displayStyleTwoTeam = video.id === '' ? 'display: none;' : '';
+            const displayStyleThreeTeam = video.id === '' ? 'display: none;' : '';
+            const displayStyleFourTeam = video.id === '' ? 'display: none;' : '';
             // إنشاء عنصر للحالة التي يوجد بها فريق واحد فقط
             if (video.one_team) {
+                
                 swiper_items_sale.innerHTML += `
-                <div class="url" data-url="${video.one_team}" data-id="${video.id}">
-                    <a class="swiper-slide swiper-slide--one">
+                <div class="url" data-url="${video.one_team}" data-id="${video.id}" style="${displayStyleOneTeam}">
+                    <a class="swiper-slide swiper-slide--one"  style="background-image: url('${video.background_image}');">
                     </a>
                       <h1>Inter Miami CF vs. Seattle Sounders FC | Full Match Highlights | Leagues Cup Final Rematch!</h1>
                  </div>
@@ -23,8 +27,8 @@ fetch("/Match summary/Match_summary.json")
             // إنشاء عنصر للحالة التي يوجد بها فريقان
             if (video.two_team) {
                 swiper_items_sale.innerHTML += `
-                <div class="url" data-url="${video.two_team}" data-id="${video.id}">
-                    <a class="swiper-slide swiper-slide--two" >
+                <div class="url" data-url="${video.two_team}" data-id="${video.id}" style="${displayStyleTwoTeam}">
+                    <a class="swiper-slide swiper-slide--two"style="background-image: url('${video.background_image}');">
                     </a>
                       <h1>Inter Miami CF vs. Seattle Sounders FC | Full Match Highlights | Leagues Cup Final Rematch!</h1>
                  </div>
@@ -32,25 +36,24 @@ fetch("/Match summary/Match_summary.json")
             }
             if (video.three_team) {
               swiper_items_sale.innerHTML += `
-              <div class="url" data-url="${video.three_team}" data-id="${video.id}">
-                  <a class="swiper-slide swiper-slide--three">
+              <div class="url" data-url="${video.three_team}" data-id="${video.id}" style="${displayStyleThreeTeam}">
+                  <a class="swiper-slide swiper-slide--three" style="background-image: url('${video.background_image}');">
                   </a>
                     <h1>Inter Miami CF vs. Seattle Sounders FC | Full Match Highlights | Leagues Cup Final Rematch!</h1>
                </div>
               `;
           }
 
-            // إضافة iframe للفيديو
-            // if (video.iframe) {
-            //     swiper_items_sale.innerHTML += `
-            //         <iframe class="swiper-slide swiper-slide-video" data-id="${video.id}"
-            //             src="${video.iframe}"
-            //             title="YouTube video player" frameborder="0" 
-            //             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            //             allowfullscreen>
-            //         </iframe>
-            //     `;
-            // }
+            if (video.four_team) {
+                swiper_items_sale.innerHTML += `
+                <div class="url" data-url="${video.four_team}" data-id="${video.id}" style="${displayStyleFourTeam}">
+                    <a class="swiper-slide swiper-slide--one"  style="background-image: url('${video.background_image}');">
+                    </a>
+                    <h1>Inter Miami CF vs. Seattle Sounders FC | Full Match Highlights | Leagues Cup Final Rematch!</h1>
+                </div>
+                `;
+            }
+          
         });
 
         const allMatches = document.querySelectorAll('.url[data-id]');

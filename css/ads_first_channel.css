@@ -6,7 +6,7 @@
     height: 50cm;
     border: solid var( --lightColor);
     left: 111;
-    top: -60cm;
+   margin-top: -64cm;
     overflow: hidden;
     position: relative;
     background: var( --container_t);

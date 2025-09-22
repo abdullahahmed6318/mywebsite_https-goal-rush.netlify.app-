@@ -1,12 +1,12 @@
         
     
-fetch("json/countdown.json")
+fetch("/team/Chelsea/Chelsea.json")
 .then(response => response.json())
 .then(data =>{
 
     const information_team = document.getElementById("information")
     const section = document.getElementById("section")
-    const time_team = document.getElementById("time_team")
+    const the_Formation = document.getElementById("the_Formation")
 
     all_products_json = data
 
@@ -22,20 +22,27 @@ fetch("json/countdown.json")
             <p class="First_team">${product.name_team_First} </p>
         </div>
         <div class="Match_time">
-            <h1>vs</h1>
+         <nav>
+            </nav>
+            <h1 class="h1_v">v</h1>
+            <h1 class="h1_s">s</h1>
+
         </div>
         <div class="time_Second__match">
             <img src="${product.Second_img}" alt="">
             <p class="Second_team">${product.name_team_Second} </p>
         </div>
-        <img class="img_time" src="image/Image_fx(35).jpg" alt="">
-    
-   
+        <div class="pattern" aria-hidden="true"></div>
+        
               
 
         `
 
     })
+
+    // <img class="img_time" src="/image/Image_fx(35).jpg" alt="">
+    
+   
     data.forEach(product => {
 
            
@@ -49,7 +56,7 @@ fetch("json/countdown.json")
             <span class="i2">${product.offers.channel}</span>
             <span class="i3">${product.offers.commentator}</span>
             <span class="i4">${product.offers.Match_date_and_time}</span>
-            <span class="i5">${product.offers.type}</span>
+            <span class="i5">${product.offers.stadium}</span>
 
             </div>
           </div>
@@ -58,6 +65,29 @@ fetch("json/countdown.json")
       `
 
     })
+    data.forEach(product => {
+
+           
+      the_Formation.innerHTML += `
+    
+          <samp>
+            
+                <img src="${product.offers.Formation}" alt="">
+           
+        </samp>
+            
+
+      `
+
+    })
+
+
+
+
+
+
+
+
     data.forEach(product => {
     
       const displayStyle = (product.iframe === '') ? 'display: none;' : '';
@@ -82,11 +112,20 @@ fetch("json/countdown.json")
 
 
 
+var cart = document.querySelector('.main-menu');
+function open_cart() {
+    cart.classList.add('active')
+}
+
+function close_cart() {
+    cart.classList.remove('active')
+}
+
 
 // Function to fetch data from JSON and create multiple countdowns
 async function setupCountdowns() {
   try {
-    const response = await fetch('json/countdown.json'); // تأكد من تغيير اسم الملف
+    const response = await fetch('/team/Chelsea/Chelsea.json'); // تأكد من تغيير اسم الملف
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

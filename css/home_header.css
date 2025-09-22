@@ -28,8 +28,9 @@ header a h1{
     font-family: "Playwrite MX Guides", cursive;
     font-weight: 100;
     font-style: normal;
-    position: relative;
-    left: -39.2cm;
+    position: absolute;
+    left: 2.5cm;
+    top: 10px;
     color: var(--lighth1);
 }
 header .top-nav .logo.img{
@@ -82,6 +83,95 @@ header .links ul li:active::after,
 header .links ul li:hover::after{
     width: 100%;
 }
+
+
+  /* pc 4k Hd */
+  @media (min-width:3800px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 30;
+        background: var(--header);
+    }
+  
+    header .top-nav img{
+        width: 300;
+        left: 0;
+        right: 0;
+    }
+    
+    header a h1{
+        font-size: 78px;
+        font-weight: 100;
+        left: 7cm;
+        top: 20;
+    }
+
+    header .links{
+        justify-content: space-around;
+    }
+    
+    header .links ul{
+        gap: 150px;
+        left: 0;
+    }
+    header .links ul li{
+        padding: 35px 0;
+    }
+    header .links ul li a{
+        font-weight: 100;
+        font-size: 72;
+    }
+
+}
+
+/* pc 720p Hd */
+@media (max-width:1280px){
+
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 30;
+        background: var(--header);
+    }
+  
+    header .top-nav img{
+        width: 100;
+        left: 0;
+        right: 0;
+    }
+    
+    header a h1{
+        font-size: 28px;
+        font-weight: 100;
+        left: -24cm;
+    }
+
+    header .links{
+        justify-content: space-around;
+    }
+    
+    header .links ul{
+        gap: 150px;
+        left: 0;
+    }
+    header .links ul li{
+        padding: 15px 0;
+    }
+    header .links ul li a{
+        font-weight: 100;
+        font-size: 22px;
+    }
+
+   
+
+    }
+    
+
 @media (max-width:834px){
 
     header{
