@@ -51,7 +51,7 @@
 
       "name_team_First": "",
       "First_img": "image/Teams/..png",
-      "First_team": "//.html",
+      "First_team": "",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "",
@@ -109,28 +109,28 @@
       "fourth_img": "image/Teams/Al_Ahly.png",
 
       "name_team_Five": "",
-      "Five_img": "image/.png",
-      "Five_team": "/Brzil/.html",
+      "Five_img": "image/Teams/.png",
+      "Five_team": "//.html",
 
 
-      "name_team_sixth": "Bela",
-      "sixth_img": "image/FC_Barcelona.png",
+      "name_team_sixth": "",
+      "sixth_img": "image/Teams/.png",
 
       "name_team_seven": "",
-      "seven_img": "image/FC_Barcelona.png",
-      "seven_team": "/Brazil/Brazil.html",
+      "seven_img": "image/.png",
+      "seven_team": "//.html",
 
 
-      "name_team_eighth": "Bela",
-      "eighth_img": "image/FC_Barcelona.png",
+      "name_team_eighth": "",
+      "eighth_img": "image/Teams/.png",
 
       "name_team_Ninth": "",
-      "Ninth_img": "image/FC_Barcelona.png",
-      "Ninth_team": "/Brazil/Brazil.html",
+      "Ninth_img": "image/Teams/.png",
+      "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "Bqela",
-      "tenth_img": "image/FC_Barcelona.png"
+      "name_team_tenth": "",
+      "tenth_img": "image/Teams/.png"
     },
     {
       "id": 2,
@@ -447,14 +447,14 @@
 
       "name_team_First": "Liverpool",
       "First_img": "image/Teams/Liverpool.png",
-      "First_team": "//.html",
+      "First_team": "//a.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Southampton",
       "Second_img": "image/Teams/Southampton.png",
 
       "name_team_third": "Lincoln City",
-      "third_team": "//.html",
+      "third_team": "//a.html",
       "third_img": "image/Teams/Lincoln_City.png",
 
       "name_team_fourth": "Chelsea",
@@ -462,7 +462,7 @@
 
       "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
-      "Five_team": "/Brazil/Brazil.html",
+      "Five_team": "//a.html",
 
 
       "name_team_sixth": "Bela",

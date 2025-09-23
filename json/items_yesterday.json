@@ -325,9 +325,11 @@
 
         "name_team_third": "",
         "third_team": "//.html",
+        "result3": "",
         "third_img": "image/Teams/.png",
 
-        "name_team_fourth": "",
+        "name_team_fourth": "d",
+        "result4": "",
         "fourth_img": "image/Teams/.png",
 
         "name_team_Five": "",

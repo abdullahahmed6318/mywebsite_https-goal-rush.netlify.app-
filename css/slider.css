@@ -169,7 +169,7 @@ button img{
     border-radius: 35px;
     width: 24cm;
     margin-left: 500;
-    height: auto;
+    height: 50cm;
     top: 5cm;
     background: var( --container_t);
     /* background: #18ab29; */
@@ -390,8 +390,9 @@ button img{
     opacity: 0.2;
 }
 .home_slider .aqq .aaa .The_Match_time .h2{
-    margin-left: 5;
-    margin-top: -15;
+    position: absolute;
+    margin-left: 65;
+    margin-top: 15;
 }
 
 .home_slider .aqq .aaa .First_team_results{
@@ -498,6 +499,12 @@ button img{
     display: none;
  }
 
+ .no-matches{
+    background: var(--lightboby);
+    font-size: 33;
+    text-align: center;
+    margin-top: 23;
+ }
 
 
   /* pc 4k Hd */
@@ -1212,8 +1219,11 @@ button img{
 
 }
 .home_slider .aqq .aaa .The_Match_time .h2{
-    margin-left: 0;
+    position: absolute;
+    margin-left: 60;
+    margin-right: 60;
     margin-top: 0;
+    
 }
 
 
@@ -1225,9 +1235,9 @@ button img{
 
 }
 .home_slider .aqq .aaa .The_Match_time h1{
-    position: relative;
+    /* position: relative; */
     top: 3;
-    margin-left: 0;
+    /* margin-left: 0; */
     /* font-size: 35px; */
     /* font-weight: 300; */
     color: var(--lightColor);

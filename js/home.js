@@ -59,12 +59,19 @@
                 };
 
   // باقي الكود الخاص بك
+  const beg = (product.First_team !== '//.html') ? 'opacity: 0;' : '';
+  const beg2 = (product.third_team !== '//.html') ? 'opacity: 0;' : '';
+  const beg3 = (product.Five_team !== '//.html') ? 'opacity: 0;' : '';
+  const beg4 = (product.seven_team !== '//.html') ? 'opacity: 0;' : '';
+  const beg5 = (product.Ninth_team !== '//.html') ? 'opacity: 0;' : '';
+
   const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
   const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
   const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
   const displayStyle_seven = (product.name_team_seven === '') ? 'display: none;' : '';
   const displayStyle_Ninth = (product.name_team_Ninth === '') ? 'display: none;' : '';
-
+  // const begg = (product.name_team_First.trim()) ? '//.html' : 'opacity: 0;';
+  
   // هنا نستخدم الدالة getProductHeight() بدلاً من displayStyle_one
   const productHeights = getProductHeights();
                   swiper_items_sale.innerHTML += 
@@ -82,7 +89,7 @@
                               <p class="First_team">${product.name_team_First}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                  <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                  <h1 class="h1" style="${beg}" >لا يوجد رابط، سيتم توفير الرابط قبل 30 دقيقة من بداية المباراة</h1>
                                   <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_Second__match">
@@ -100,7 +107,7 @@
                               <p class="First_team"> ${product.name_team_third}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                  <h1 class="h1" style="${beg2}" >لا يوجد رابط، سيتم توفير الرابط قبل 30 دقيقة من بداية المباراة</h1>
                                     <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_fourth__match">
@@ -118,7 +125,7 @@
                               <p class="First_team"> ${product.name_team_Five}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                  <h1 class="h1" style="${beg3}" >لا يوجد رابط، سيتم توفير الرابط قبل 30 دقيقة من بداية المباراة</h1>
                                     <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_sixth__match">
@@ -136,7 +143,7 @@
                               <p class="First_team"> ${product.name_team_seven}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                  <h1 class="h1" style="${beg4}" >لا يوجد رابط، سيتم توفير الرابط قبل 30 دقيقة من بداية المباراة</h1>
                                     <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_eighth__match">
@@ -154,7 +161,7 @@
                               <p class="First_team"> ${product.name_team_Ninth}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                  <h1 class="h1" style="${beg5}" >سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
                                     <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_tenth__match">
@@ -334,7 +341,13 @@
           })
           
           fetch("json/items_yesterday.json")
-          .then(response => response.json())
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+          return response.json();
+      })
+          
           .then(data =>{
 
               const swiper_items_sale = document.getElementById("swiper_items_yesterday")
@@ -346,13 +359,12 @@
             
               all_products_json = data
 
-            
-            
-
-            
+              if (data.videos && data.videos.length > 0) {
               data.videos.forEach(product => {
                 const resultx = (product.result1 === '' && product.result2 === '') ? 'display: none;' : '';   
+                const resultx2 = (product.result3 === '' && product.result4 === '') ? 'display: none;' : '';
                 const result = (product.result1 !== '' && product.result2 !== '') ? 'display: none;' : '';   
+                const result2 = (product.result3 !== '' && product.result4 !== '') ? 'display: none;' : '';   
                 const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
                 const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
@@ -368,6 +380,7 @@
                 const displayStyle_3 = (product.name_team_third === '') ? '' : '';
 
                 swiper_items_sale.innerHTML += 
+                
                 `
               
                   <div class="side_bar_league" style="${displayStyle}">
@@ -411,8 +424,18 @@
                               <p class="First_team"> ${product.name_team_third}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
-                                  </div>
+                                  <h1 style="${result2}">vs</h1>
+                                     <span class="result">
+                                      <span class="result1">
+                                        <h1>${product.result3}</h1>
+                                       </span>
+                                       
+                                       <span class="result1">
+                                        <h1>${product.result4}</h1>
+                                       </span>
+                                      </span>   
+                                    <h1 class="resultx" style="${resultx2}">x</h1>
+                                   </div>
                                 <div class="The_fourth__match">
                                   <img src="${product.fourth_img}" alt="">
                                 <p class="Second_team">${product.name_team_fourth}</p>
@@ -428,8 +451,18 @@
                               <p class="First_team"> ${product.name_team_Five}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
-                                  </div>
+                                 <h1 style="${result}">vs</h1>
+                                     <span class="result">
+                                      <span class="result1">
+                                        <h1>${product.result5}</h1>
+                                       </span>
+                                       
+                                       <span class="result1">
+                                        <h1>${product.result6}</h1>
+                                       </span>
+                                      </span>   
+                                    <h1 class="resultx" style="${resultx}">x</h1>
+                                   </div>
                                 <div class="The_sixth__match">
                                   <img src="${product.sixth_img}" alt="">
                                 <p class="Second_team">${product.name_team_sixth}  </p>
@@ -445,7 +478,17 @@
                               <p class="seven_team"> ${product.name_team_seven}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
+                                  <h1 style="${result}">vs</h1>
+                                     <span class="result">
+                                      <span class="result1">
+                                        <h1>${product.result7}</h1>
+                                       </span>
+                                       
+                                       <span class="result1">
+                                        <h1>${product.result8}</h1>
+                                       </span>
+                                      </span>   
+                                    <h1 class="resultx" style="${resultx}">x</h1>
                                   </div>
                                 <div class="The_eighth__match">
                                   <img src="${product.eighth_img}" alt="">
@@ -462,8 +505,18 @@
                               <p class="Ninth_team"> ${product.name_team_Ninth}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
-                                  </div>
+                                    <h1 style="${result}">vs</h1>
+                                     <span class="result">
+                                      <span class="result1">
+                                        <h1>${product.result9}</h1>
+                                       </span>
+                                       
+                                       <span class="result1">
+                                        <h1>${product.result10}</h1>
+                                       </span>
+                                      </span>   
+                                    <h1 class="resultx" style="${resultx}">x</h1>
+                                    </div>
                                 <div class="The_tenth__match">
                                   <img src="${product.tenth_img}" alt="">
                                 <p class="Second_team">${product.name_team_tenth}  </p>
@@ -476,7 +529,8 @@
               </div>
               `
           
-          })
+          }
+        )
           const allMatches = document.querySelectorAll('.url');
           allMatches.forEach(matchDiv => {
               matchDiv.addEventListener('click', () => {
@@ -486,10 +540,14 @@
                   }
               });
           });
-      })
-      .catch(error => {
-          console.error('There was a problem fetching the data:', error);
-        
+        } else {
+          // If the array is empty, display the "no matches" message
+          swiper_items_sale.innerHTML = '<p class="no-matches">لا يوجد مباراة</p>';
+      }
+      }
+    )
+    .catch(error => {
+      console.error('There was a problem fetching the data:', error);
 
           })
           
