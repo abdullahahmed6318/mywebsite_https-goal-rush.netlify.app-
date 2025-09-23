@@ -16,6 +16,7 @@ body {
 }
 
 html {
+    --menu_btn: #695cfe35;
     --header: linear-gradient(5deg,var(--Wisteria),var(--Oxford_Blue));
     --lighth1: #2a0b4c;
     --light_a: #ffffff;
@@ -89,6 +90,8 @@ html {
 
   body.dark-theme {
     /* Dark theme colors */
+    --menu_btn: #695CFE;
+
     --color-text-primary: #F1F5F9;
     --color-text-placeholder: #A6B7D2;
     --color-bg-primary: #111827;
