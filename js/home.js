@@ -82,7 +82,8 @@
                               <p class="First_team">${product.name_team_First}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
+                                  <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                  <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_Second__match">
                                   <img src="${product.Second_img}" alt="">
@@ -99,7 +100,8 @@
                               <p class="First_team"> ${product.name_team_third}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
+                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                    <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_fourth__match">
                                   <img src="${product.fourth_img}" alt="">
@@ -116,7 +118,8 @@
                               <p class="First_team"> ${product.name_team_Five}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
+                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                    <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_sixth__match">
                                   <img src="${product.sixth_img}" alt="">
@@ -133,7 +136,8 @@
                               <p class="First_team"> ${product.name_team_seven}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
+                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                    <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_eighth__match">
                                   <img src="${product.eighth_img}" alt="">
@@ -150,7 +154,8 @@
                               <p class="First_team"> ${product.name_team_Ninth}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
+                                    <h1 class="h1">سيبدأ البث المباشر قبل بداية المباراة بـ 30 دقيقة</h1>
+                                    <h1 class="h2">vs</h1>
                                   </div>
                                 <div class="The_tenth__match">
                                   <img src="${product.tenth_img}" alt="">
@@ -346,6 +351,8 @@
 
             
               data.videos.forEach(product => {
+                const resultx = (product.result1 === '' && product.result2 === '') ? 'display: none;' : '';   
+                const result = (product.result1 !== '' && product.result2 !== '') ? 'display: none;' : '';   
                 const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
                 const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
@@ -376,8 +383,19 @@
                               <p class="First_team"> ${product.name_team_First}</p>
                                 </div>
                                 <div class="The_Match_time">
-                                    <h1>vs</h1>
-                                  </div>
+                                    <h1 style="${result}">vs</h1>
+                                     <span class="result">
+                                      <span class="result1">
+                                        <h1>${product.result1}</h1>
+                                       </span>
+                                       
+                                       <span class="result1">
+                                        <h1>${product.result2}</h1>
+                                       </span>
+                                      </span>   
+                                    <h1 class="resultx" style="${resultx}">x</h1>
+                        
+                                 </div>
                                 <div class="The_Second__match">
                                   <img src="${product.Second_img}" alt="">
                                 <p class="Second_team">${product.name_team_Second}  </p>

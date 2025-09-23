@@ -314,10 +314,12 @@
         "side_bar_league": "🇫🇷⚽️ Ligue 1",
 
         "name_team_First": "Marseille",
+        "result1": "1",
         "First_img": "image/Teams/Olympique_de_Marseille.png",
         "First_team": "//.html",
         "another_activity_file": "AnotherActivity",
 
+        "result2": "0",
         "name_team_Second": "PSG",
         "Second_img": "image/Teams/Paris_Saint-Germain_PSG.png",
 

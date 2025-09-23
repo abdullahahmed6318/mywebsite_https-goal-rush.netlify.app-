@@ -348,13 +348,50 @@ button img{
 }
 
 .home_slider .aqq .aaa .The_Match_time{
-    display: flex;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
     position: relative;
     /* left: 80; */
     width: 4cm;
-    height: 100px;
-    /* background: yellow; */
+    height: 80%;
+    /* background: rgba(255, 255, 0, 0.129); */
 
+}
+
+.result{
+    z-index: 50;
+    margin-top: 10;
+    display: flex;
+    margin-left: -5cm;
+    width: 1;
+    height: 1;
+}
+
+.result1{
+    color: #fff;
+    /* background: rgba(0, 76, 255, 0.177); */
+    margin: 0 13.1cm 0 0;
+}
+.resultx{
+    position: absolute;
+    margin-top: -90;
+    left: -11;
+    font-style: italic;
+    font-size: 150px;
+    opacity: 0.1;
+}
+
+.home_slider .aqq .aaa .The_Match_time .h1{
+    margin-left: -2.8cm;
+    font-size: 18;
+    font-weight: 100;
+    width: 10cm;
+    opacity: 0.2;
+}
+.home_slider .aqq .aaa .The_Match_time .h2{
+    margin-left: 5;
+    margin-top: -15;
 }
 
 .home_slider .aqq .aaa .First_team_results{
@@ -367,8 +404,8 @@ button img{
 .home_slider .aqq .aaa .The_Match_time h1{
     position: relative;
     top: 3;
-    margin-left: 54;
-    font-size: 35px;
+    margin-left: 0;
+    /* font-size: 35px; */
     color: var(--lightColor);
 
 }
@@ -1006,6 +1043,7 @@ button img{
 
 .home_slider .aqq .aaa a{
     display: flex;
+    justify-content: space-around;
     width: 100%;
     height: 90px;
     margin-top: 10px;
@@ -1132,13 +1170,52 @@ button img{
 
 }
 
-.home_slider .aqq .aaa .The_Match_time{
-    display: flex;
+.home_slider .aqq .aaa .The_Match_time{ 
+    display: inline-block;
+    text-align: center;
+    align-items: center;
     /* position: relative; */
-    width: 4cm;
-    height: 100px;    
+    /* width: 4cm;
+    height: 100px;     */
 
 }
+
+.result{
+    z-index: 50;
+    margin-top: 10;
+    display: flex;
+    margin-left: -0.7cm;
+    width: 1;
+    height: 1;
+
+}
+.result1{
+    /* background: rgba(0, 76, 255, 0.177); */
+    margin: 0 3.7cm 0 0;
+}
+.resultx{
+    position: absolute;
+    margin-top: -110;
+    left: -10;
+    font-style: italic;
+    font-size: 180px;
+    opacity: 0.1;
+}
+
+.home_slider .aqq .aaa .The_Match_time .h1{
+    margin-top: -10;
+    margin-left: -0.3cm;
+    font-size: 12;
+    font-weight: 100;
+    width: 5cm;
+    opacity: 0.5;
+
+}
+.home_slider .aqq .aaa .The_Match_time .h2{
+    margin-left: 0;
+    margin-top: 0;
+}
+
 
 .home_slider .aqq .aaa .First_team{
     width: 100%;
@@ -1150,9 +1227,9 @@ button img{
 .home_slider .aqq .aaa .The_Match_time h1{
     position: relative;
     top: 3;
-    margin-left: 54;
-    font-size: 35px;
-    font-weight: 300;
+    margin-left: 0;
+    /* font-size: 35px; */
+    /* font-weight: 300; */
     color: var(--lightColor);
 
 
