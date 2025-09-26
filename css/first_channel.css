@@ -128,7 +128,7 @@
     display: none;
   }
 .time .time_first__match img{
-    width: 150%;
+    width: 80%;
     position: relative;
     top: 0;
     left: 0;
@@ -158,7 +158,7 @@
     border-radius: 250px;
     border: 6px solid rgba(255, 255, 255, .85);
     background: #ffffff6d;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); 
     place-items: center;
     overflow: hidden;
     margin: 0px 0px 0px 0px;
@@ -173,7 +173,7 @@
     display: none;
   }
 .time .time_Second__match img{
-    width: 170%;
+    width: 80%;
     position: relative;
     top: 0;
     left: 0;
@@ -463,7 +463,7 @@
 section{
     display: flex;
     position: relative;
-    margin-top: 14cm;
+    margin-top: 19cm;
     width: 100%;
     height: 550px;
     background: linear-gradient(0deg, #000, #262626);
