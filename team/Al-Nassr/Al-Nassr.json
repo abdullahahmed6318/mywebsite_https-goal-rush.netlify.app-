@@ -5,7 +5,7 @@
     "countDownDate": "Sep 26, 2025 21:00:00",
     "name_team_First":"Al-Ittihad",
     "First_img": "/image/Teams/Al-Ittihad.png",
-    "iframe": "",
+    "iframe": "https://pl.buzkora.site/albaplayer/thmanya1/?serv=0",
     "name_team_Second": "Al-Nassr",
     "Second_img": "/image/Teams/Al-Nassr.png",
     "offers": {
@@ -19,4 +19,5 @@
 
   }
   }
+
 ]
