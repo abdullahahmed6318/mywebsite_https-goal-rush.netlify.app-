@@ -390,7 +390,7 @@
                         </div>
                   <div class="aaa"  style="${displayStyle_one} ${displayStyle_two} ${displayStyle_Three}  ${displayStyle_five}  ${displayStyle} " >
                     <span>
-                              <a class="url" style="${displayStyle}" data-url="${product.First_team}">
+                              <a class="url a" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">
                                 <img src="${product.First_img}" alt="">
                               <p class="First_team"> ${product.name_team_First}</p>
@@ -399,14 +399,14 @@
                                     <h1 style="${result}">vs</h1>
                                      <span class="result">
                                       <span class="result1">
-                                        <h1>${product.result1}</h1>
+                                        <h1 class="resultt">${product.result1}</h1>
                                        </span>
-                                       
+                                        <h1 class="resultx" style="${resultx}">x</h1>
+
                                        <span class="result1">
-                                        <h1>${product.result2}</h1>
+                                        <h1 class="resultt">${product.result2}</h1>
                                        </span>
                                       </span>   
-                                    <h1 class="resultx" style="${resultx}">x</h1>
                         
                                  </div>
                                 <div class="The_Second__match">
@@ -417,7 +417,7 @@
                     </span>
                               
                     <span>
-                              <a class="url" style="${displayStyle_Second}" data-url="${product.third_team}">
+                              <a class="url a" style="${displayStyle_Second}" data-url="${product.third_team}">
                               <div class="The_third__match
   ">
                                 <img src="${product.third_img}" alt="">
@@ -427,14 +427,13 @@
                                   <h1 style="${result2}">vs</h1>
                                      <span class="result">
                                       <span class="result1">
-                                        <h1>${product.result3}</h1>
+                                        <h1 class="resultt">${product.result3}</h1>
                                        </span>
-                                       
+                                    <h1 class="resultx" style="${resultx2}">x</h1>
                                        <span class="result1">
-                                        <h1>${product.result4}</h1>
+                                        <h1 class="resultt">${product.result4}</h1>
                                        </span>
                                       </span>   
-                                    <h1 class="resultx" style="${resultx2}">x</h1>
                                    </div>
                                 <div class="The_fourth__match">
                                   <img src="${product.fourth_img}" alt="">
@@ -445,7 +444,7 @@
                     </span>
                       
                     <span>
-                              <a class="url" style="${displayStyle_Five}" data-url="${product.Five_team}">
+                              <a class="url a" style="${displayStyle_Five}" data-url="${product.Five_team}">
                               <div class="The_Five__match">
                                 <img src="${product.Five_img}" alt="">
                               <p class="First_team"> ${product.name_team_Five}</p>
@@ -454,14 +453,13 @@
                                  <h1 style="${result}">vs</h1>
                                      <span class="result">
                                       <span class="result1">
-                                        <h1>${product.result5}</h1>
+                                        <h1 class="resultt">${product.result5}</h1>
                                        </span>
-                                       
+                                    <h1 class="resultx" style="${resultx}">x</h1>
                                        <span class="result1">
-                                        <h1>${product.result6}</h1>
+                                        <h1 class="resultt">${product.result6}</h1>
                                        </span>
                                       </span>   
-                                    <h1 class="resultx" style="${resultx}">x</h1>
                                    </div>
                                 <div class="The_sixth__match">
                                   <img src="${product.sixth_img}" alt="">
@@ -472,7 +470,7 @@
                       </span>
                        
                       <span>
-                              <a class="url"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
+                              <a class="url a"  style="${displayStyle_seven}"data-url="${product.seven_team}" >
                               <div class="The_seven__match">
                                 <img src="${product.seven_img}" alt="">
                               <p class="seven_team"> ${product.name_team_seven}</p>
@@ -481,14 +479,13 @@
                                   <h1 style="${result}">vs</h1>
                                      <span class="result">
                                       <span class="result1">
-                                        <h1>${product.result7}</h1>
+                                        <h1 class="resultt">${product.result7}</h1>
                                        </span>
-                                       
+                                    <h1 class="resultx" style="${resultx}">x</h1>
                                        <span class="result1">
-                                        <h1>${product.result8}</h1>
+                                        <h1 class="resultt">${product.result8}</h1>
                                        </span>
                                       </span>   
-                                    <h1 class="resultx" style="${resultx}">x</h1>
                                   </div>
                                 <div class="The_eighth__match">
                                   <img src="${product.eighth_img}" alt="">
@@ -499,7 +496,7 @@
                       </span>
                        
                       <span>
-                              <a class="url" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
+                              <a class="url a" style="${displayStyle_Ninth}" data-url="${product.Ninth_team}">
                               <div class="The_Ninth__match">
                                 <img src="${product.Ninth_img}" alt="">
                               <p class="Ninth_team"> ${product.name_team_Ninth}</p>
@@ -508,14 +505,13 @@
                                     <h1 style="${result}">vs</h1>
                                      <span class="result">
                                       <span class="result1">
-                                        <h1>${product.result9}</h1>
+                                        <h1 class="resultt">${product.result9}</h1>
                                        </span>
-                                       
+                                    <h1 class="resultx" style="${resultx}">x</h1>
                                        <span class="result1">
-                                        <h1>${product.result10}</h1>
+                                        <h1 class="resultt">${product.result10}</h1>
                                        </span>
                                       </span>   
-                                    <h1 class="resultx" style="${resultx}">x</h1>
                                     </div>
                                 <div class="The_tenth__match">
                                   <img src="${product.tenth_img}" alt="">

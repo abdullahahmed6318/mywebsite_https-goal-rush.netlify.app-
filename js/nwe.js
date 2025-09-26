@@ -10,7 +10,7 @@ fetch("/Match summary/Match_summary.json")
         data.videos.forEach(video => {
             const displayStyleOneTeam = video.id === '' ? 'display: none;' : '';
             const displayStyleTwoTeam = video.id === '' ? 'display: none;' : '';
-            const displayStyleThreeTeam = video.id === '' ? 'display: none;' : '';
+            const displayStylethree_team = video.id === '' ? 'display: none;' : '';
             const displayStyleFourTeam = video.id === '' ? 'display: none;' : '';
             // إنشاء عنصر للحالة التي يوجد بها فريق واحد فقط
             if (video.one_team) {
@@ -35,14 +35,14 @@ fetch("/Match summary/Match_summary.json")
                 `;
             }
             if (video.three_team) {
-              swiper_items_sale.innerHTML += `
-              <div class="url" data-url="${video.three_team}" data-id="${video.id}" style="${displayStyleThreeTeam}">
-                  <a class="swiper-slide swiper-slide--three" style="background-image: url('${video.background_image}');">
-                  </a>
-                    <h1>Inter Miami CF vs. Seattle Sounders FC | Full Match Highlights | Leagues Cup Final Rematch!</h1>
-               </div>
-              `;
-          }
+                swiper_items_sale.innerHTML += `
+                <div class="url" data-url="${video.three_team}" data-id="${video.id}" style="${displayStylethree_team}">
+                    <a class="swiper-slide swiper-slide--two"style="background-image: url('${video.background_image}');">
+                    </a>
+                      <h1>Inter Miami CF vs. Seattle Sounders FC | Full Match Highlights | Leagues Cup Final Rematch!</h1>
+                 </div>
+                `;
+            }
 
             if (video.four_team) {
                 swiper_items_sale.innerHTML += `

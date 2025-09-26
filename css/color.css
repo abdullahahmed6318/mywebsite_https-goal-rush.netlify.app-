@@ -20,7 +20,7 @@ html {
     --header: linear-gradient(5deg,var(--Wisteria),var(--Oxford_Blue));
     --lighth1: #2a0b4c;
     --light_a: #ffffff;
-    --Before_the_start: tomato;
+    --Before_the_start: #dedede;
     --time_border_before: rgb(242, 255, 171);
     --lightCount_Down_Timer: rgb(242, 255, 171);
     --lightinformation: linear-gradient(0deg, #e9e9e9, #a8a8a8);
@@ -30,7 +30,7 @@ html {
     --lightColor2: #291e00;
     --menu: #F7F7F7;
     --menu_m: #f7f7f756;
-    --time: tomato;
+    --time: rgb(57, 29, 67);
     --timebefore: rgb(242, 255, 171);
     --webkit-scrollbar-thumb: #ffffff;
   }

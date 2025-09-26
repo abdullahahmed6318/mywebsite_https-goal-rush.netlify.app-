@@ -169,7 +169,7 @@ button img{
     border-radius: 35px;
     width: 24cm;
     margin-left: 500;
-    height: 50cm;
+    height: auto;
     top: 5cm;
     background: var( --container_t);
     /* background: #18ab29; */
@@ -236,116 +236,166 @@ button img{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 90px;
+    height: auto;
     margin-top: 10px;
     background: var( --lightboby);
     cursor: pointer;
+    overflow: hidden;
     z-index: 100;
+    isolation: isolate;
+    position: relative;     
+}
+/* .home_slider .aqq .aaa a:hover::after{
+    content: '';
+    inset: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .1;
+    position: absolute;
+    background-image: url(/image/cards.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
+ */
 
-.home_slider .aqq .aaa .The_first__match{
-    width: 100px;
-    height: 10%;
+.home_slider .aqq .aaa .The_first__match{   
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 50% 50% 0% 0%;
     color: var(--lightColor);
-    /* margin-top: 0%; */
-    /* margin-left: 3.4cm; */
     font-size: 20;
-    font-weight: 200;
-    /* background: yellow; */
+    font-weight: 300;
+    line-height: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 .home_slider .aqq .aaa .The_Second__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 50% 50% 0% 0%;
     color: var(--lightColor);
-    /* margin-top: 0%; */
-    /* margin-left: 5cm; */
     font-size: 20;
-    font-weight: 200;
-    /* background: yellow; */
+    font-weight: 300;
+    line-height: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
 
 }
 .home_slider .aqq .aaa .The_third__match{
-    width: 100px;
-    height: 10%;
-    /* margin-top: 0%; */
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-left: 3.4cm; */
     font-size: 20;
-    font-weight: 200;
-
+    font-weight: 300;
+    line-height: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
 
 }
 .home_slider .aqq .aaa .The_fourth__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-top: 0%; */
-    /* margin-left: 5cm; */
     font-size: 20;
-    font-weight: 200;
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 .home_slider .aqq .aaa .The_Five__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-top: 0%; */
-    /* margin-left: 3.4cm; */
     font-size: 20;
-    font-weight: 200;
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
+
 }
 .home_slider .aqq .aaa a .The_sixth__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-left: 5cm; */
     font-size: 20;
-    font-weight: 200;
-    position: relative;
-    /* margin-top: 0%; */
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 .home_slider .aqq .aaa .The_seven__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-top: 0%; */
-    /* margin-left: 3.4cm; */
     font-size: 20;
-    font-weight: 200;
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 .home_slider .aqq .aaa a .The_eighth__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-left: 5cm; */
     font-size: 20;
-    font-weight: 200;
-    position: relative;
-    /* margin-top: 0%; */
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 .home_slider .aqq .aaa .The_Ninth__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-top: 0%; */
-    /* margin-left: 3.4cm; */
     font-size: 20;
-    font-weight: 200;
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 .home_slider .aqq .aaa a .The_tenth__match{
-    width: 100px;
-    height: 10%;
+    background: rgba(89, 89, 89, 0.072);
+    width: 100;
+    height: 100%;
+    border-radius: 20%;
     color: var(--lightColor);
-    /* margin-left: 5cm; */
     font-size: 20;
-    font-weight: 200;
-    position: relative;
-    /* margin-top: 0%; */
+    font-weight: 300;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+
 }
 
 .home_slider .aqq .aaa a p{
-    margin-top: 10%;
+    margin-top: auto;
 }
+.home_slider .aqq .aaa a img{
+    margin: 0 0 0 0;
+    background-position: 10px 10px;
+    max-width: 50%;
+    height: auto;
+
+}
+
 
 .home_slider .aqq .aaa .The_Match_time{
     display: inline-block;
@@ -361,25 +411,56 @@ button img{
 
 .result{
     z-index: 50;
-    margin-top: 10;
+    margin-top: 1.1cm;
     display: flex;
-    margin-left: -5cm;
-    width: 1;
-    height: 1;
+    justify-content: space-between;
+    margin-left: -4.5cm;
+    width: 13.0cm;
+    text-align: center;
+    height: 30;
+    /* opacity: 0.7; */
+    /* background: rgba(178, 77, 77, 0.366); */
+
 }
 
 .result1{
-    color: #fff;
-    /* background: rgba(0, 76, 255, 0.177); */
-    margin: 0 13.1cm 0 0;
+    display: flex;
+    margin-top: -40; margin-bottom: 0; margin-left: 0; margin-right: 0;
+    color: var(--lightCount_Down_Timer);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: double 3px ;
+    border-radius: 1% 1% 13% 110%;
+    overflow: hidden;
+    padding-left: 1; padding-right: 1; padding-top: 80; padding-bottom: 0;
+    backdrop-filter: blur(10px);
+
 }
+.resultt{
+    margin-top: -80;
+    z-index: 2;
+    /* margin-right: 11; */
+    font-style: italic;
+    font-size: 98;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
 .resultx{
     position: absolute;
-    margin-top: -90;
-    left: -11;
-    font-style: italic;
-    font-size: 150px;
+    margin-top: -165;
+    left: -15;
+    z-index: 100;
+    font-weight: 300;
+    width: 50%;
+    height: 300;
+    display: block;
+    font-style: normal;
+    font-size: 200;
     opacity: 0.1;
+    z-index: 1;
 }
 
 .home_slider .aqq .aaa .The_Match_time .h1{
@@ -387,12 +468,14 @@ button img{
     font-size: 18;
     font-weight: 100;
     width: 10cm;
-    opacity: 0.2;
+    opacity: 0.5;
+
 }
 .home_slider .aqq .aaa .The_Match_time .h2{
     position: absolute;
     margin-left: 65;
     margin-top: 15;
+
 }
 
 .home_slider .aqq .aaa .First_team_results{
@@ -431,15 +514,6 @@ button img{
     color: var(--lightColor);
     display: none;
 
-
-}
-.home_slider .aqq .aaa a  img{
-    position: relative;
-    top: 80%;
-    left: 0;
-    right: 0;
-    background-position: 10px 10px;
-    max-width: 35px;
 
 }
 
@@ -1211,10 +1285,10 @@ button img{
 
 .home_slider .aqq .aaa .The_Match_time .h1{
     margin-top: -10;
-    margin-left: -0.3cm;
-    font-size: 12;
+    margin-left: -1.5cm;
+    font-size: 10;
     font-weight: 100;
-    width: 5cm;
+    width: 7cm;
     opacity: 0.5;
 
 }

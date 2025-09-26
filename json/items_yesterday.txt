@@ -49,15 +49,13 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇺🇸⚽️ USA/MlS",
 
-      "name_team_First": "InterMiami",
-      "First_img": "image/Teams/Inter_Miami_CF.png",
-      "result1":"4",
+      "name_team_First": "",
+      "First_img": "image/Teams/..png",
       "First_team": "",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "NY City",
-      "result2":"0",
-      "Second_img": "image/Teams/New York City.png",
+      "name_team_Second": "",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -94,26 +92,26 @@
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇬⚽️ Egyptlian Premier League",
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
+      "name_team_First": "zamalek",
+      "First_img": "image/Teams/zamalek.png",
       "result1": "3",
 
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "El Gouna",
       "result2": "2",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/El_Gouna.png",
 
-      "name_team_third": "",
+      "name_team_third": "Haras El Hodoud",
       "third_team": "//.html",
       "result3": "1",
-      "third_img": "image/Teams/.png",
+      "third_img": "image/Teams/Haras.El_Hodoud.png",
 
-      "name_team_fourth": "",
+      "name_team_fourth": "Al Ahly",
       "result4": "1",
 
-      "fourth_img": "image/Teams/.png",
+      "fourth_img": "image/Teams/Al_Ahly.png",
 
       "name_team_Five": "",
       "Five_img": "image/Teams/.png",
@@ -154,7 +152,7 @@
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Al-Kholood.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -239,15 +237,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇸⚽️ Laliga",
 
-      "name_team_First": "Barcelona",
-      "First_img": "image/Teams/FC_Barcelona.png",
+      "name_team_First": "Levante",
+      "First_img": "image/Teams/Levante.png",
       "First_team": "//.html",
-      "result1": "3",
+      "result1": "4",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Real Oviedo",
-      "result2": "1",
-      "Second_img": "image/Teams/Real_Oviedo.png",
+      "name_team_Second": "Real Madrid",
+      "result2": "5",
+      "Second_img": "image/Teams/Real_Madrid.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -375,15 +373,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏆⚽️ FIFA Intercontinental Cup , Round 1",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
+      "name_team_First": "Al-Ahli",
+      "First_img": "image/Teams/Al-Ahli.png",
       "First_team": "//.html",
       "result1": "1",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "Pyramids",
       "result2": "1",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Pyramids.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -465,34 +463,34 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️ EFL Cup",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
+      "name_team_First": "Liverpool",
+      "First_img": "image/Teams/Liverpool.png",
       "First_team": "//a.html",
       "result1": "6",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "Southampton",
       "result2": "7",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Southampton.png",
 
-      "name_team_third": "",
+      "name_team_third": "Lincoln City",
       "third_team": "//a.html",
       "result3": "8",
-      "third_img": "image/Teams/.png",
+      "third_img": "image/Teams/Lincoln_City.png",
 
-      "name_team_fourth": "",
+      "name_team_fourth": "Chelsea",
       "result4": "9",
-      "fourth_img": "image/Teams/.png",
+      "fourth_img": "image/Teams/Chelsea.png",
 
-      "name_team_Five": "",
+      "name_team_Five": "5t",
       "result5": "10",
 
-      "Five_img": "image/.png",
+      "Five_img": "image/FC_Barcelona.png",
       "Five_team": "//a.html",
 
 
-      "name_team_sixth": "",
-      "sixth_img": "image/.png",
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
 
       "name_team_seven": "",
       "seven_img": "image/FC_Barcelona.png",
@@ -515,15 +513,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇮🇹⚽️ Coppa Italia ",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
+      "name_team_First": "AC Milan",
+      "First_img": "image/Teams/AC_Milan.png",
       "First_team": "//.html",
       "result1": "1",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "Lecce",
       "result2": "1",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Lecce.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -561,15 +559,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇸🇦⚽️ King's Cup",
 
-      "name_team_First": "",
+      "name_team_First": "Jeddah Club",
       "First_img": "image/Teams/Jeddah_Club.png",
       "First_team": "//.html",
       "result1": "1",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "Al-Nassr",
       "result2": "1",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Al-Nassr.png",
 
       "name_team_third": "",
       "third_team": "//.html",
