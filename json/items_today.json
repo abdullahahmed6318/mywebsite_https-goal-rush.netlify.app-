@@ -148,7 +148,7 @@
 
       "name_team_First": "Al-Ittihad",
       "First_img": "image/Teams/Al-Ittihad.png",
-      "First_team": "//.html",
+      "First_team": "/team/Al-Nassr/Al-Nassr.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Al-Nassr",
@@ -603,6 +603,7 @@
     
   ]
 }
+
 
 
 
