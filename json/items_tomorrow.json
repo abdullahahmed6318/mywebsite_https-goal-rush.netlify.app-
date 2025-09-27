@@ -50,13 +50,11 @@
       "side_bar_league": "🇺🇸⚽️ USA/MlS",
 
       "name_team_First": "",
-      "First_img": "image/Teams/.png",
-      "result1":"4",
+      "First_img": "image/Teams/..png",
       "First_team": "",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "",
-      "result2":"0",
       "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
@@ -94,16 +92,16 @@
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇬⚽️ Egyptlian Premier League",
-      "name_team_First": "Pyramids",
-      "First_img": "image/Teams/Pyramids.png",
-      "result1": "",
+      "name_team_First": "",
+      "First_img": "image/Teams/.png",
+      "result1": "3",
 
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "El-Gaish",
-      "result2": "",
-      "Second_img": "image/Teams/El-Gaish.png",
+      "name_team_Second": "",
+      "result2": "2",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -149,19 +147,21 @@
       "side_bar_league": "🇸🇦⚽️ Saudi Pro Laegue",
 
       "name_team_First": "",
+      "result1":"2",
       "First_img": "image/Teams/.png",
-      "First_team": "//.html",
+      "First_team": "/team/Al-Nassr/Al-Nassr.html",
       "another_activity_file": "AnotherActivity",
 
+      "result2":"0",
       "name_team_Second": "",
       "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
-      "third_img": "https://goal-rush.netlify.app/image/Bolivia.png",
+      "third_img": "image/Teams/.png",
 
       "name_team_fourth": "",
-      "fourth_img": "https://goal-rush.netlify.app/image/Brazil.png",
+      "fourth_img": "image/Teams/.png",
 
       "name_team_Five": "",
       "Five_img": "image/FC_Barcelona.png",
@@ -192,71 +192,71 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️ Premier League",
 
-      "name_team_First": "Brentford",
-      "First_img": "image/Teams/Brentford.png",
+      "name_team_First": "Newcastle.United",
+      "First_img": "image/Teams/Newcastle.United.png",
       "First_team": "//.html",
       "result1": "1",
 
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Man U",
+      "name_team_Second": "Arsenal",
       "result2": "1",
-      "Second_img": "image/Teams/Manchester_United.png",
+      "Second_img": "image/Teams/Arsenal.png",
 
-      "name_team_third": "Chelsea",
+      "name_team_third": "",
       "third_team": "//.html",
-      "third_img": "image/Teams/Chelsea.png",
+      "third_img": "image/Teams/.png",
 
-      "name_team_fourth": "Brighton",
-      "fourth_img": "image/Teams/Brighton.png",
+      "name_team_fourth": "",
+      "fourth_img": "image/Teams/.png",
 
-      "name_team_Five": "Crystal Palace",
-      "Five_img": "image/Teams/Crystal_Palace.png",
-      "Five_team": "//.html",
-
-
-      "name_team_sixth": "Liverpool",
-      "sixth_img": "image/Teams/Liverpool.png",
-
-      "name_team_seven": "Man City",
-      "seven_img": "image/Teams/Manchester_City.png",
-      "seven_team": "//.html",
+      "name_team_Five": "",
+      "Five_img": "image/FC_Barcelona.png",
+      "Five_team": "/Brazil/Brazil.html",
 
 
-      "name_team_eighth": "Burnley",
-      "eighth_img": "image/Teams/Burnley.png",
+      "name_team_sixth": "Bela",
+      "sixth_img": "image/FC_Barcelona.png",
+
+      "name_team_seven": "",
+      "seven_img": "image/FC_Barcelona.png",
+      "seven_team": "/Brazil/Brazil.html",
+
+
+      "name_team_eighth": "Bela",
+      "eighth_img": "image/FC_Barcelona.png",
 
       "name_team_Ninth": "",
-      "Ninth_img": "image/Teams/.png",
-      "Ninth_team": "//.html",
+      "Ninth_img": "image/FC_Barcelona.png",
+      "Ninth_team": "/Brazil/Brazil.html",
 
 
-      "name_team_tenth": "",
-      "tenth_img": "image/Teams/.png"
+      "name_team_tenth": "Bqela",
+      "tenth_img": "image/FC_Barcelona.png"
     },
     {
       "id": 4,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇸⚽️ Laliga",
 
-      "name_team_First": "Atletico Madrid",
-      "First_img": "image/Teams/Atletico_Madrid.png",
+      "name_team_First": "Barcelona",
+      "First_img": "image/Teams/FC_Barcelona.png",
       "First_team": "//.html",
-      "result1": "3",
+      "result1": "4",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Real Madrid",
-      "result2": "1",
-      "Second_img": "image/Teams/Real_Madrid.png",
+      "name_team_Second": "Real Sociedad",
+      "result2": "5",
+      "Second_img": "image/Teams/Real_Sociedad.png",
 
-      "name_team_third": "Villarreal",
+      "name_team_third": "",
       "third_team": "//.html",
       "result3": "1",
-      "third_img": "image/Teams/Villarreal.png",
+      "third_img": "image/Teams/.png",
 
-      "name_team_fourth": "Athletic Bilbao",
+      "name_team_fourth": " ",
       "result4": "1",
-      "fourth_img": "image/Teams/Athletic_Bilbao.png",
+      "fourth_img": "image/Teams/.png",
 
       "name_team_Five": "",
       "Five_img": "image/Teams/.png",
@@ -287,20 +287,20 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇮🇹⚽️ serie a",
 
-      "name_team_First": "juventus",
-      "First_img": "image/Teams/juventus.png",
+      "name_team_First": "Roma",
+      "First_img": "image/Teams/AS_Roma.png",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Atalanta",
-      "Second_img": "image/Teams/Atalanta.png",
+      "name_team_Second": "Verona",
+      "Second_img": "image/Teams/Verona.png",
 
-      "name_team_third": "Cagliari Calcio",
+      "name_team_third": " Milan",
       "third_team": "//.html",
-      "third_img": "image/Teams/Cagliari_Calcio.png",
+      "third_img": "image/Teams/AC_Milan.png",
 
-      "name_team_fourth": "Inter",
-      "fourth_img": "image/Teams/Inter.Milan.png",
+      "name_team_fourth": "Napoli",
+      "fourth_img": "image/Teams/Napoli.png",
 
       "name_team_Five": "",
       "Five_img": "image/.png",
@@ -331,13 +331,13 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇫🇷⚽️ Ligue 1",
 
-      "name_team_First": "PSG",
-      "First_img": "image/Teams/Paris_Saint-Germain_PSG.png",
+      "name_team_First": "",
+      "First_img": "image/Teams/.png",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Auxerre",
-      "Second_img": "image/Teams/Auxerre.png",
+      "name_team_Second": "",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -421,13 +421,13 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇩🇪⚽️ bundesliga",
 
-      "name_team_First": "Mainz",
-      "First_img": "image/Teams/FSV_Mainz_05.png",
+      "name_team_First": "",
+      "First_img": "image/Teams/.png",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Dortmund",
-      "Second_img": "image/Teams/Borussia_Dortmund.png",
+      "name_team_Second": "",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -605,6 +605,7 @@
     
   ]
 }
+
 
 
 

@@ -49,15 +49,13 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇺🇸⚽️ USA/MlS",
 
-      "name_team_First": "InterMiami",
-      "First_img": "image/Teams/Inter_Miami_CF.png",
-      "result1":"4",
+      "name_team_First": "",
+      "First_img": "image/Teams/..png",
       "First_team": "",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "NY City",
-      "result2":"0",
-      "Second_img": "image/Teams/New York City.png",
+      "name_team_Second": "",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -148,13 +146,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇸🇦⚽️ Saudi Pro Laegue",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
-      "First_team": "//.html",
+      "name_team_First": "Al-Ittihad",
+      "result1":"2",
+      "First_img": "image/Teams/Al-Ittihad.png",
+      "First_team": "/team/Al-Nassr/Al-Nassr.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
-      "Second_img": "image/Teams/.png",
+      "result2":"0",
+      "name_team_Second": "Al-Nassr",
+      "Second_img": "image/Teams/Al-Nassr.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -239,15 +239,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇸⚽️ Laliga",
 
-      "name_team_First": "Barcelona",
-      "First_img": "image/Teams/FC_Barcelona.png",
+      "name_team_First": "",
+      "First_img": "image/Teams/.png",
       "First_team": "//.html",
-      "result1": "3",
+      "result1": "4",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Real Oviedo",
-      "result2": "1",
-      "Second_img": "image/Teams/Real_Oviedo.png",
+      "name_team_Second": "",
+      "result2": "5",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -421,13 +421,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇩🇪⚽️ bundesliga",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
+      "name_team_First": "Bayern",
+      "First_img": "image/Teams/FC_Bayern_Munich.png",
       "First_team": "//.html",
+      "result1":"4",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
-      "Second_img": "image/Teams/.png",
+      "result2":"0",
+      "name_team_Second": "Bremen",
+      "Second_img": "image/Teams/Bremen.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -605,6 +607,7 @@
     
   ]
 }
+
 
 
 
