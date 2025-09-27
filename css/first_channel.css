@@ -128,7 +128,8 @@
     display: none;
   }
 .time .time_first__match img{
-    width: 80%;
+    width: 60%;
+    height: 80%;
     position: relative;
     top: 0;
     left: 0;
@@ -173,9 +174,10 @@
     display: none;
   }
 .time .time_Second__match img{
-    width: 80%;
+    width: 100%;
+    height: auto;
     position: relative;
-    top: 0;
+    top: -25;
     left: 0;
 
 }
