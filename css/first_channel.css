@@ -377,7 +377,7 @@
 }
 .information .about h1{
     width: 100%;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     display: flex;
     position: absolute;
@@ -496,7 +496,7 @@
 section{
     display: flex;
     position: relative;
-    margin-top: 19cm;
+    margin-top: 15cm;
     width: 100%;
     height: 550px;
     background: linear-gradient(0deg, #000, #262626);
@@ -738,8 +738,8 @@ section .Before_the_start .h12{
 
 }
 .information .about h1{
-    font-size: 26px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 500;
     left: 0.5cm;
     top: 11px;
 }   
