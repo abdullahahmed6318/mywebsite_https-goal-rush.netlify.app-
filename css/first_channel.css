@@ -72,6 +72,9 @@
     pointer-events:none;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M20 30l18 18M38 30L20 48'/%3E%3Ccircle cx='120' cy='120' r='28'/%3E%3Cpath d='M180 42l30 0 0 30-30 0z'/%3E%3Cpath d='M60 170c8-16 32-16 40 0s32 16 40 0'/%3E%3Cpath d='M210 180l-14 24M196 180l14 24'/%3E%3Ccircle cx='42' cy='200' r='16'/%3E%3Cpath d='M120 16l8 18-8 18-8-18z'/%3E%3Cpath d='M20 120l24 0M32 108l0 24'/%3E%3Cpath d='M160 210l24-8 8 24'/%3E%3Cpath d='M92 54c12-8 28-8 40 0'/%3E%3C/g%3E%3C/svg%3E");
     background-size: 360px 360px;
+    display: flex;
+    justify-content: space-between;
+
   }
 
 
@@ -85,6 +88,11 @@
     left:0;
     right: 0;
     background: var(--time);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    align-content: center;
 
 }
 .time::before{
@@ -92,7 +100,9 @@
     position:absolute;inset:16px;
     border: 4px solid var(--timebefore);
     border-radius: 16px;
-    pointer-events:none;  }
+    pointer-events:none; 
+    display: flex;
+ }
 
 .time .img_time{
     width: 100%;
@@ -102,7 +112,23 @@
 }
 
 .time .time_first__match{
-    position: absolute;
+    margin-top: -5cm;
+    text-align: center;
+    background: rgba(89, 89, 89, 0.072);
+    width: 180px;
+    height: 180px;
+    border-radius: 50% 50% 0% 0%;
+    color: var(--lightColor);
+    font-size: 20;
+    font-weight: 300;
+    line-height: 20px;
+    /* overflow: hidden; */
+    /* backdrop-filter: blur(10px); */
+    z-index: 1000;
+    place-items: center;
+
+
+    /* position: absolute;
     top: 70px;
     left: 170px;
     width: 180px;
@@ -116,7 +142,7 @@
     backdrop-filter: blur(4px);
     place-items: center;
     overflow: hidden;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; */
 
 }
 .time .time_first__match::before{
@@ -128,27 +154,35 @@
     display: none;
   }
 .time .time_first__match img{
-    width: 60%;
-    height: 80%;
-    position: relative;
-    top: 0;
-    left: 0;
-
-
+    margin: 0 0 0 0;
+    background-position: 10px 10px;
+    max-width: 65%;
+    height: auto;
 }
 .time .time_first__match p{
     color: var(--light_a);
-    font-size: 30px;
-    width: 5cm;
+    font-size: auto;
+    width: auto;
     font-weight: 500;
-    position: absolute;
-    top: 170px;
-    left: 0;
-
+    text-align: center;
 }
 
 .time .time_Second__match{
-    position: absolute;
+    margin-top: -5cm;
+    text-align: center;
+    background: rgba(89, 89, 89, 0.072);
+    width: 180px;
+    height: 180px;
+    border-radius: 50% 50% 0% 0%;
+    color: var(--lightColor);
+    font-size: 20;
+    font-weight: 300;
+    line-height: 20px;
+    /* overflow: hidden; */
+    /* backdrop-filter: blur(10px); */
+    z-index: 1000;
+    place-items: center;
+    /* position: absolute;
     top: 70px;
     left: 800px;
     width: 180px;
@@ -162,7 +196,7 @@
     backdrop-filter: blur(4px); 
     place-items: center;
     overflow: hidden;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; */
 
 }
 .time .time_Second__match::before{
@@ -174,22 +208,18 @@
     display: none;
   }
 .time .time_Second__match img{
-    width: 100%;
+    margin: 0 0 0 0;
+    background-position: 10px 10px;
+    max-width: 65%;
     height: auto;
-    position: relative;
-    top: -25;
-    left: 0;
 
 }
 .time .time_Second__match p{
     color: var(--light_a);
-    font-size: 30px;
-    width: 15cm;
+    font-size: auto;
+    width: auto;
     font-weight: 500;
-    position: absolute;
-    top: 170px;
-    left: 0;
-
+    text-align: center;
 }
 
 /* nav{
@@ -263,9 +293,10 @@
     display: inline-block;
     width: 100%;
     height: 1cm;
-    position: absolute;
-    top:  13.0cm;
+    position: relative;
+    top:  -3.0cm;
     z-index: 3;
+    /* background: yellowgreen; */
 }
 #timer-1 {
     width: 100%;
@@ -539,7 +570,7 @@ section .Before_the_start .h12{
     /* time */
 .time{
     width: 100%;
-    height: 330px;
+    height: 290px;
     z-index: 1;
     position: relative;
     top: 0;
@@ -557,8 +588,8 @@ section .Before_the_start .h12{
 
   }
 .time .time_first__match{
-    top: 70px;
-    left: 40px;
+    top: 40px;
+    position: relative;
     width: 70px;
     height: 70px;
     z-index: 10;
@@ -578,18 +609,15 @@ section .Before_the_start .h12{
 
 }
 .time .time_first__match p{
-    font-size: 15px;
-    font-weight: bold;
-    position: absolute;
-    top: 60px;
-    left: -4;
-    z-index: 10;
-
-
+    color: var(--light_a);
+    font-size: 15;
+    width: auto;
+    font-weight: 500;
+    text-align: center;
 }
 .time .time_Second__match{
-    top: 70px;
-    left: 280px;
+    top: 40px;
+    position: relative;
     width: 70px;
     height: 70px;
     z-index: 10;
@@ -608,11 +636,11 @@ section .Before_the_start .h12{
     left: 6;
 }
 .time .time_Second__match p{
-    font-size: 15px;
-    font-weight: bold;
-    top: 60px;
-    left: -14;
-    z-index: 10;
+    font-size: 15;
+    color: var(--light_a);
+    width: auto;
+    font-weight: 500;
+    text-align: center;
 
     
 }
@@ -672,8 +700,8 @@ section .Before_the_start .h12{
 #timer-container-1 {
     width: 1050px;
     height: 5px;
-    top:  280px;
-    left: -390px;
+    top:  -50px;
+    left: -350px;
     z-index: 10;
 
 }
@@ -751,7 +779,7 @@ section .Before_the_start .h12{
 
 /* section */
 section{
-    top: 0.2cm;
+    top: -4.2cm;
     left: 5;
     width: 97%;
     height: 250px;
