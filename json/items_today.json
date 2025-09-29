@@ -93,15 +93,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇬⚽️ Egyptlian Premier League",
       "name_team_First": "Al Ahly",
-      "First_img": "image/Teams/Al_Ahly.png",
+      "First_img": "image/Teams/Egyptlian Premier League/Al_Ahly.png",
       "result1": "",
 
-      "First_team": "//.html",
+      "First_team": "/team/zamalek/zamalek.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "zamalek",
       "result2": "",
-      "Second_img": "image/Teams/zamalek.png",
+      "Second_img": "image/Teams/Egyptlian Premier League/zamalek.png",
 
       "name_team_third": "",
       "third_team": "//.html",

@@ -5,7 +5,7 @@
       "side_bar_league": "🏆⚽️ Uefa champions league  , Round 2",
 
       "name_team_First": "Real Madrid",
-      "First_img": "image/Teams/Real_Madrid.png",
+      "First_img": "image/Teams/Laliga/Real_Madrid.png",
       "result1":"",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
@@ -17,15 +17,15 @@
       "name_team_third": "Atletico Madrid",
       "result3":"",
       "third_team": "//.html",
-      "third_img": "image/Teams/Atletico_Madrid.png",
+      "third_img": "image/Teams/Laliga/Atletico_Madrid.png",
 
       "name_team_fourth": "Frankfurt",
       "result4":"",
-      "fourth_img": "image/Teams/Frankfurt.png",
+      "fourth_img": "image/Teams/bundesliga/Frankfurt.png",
 
       "name_team_Five": "Chelsea",
       "result5":"0",
-      "Five_img": "image/Teams/Chelsea.png",
+      "Five_img": "image/Teams/Premier League/Chelsea.png",
       "Five_team": "//.html",
 
 
@@ -34,12 +34,12 @@
       "sixth_img": "image/Teams/Benfica.png",
 
       "name_team_seven": "Galatasaray",
-      "seven_img": "image/Teams/Galatasaray.png",
+      "seven_img": "image/Teams/serie.a/Galatasaray.png",
       "seven_team": "//.html",
 
 
       "name_team_eighth": "Liverpool",
-      "eighth_img": "image/Teams/Liverpool.png",
+      "eighth_img": "image/Teams/Premier League/Liverpool.png",
 
       "name_team_Ninth": "Pafos",
       "Ninth_img": "image/Teams/Pafos.png",
@@ -47,14 +47,14 @@
 
 
       "name_team_tenth": "Bayern",
-      "tenth_img": "image/Teams/FC_Bayern_Munich.png"
+      "tenth_img": "image/Teams/bundesliga/FC_Bayern_Munich.png"
     },
     { 
       "id": 11,
       "side_bar_league": "",
 
       "name_team_First": "Marseille",
-      "First_img": "image/Teams/Olympique_de_Marseille.png",
+      "First_img": "image/Teams/Ligue.1/Olympique_de_Marseille.png",
       "result1":"",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
@@ -66,7 +66,7 @@
       "name_team_third": "Inter",
       "result3":"",
       "third_team": "//.html",
-      "third_img": "image/Teams/Inter.Milan.png",
+      "third_img": "image/Teams/serie.a/Inter.Milan.png",
 
       "name_team_fourth": "Slavia Praha",
       "result4":"",
@@ -80,10 +80,10 @@
 
       "name_team_sixth": "Tottenham",
       "result6":"",
-      "sixth_img": "image/Teams/Tottenham_Hotspur.png",
+      "sixth_img": "image/Teams/Premier League/Tottenham_Hotspur.png",
 
       "name_team_seven": "Atalanta",
-      "seven_img": "image/Teams/Atalanta.png",
+      "seven_img": "image/Teams/serie.a/Atalanta.png",
       "seven_team": "//.html",
 
 
