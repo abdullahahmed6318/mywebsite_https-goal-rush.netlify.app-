@@ -211,6 +211,37 @@
 
             
               data.videos.forEach(product => {
+                const getProductHeights = () => {
+                  // تحديد الارتفاعات للموبايل
+                  const mobileHeights = {
+                    first: product.name_team_First !== '' ? '100px' : null,
+                    third: product.name_team_third !== '' ? '190px' : null,
+                    five: product.name_team_Five !== '' ? '290px' : null,
+                    seven: product.name_team_seven !== '' ? '390px;' : null,
+                    Ninth: product.name_team_Ninth !== '' ? '490px;' : null,
+
+                  };
+                
+                  // تحديد الارتفاعات للكمبيوتر
+                  const desktopHeights = {
+                    first: product.name_team_First !== '' ? 'auto' : null,
+                    third: product.name_team_third !== '' ? 'auto' : null,
+                    five: product.name_team_Five !== '' ? 'auto' : null,
+                    seven: product.name_team_seven !== '' ? 'auto;' : null,
+                    Ninth: product.name_team_Ninth !== '' ? 'auto;' : null,
+
+                  };
+                
+                  // التحقق من حجم الشاشة وإرجاع الكائن المناسب
+                  if (window.innerWidth <= 600) {
+                    return mobileHeights;
+                  } else {
+                    return desktopHeights;
+                  }
+                };
+
+
+
                 const displayStyle = (product.name_team_First === '') ? 'display: none;' : '';
                 const displayStyle_Second = (product.name_team_third === '') ? 'display: none;' : '';
                 const displayStyle_Five = (product.name_team_Five === '') ? 'display: none;' : '';
@@ -224,7 +255,7 @@
                 const displayStyle_1 = (product.name_team_seven === '') ? '' : '';
                 const displayStyle_2 = (product.name_team_Five === '') ? 'display: none;' : '';
                 const displayStyle_3 = (product.name_team_third === '') ? '' : '';
-
+                const productHeights = getProductHeights();
                 swiper_items_sale.innerHTML += 
                 `
               
@@ -233,7 +264,7 @@
                                   <h1>${product.side_bar_league}</h1>
                         </div>
                         </div>
-                  <div class="aaa"  style="${displayStyle_one} ${displayStyle_two} ${displayStyle_Three} ${displayStyle_five} ${displayStyle} " >
+    <div class="aaa" style="${productHeights.first ? 'height: ' + productHeights.first + ';' : ''} ${productHeights.third ? 'height: ' + productHeights.third + ';' : ''} ${productHeights.five ? 'height: ' + productHeights.five + ';' : ''} ${productHeights.seven ? 'height: ' + productHeights.seven + ';' : ''} ${productHeights.Ninth ? 'height: ' + productHeights.Ninth + ';' : ''}  ${displayStyle}"> 
                     <span>
                               <a class="url" style="${displayStyle}" data-url="${product.First_team}">
                               <div class="The_first__match">

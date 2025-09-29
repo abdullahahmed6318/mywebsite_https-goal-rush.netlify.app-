@@ -2,38 +2,93 @@
   "videos": [
     { 
       "id": 10,
-      "side_bar_league": "🏆⚽️ Uefa champions league  , Round 1",
+      "side_bar_league": "🏆⚽️ Uefa champions league  , Round 2",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/.png",
+      "name_team_First": "Real Madrid",
+      "First_img": "image/Teams/Real_Madrid.png",
+      "result1":"",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
-      "Second_img": "image/Teams/Newcastle United.png",
+      "name_team_Second": "Kairat",
+      "result2":"",
+      "Second_img": "image/Teams/Kairat.png",
 
-      "name_team_third": "",
+      "name_team_third": "Atletico Madrid",
+      "result3":"",
       "third_team": "//.html",
-      "third_img": "image/Teams/.png",
+      "third_img": "image/Teams/Atletico_Madrid.png",
 
-      "name_team_fourth": "",
-      "fourth_img": "image/Teams/.png",
+      "name_team_fourth": "Frankfurt",
+      "result4":"",
+      "fourth_img": "image/Teams/Frankfurt.png",
 
-      "name_team_Five": "",
-      "Five_img": "image/Teams/.png",
+      "name_team_Five": "Chelsea",
+      "result5":"0",
+      "Five_img": "image/Teams/Chelsea.png",
       "Five_team": "//.html",
 
 
-      "name_team_sixth": "",
-      "sixth_img": "image/Teams/.png",
+      "name_team_sixth": "Benfica",
+      "result6":"",
+      "sixth_img": "image/Teams/Benfica.png",
 
-      "name_team_seven": "",
-      "seven_img": "image/Teams/.png",
+      "name_team_seven": "Galatasaray",
+      "seven_img": "image/Teams/Galatasaray.png",
       "seven_team": "//.html",
 
 
-      "name_team_eighth": "",
-      "eighth_img": "image/Teams/.png",
+      "name_team_eighth": "Liverpool",
+      "eighth_img": "image/Teams/Liverpool.png",
+
+      "name_team_Ninth": "Pafos",
+      "Ninth_img": "image/Teams/Pafos.png",
+      "Ninth_team": "//.html",
+
+
+      "name_team_tenth": "Bayern",
+      "tenth_img": "image/Teams/FC_Bayern_Munich.png"
+    },
+    { 
+      "id": 11,
+      "side_bar_league": "",
+
+      "name_team_First": "Marseille",
+      "First_img": "image/Teams/Olympique_de_Marseille.png",
+      "result1":"",
+      "First_team": "//.html",
+      "another_activity_file": "AnotherActivity",
+
+      "name_team_Second": "Ajax",
+      "result2":"",
+      "Second_img": "image/Teams/AFC_Ajax.png",
+
+      "name_team_third": "Inter",
+      "result3":"",
+      "third_team": "//.html",
+      "third_img": "image/Teams/Inter.Milan.png",
+
+      "name_team_fourth": "Slavia Praha",
+      "result4":"",
+      "fourth_img": "image/Teams/Slavia_Praha.png",
+
+      "name_team_Five": "Bodø/Glimt",
+      "result5":"0",
+      "Five_img": "image/Teams/Bodø Glimt.png",
+      "Five_team": "//.html",
+
+
+      "name_team_sixth": "Tottenham",
+      "result6":"",
+      "sixth_img": "image/Teams/Tottenham_Hotspur.png",
+
+      "name_team_seven": "Atalanta",
+      "seven_img": "image/Teams/Atalanta.png",
+      "seven_team": "//.html",
+
+
+      "name_team_eighth": "Club Brugge",
+      "eighth_img": "image/Teams/Club_Brugge.png",
 
       "name_team_Ninth": "",
       "Ninth_img": "image/Teams/.png",
@@ -41,7 +96,7 @@
 
 
       "name_team_tenth": "",
-      "tenth_img": "image/.png"
+      "tenth_img": "image/Teams/.png"
     },
 
     { 
@@ -50,7 +105,7 @@
       "side_bar_league": "🇺🇸⚽️ USA/MlS",
 
       "name_team_First": "",
-      "First_img": "image/Teams/..png",
+      "First_img": "image/Teams/.png",
       "First_team": "",
       "another_activity_file": "AnotherActivity",
 
@@ -92,16 +147,16 @@
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇬⚽️ Egyptlian Premier League",
-      "name_team_First": "Al Ahly",
-      "First_img": "image/Teams/Al_Ahly.png",
+      "name_team_First": "",
+      "First_img": "image/Teams/.png",
       "result1": "",
 
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "zamalek",
+      "name_team_Second": "",
       "result2": "",
-      "Second_img": "image/Teams/zamalek.png",
+      "Second_img": "image/Teams/.png",
 
       "name_team_third": "",
       "third_team": "//.html",
