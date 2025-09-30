@@ -5,7 +5,9 @@
     "countDownDate": "Sep 26, 2025 21:00:00",
     "name_team_First":"Al-Ittihad",
     "First_img": "/image/Teams/Al-Ittihad.png",
-    "iframe": "",
+    "iframe_1": "https://pl.buzkora.site/albaplayer/on-time-sport-1/?serv=0",
+    "iframe_2": "https://www.youtube.com/embed/EauTAhF3BXc?si=0mzFvWOnftXuUnRD",
+    "iframe3": "https://www.youtube.com/embed/82DP_gv2Weg?si=q6iifGzT8fBCny0R",
     "name_team_Second": "Al-Nassr",
     "Second_img": "/image/Teams/Al-Nassr.png",
     "offers": {

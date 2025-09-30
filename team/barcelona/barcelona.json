@@ -5,7 +5,9 @@
     "countDownDate": "Sep 28, 2025 19:30:00",
     "name_team_First":"fc Barcelona",
     "First_img": "/image/Teams/FC_Barcelona.png",
-    "iframe": "https://pl.buzkora.site/albaplayer/1bein1/?serv=0",
+    "iframe_1": "https://pl.buzkora.site/albaplayer/on-time-sport-1/?serv=0",
+    "iframe_2": "https://www.youtube.com/embed/EauTAhF3BXc?si=0mzFvWOnftXuUnRD",
+    "iframe3": "https://www.youtube.com/embed/82DP_gv2Weg?si=q6iifGzT8fBCny0R",
     "name_team_Second": "Real Sociedad",
     "Second_img": "/image/Teams/Real_Sociedad.png",
     "offers": {

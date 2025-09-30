@@ -90,18 +90,70 @@ fetch("/team/Inter Miami/Inter_Miami.json")
 
     data.forEach(product => {
     
-      const displayStyle = (product.iframe === '') ? 'display: none;' : '';
+      const Before_the_start = (product.iframe !== '') ? 'display: none;' : '';
+      const btn_f = (product.iframe === '') ? 'display: none;' : '';
+      const isIframeEmpty = product.iframe_1   === '';
+      const iframeDisplayStyle = isIframeEmpty ? 'display: none;' : 'display: block;';
+      const messageDisplayStyle = isIframeEmpty ? 'display: block;' : 'display: none;';
+      const isIframeEmpty2 = product.iframe_2   === '';
+      const iframeDisplayStyle2 = isIframeEmpty2 ? 'display: none;' : 'display: block;';
+      const messageDisplayStyle2 = isIframeEmpty2 ? 'display: block;' : 'display: none;';
 
-      section.innerHTML += `
-      <div class="Before_the_start">
-          <h1 class="h11">سيبدأ البث المباشر</h1>
-          <i class="fa-solid fa-tv"></i>
-          <h1 class="h12">قبل بداية المباراة بـ 30 دقيقة </h1>
+
+
+      section.innerHTML +=
+        `
+      <div class="btn_f" >
+        <button class="btn_S" onclick="open_v1()">
+          <span class="h1_btn_S">Server</span>
+          <span class="icon_btn_S">
+           <ion-icon name="server-outline"></ion-icon>
+        </button>
+
+        <button class="btn_S" onclick="open_v2()">
+          <span class="h1_btn_S">Server</span>
+          <span class="icon_btn_S">
+           <ion-icon name="server-outline"></ion-icon>
+        </button>
+
+        <button class="btn_S" onclick="open_v3()">
+          <span class="h1_btn_S">Server</span>
+          <span class="icon_btn_S">
+           <ion-icon name="server-outline"></ion-icon>
+        </button> 
+
       </div>
+
+        <div class="Before_the_start" style="${Before_the_start}" >
+        <h1 class="h11">سيبدأ البث المباشر</h1>
+        <i class="fa-solid fa-tv"></i>
+        <h1 class="h12">قبل بداية المباراة بـ 30 دقيقة </h1>
+    </div>
+
+      <div class="video_f v1" >
+         <h1 style="${messageDisplayStyle}"> لا يوجد</h1>
        <iframe allowfullscreen="true" frameborder="0" height="100%" scrolling="1" 
-          src="${product.iframe}" 
-          width="100%">style="${displayStyle}
-       </iframe>
+         src="${product.iframe_1}" 
+         width="100%" style="${iframeDisplayStyle}">
+       </iframe> 
+      </div>
+
+      <div class="video_f v2">
+         <h1 style="${messageDisplayStyle2}"> لا يوجد</h1>
+        <iframe allowfullscreen="true" frameborder="0" height="100%" scrolling="1" 
+         src="${product.iframe_2}" 
+         width="100%"  style="${iframeDisplayStyle2}">
+        </iframe> 
+      </div> 
+
+      <div class="video_f v3">
+         <h1 style="${messageDisplayStyle}"> لا يوجد</h1>
+       <iframe allowfullscreen="true" frameborder="0" height="100%" scrolling="1" 
+        src="${product.iframe3}" 
+        width="100%">
+       </iframe> 
+
+   </div> 
           
          
           `
@@ -196,3 +248,82 @@ function startSingleCountdown(match) {
 
 // Start the whole process
 setupCountdowns();
+
+function open_v1() {
+  // 1. Get a reference to the button element using its class 'btn1'
+  const btn_v2 = document.querySelector('.v2');
+  const btn_v1 = document.querySelector('.v1');
+  const btn_v3 = document.querySelector('.v3');
+  const Server = document.querySelector('.Before_the_start');
+
+  // if (Server) {
+  //   Server.classList.toggle('startV1');
+  // }
+  if (btn_v1) {
+    btn_v1.classList.toggle('vad');
+  }
+  if (btn_v2) {
+    btn_v2.classList.remove('vad2');
+
+  }
+  if (btn_v3) {
+    btn_v3.classList.remove('vad3');
+
+  }
+
+  else {
+    console.error("Button element with class '.btn1' not found.");
+  }
+
+}
+
+function open_v2() {
+  const btn_v2 = document.querySelector('.v2');
+  const btn_v1 = document.querySelector('.v1');
+  const btn_v3 = document.querySelector('.v3');
+  const Server = document.querySelector('.Before_the_start');
+
+
+  // if (Server) {
+  //   Server.classList.toggle('startV1');
+  // }
+
+  if (btn_v2) {
+    btn_v2.classList.toggle('vad2');
+
+  }
+  if (btn_v1) {
+    btn_v1.classList.remove('vad');
+  }
+  if (btn_v3) {
+    btn_v3.classList.remove('vad3');
+
+  }
+
+  else {
+    console.error("Button element with class '.btn1' not found.");
+  }
+}
+
+function open_v3() {
+
+  const btn_v3 = document.querySelector('.v3');
+  const btn_v2 = document.querySelector('.v2');
+  const Server = document.querySelector('.Before_the_start');
+  const btn_v1 = document.querySelector('.v1');
+  // if (Server) {
+  //   Server.classList.toggle('startV1');
+  // }
+  if (btn_v3) {
+    btn_v3.classList.toggle('vad3');
+  }
+  if (btn_v2) {
+    btn_v2.classList.remove('vad2');
+  }
+  if (btn_v1) {
+    btn_v1.classList.remove('vad');
+  }
+  else {
+    console.error("Button element with class '.btn1' not found.");
+  }
+}

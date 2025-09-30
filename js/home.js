@@ -32,21 +32,21 @@
                 const getProductHeights = () => {
                   // تحديد الارتفاعات للموبايل
                   const mobileHeights = {
-                    first: product.name_team_First !== '' ? '100px' : null,
-                    third: product.name_team_third !== '' ? '190px' : null,
-                    five: product.name_team_Five !== '' ? '290px' : null,
-                    seven: product.name_team_seven !== '' ? '390px;' : null,
-                    Ninth: product.name_team_Ninth !== '' ? '490px;' : null,
+                    first: product.name_team_First !== '' ? 'auto' : null,
+                    third: product.name_team_third !== '' ? 'auto' : null,
+                    five: product.name_team_Five !== '' ? 'auto' : null,
+                    seven: product.name_team_seven !== '' ? 'auto;' : null,
+                    Ninth: product.name_team_Ninth !== '' ? 'auto;' : null,
 
                   };
                 
                   // تحديد الارتفاعات للكمبيوتر
                   const desktopHeights = {
-                    first: product.name_team_First !== '' ? '100px' : null,
-                    third: product.name_team_third !== '' ? '200px' : null,
-                    five: product.name_team_Five !== '' ? '290px' : null,
-                    seven: product.name_team_seven !== '' ? '430px;' : null,
-                    Ninth: product.name_team_Ninth !== '' ? '690px;' : null,
+                    first: product.name_team_First !== '' ? 'auto' : null,
+                    third: product.name_team_third !== '' ? 'auto' : null,
+                    five: product.name_team_Five !== '' ? 'auto' : null,
+                    seven: product.name_team_seven !== '' ? 'auto;' : null,
+                    Ninth: product.name_team_Ninth !== '' ? 'auto;' : null,
 
                   };
                 
