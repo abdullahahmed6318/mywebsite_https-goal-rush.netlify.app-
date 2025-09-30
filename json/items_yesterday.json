@@ -6,47 +6,51 @@
 
       "name_team_First": "Real Madrid",
       "First_img": "image/Teams/Laliga/Real_Madrid.png",
-      "result1":"",
+      "result1":"5",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Kairat",
-      "result2":"",
+      "result2":"0",
       "Second_img": "image/Teams/Kairat.png",
 
       "name_team_third": "Atletico Madrid",
-      "result3":"",
+      "result3":"5",
       "third_team": "//.html",
       "third_img": "image/Teams/Laliga/Atletico_Madrid.png",
 
       "name_team_fourth": "Frankfurt",
-      "result4":"",
+      "result4":"1",
       "fourth_img": "image/Teams/bundesliga/Frankfurt.png",
 
       "name_team_Five": "Chelsea",
-      "result5":"0",
+      "result5":"1",
       "Five_img": "image/Teams/Premier League/Chelsea.png",
       "Five_team": "//.html",
 
 
       "name_team_sixth": "Benfica",
-      "result6":"",
+      "result6":"0",
       "sixth_img": "image/Teams/Benfica.png",
 
       "name_team_seven": "Galatasaray",
       "seven_img": "image/Teams/serie.a/Galatasaray.png",
+      "result7":"1",
       "seven_team": "//.html",
 
 
       "name_team_eighth": "Liverpool",
+      "result8":"0",
       "eighth_img": "image/Teams/Premier League/Liverpool.png",
 
       "name_team_Ninth": "Pafos",
       "Ninth_img": "image/Teams/Pafos.png",
+      "result9":"1",
       "Ninth_team": "//.html",
 
 
       "name_team_tenth": "Bayern",
+      "result10":"5",
       "tenth_img": "image/Teams/bundesliga/FC_Bayern_Munich.png"
     },
     { 
@@ -55,39 +59,40 @@
 
       "name_team_First": "Marseille",
       "First_img": "image/Teams/Ligue.1/Olympique_de_Marseille.png",
-      "result1":"",
+      "result1":"4",
       "First_team": "//.html",
       "another_activity_file": "AnotherActivity",
 
       "name_team_Second": "Ajax",
-      "result2":"",
+      "result2":"0",
       "Second_img": "image/Teams/AFC_Ajax.png",
 
       "name_team_third": "Inter",
-      "result3":"",
+      "result3":"3",
       "third_team": "//.html",
       "third_img": "image/Teams/serie.a/Inter.Milan.png",
 
       "name_team_fourth": "Slavia Praha",
-      "result4":"",
+      "result4":"0",
       "fourth_img": "image/Teams/Slavia_Praha.png",
 
       "name_team_Five": "Bodø/Glimt",
-      "result5":"0",
+      "result5":"2",
       "Five_img": "image/Teams/Bodø Glimt.png",
       "Five_team": "//.html",
 
-
       "name_team_sixth": "Tottenham",
-      "result6":"",
+      "result6":"2",
       "sixth_img": "image/Teams/Premier League/Tottenham_Hotspur.png",
 
       "name_team_seven": "Atalanta",
       "seven_img": "image/Teams/serie.a/Atalanta.png",
+      "result7":"2",
       "seven_team": "//.html",
 
 
       "name_team_eighth": "Club Brugge",
+      "result8":"1",
       "eighth_img": "image/Teams/Club_Brugge.png",
 
       "name_team_Ninth": "",
@@ -660,6 +665,7 @@
     
   ]
 }
+
 
 
 
