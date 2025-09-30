@@ -97,14 +97,14 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  color: var(--color-text-primary);
   background: var(--color-bg-secondary);
+  background: transparent;
   transition: 0.4s ease;
 }
 
 .site-nav .sidebar-toggle:hover,
 .sidebar-header .sidebar-toggle:hover {
-  background: var(--color-hover-secondary);
+  /* background: var(--color-hover-secondary); */
 }
 
 header .sidebar-toggleadd{
@@ -140,6 +140,20 @@ header .sidebar-toggleadd{
   transform: rotate(180deg);
 }
 
+
+.sidebar-header .sidebar-toggle ion-icon{
+  font-size: 100;
+  top: 1;
+  position: relative;
+  color: var(--menu_btn);
+
+}
+.sidebar-header .sidebar-toggle ion-icon:hover{
+  color: var(--color-text-primary);
+}
+.sidebar.collapsed .sidebar-toggle ion-icon{
+  transform: rotate(180deg);
+}
 .sidebar .sidebar-content {
   flex: 1;
   padding: 20 18;
@@ -217,7 +231,7 @@ header .sidebar-toggleadd{
   font-variation-settings:
     "wdth" 100;
 }
-ion-icon {
+.sidebar .sidebar-content ion-icon {
   color: var(--lighth1);
   font-size: 30;
   margin-top: 2;
@@ -266,6 +280,20 @@ ion-icon {
   color: var(--color-text-primary);
   background: var(--color-bg-secondary);
   transition: 0.3s ease;
+}
+
+.dark-theme .sunny{
+  display: none;
+
+}
+.light_mode .moon{
+  display: none;
+}
+
+.sidebar .sidebar-footer ion-icon{
+  font-size: 25;
+  top: -2;
+  position: relative;
 }
 
 .sidebar-footer .theme-toggle:hover {

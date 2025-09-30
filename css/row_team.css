@@ -229,7 +229,8 @@ footer .social-menu ul li:nth-child(5) a:hover{
 
 @media (max-width:600px){
     .row_team{
-        top: 44cm;
+        position: relative;
+        top: 50cm;
         /* margin-top  : 100%; */
         width: 100%;
     }
