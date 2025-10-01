@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Oct 1, 2025 22:00:00",
+    "name_team_First":"AS Monaco",
+    "First_img": "/image/Teams/Ligue.1/AS_Monaco.png",
+    "iframe_1": "",
+    "iframe_2": "",
+    "iframe3": "",
+    "name_team_Second": "Man City",
+    "Second_img": "/image/Teams/Premier League/Manchester_City.png",
+    "offers": {
+    "type": "معلومات عن مباراة ",
+    "Championship": "UEFA Champions League , Round 2 : البطولة  ",
+    "channel": "beIN SPORTS 3 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 10:00 بتوقيت مصر ",
+    "stadium": "  الملعب : ملعب لويس الثاني",
+    "Formation": "/image/Formation/.png"
+
+  }
+  }
+]
