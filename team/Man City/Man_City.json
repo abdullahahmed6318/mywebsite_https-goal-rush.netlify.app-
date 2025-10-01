@@ -5,9 +5,9 @@
     "countDownDate": "Oct 1, 2025 22:00:00",
     "name_team_First":"AS Monaco",
     "First_img": "/image/Teams/Ligue.1/AS_Monaco.png",
-    "iframe_1": "",
-    "iframe_2": "",
-    "iframe3": "",
+    "iframe_1": "https://a8467db88a3be1d54a735a2da3ee.sokii.shop/player.php?match=match3&key=c0ae1ada6eebd7e6cc5b88b1d2b71547",
+    "iframe_2": "https://pl.yallashooot.video/albaplayer/bein3/?serv=0",
+    "iframe3": "https://1player.kooraliveeee.space/albaplayer/bein3/?serv=0",
     "name_team_Second": "Man City",
     "Second_img": "/image/Teams/Premier League/Manchester_City.png",
     "offers": {
@@ -21,4 +21,5 @@
 
   }
   }
+
 ]
