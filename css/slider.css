@@ -4,7 +4,7 @@
 
 .btn_d{
     position: absolute;
-    top: 185px;
+    top: 265px;
     left: 510px;
     width: 23.5cm;
     height: 2cm;
@@ -170,7 +170,7 @@ button img{
     width: 24cm;
     margin-left: 500;
     height: auto;
-    top: 5cm;
+    top: 7.1cm;
     background: var( --container_t);
     /* background: #18ab29; */
     z-index: 0;
@@ -901,7 +901,7 @@ button img{
     flex-grow: 1; /* هذه الخاصية هي المفتاح. تجعله يأخذ كل المساحة المتبقية. */
     height: auto; 
     /* background: yellow; */
-    top: 1.9cm;
+    top: 3.9cm;
 }
 
 .home_slider .aqq .side_bar{

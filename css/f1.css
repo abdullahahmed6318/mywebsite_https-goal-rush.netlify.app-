@@ -1,0 +1,55 @@
+
+.Banner_adsterra{
+    display: flex;
+    /* background: yellow; */
+    width: 100%;
+    height: 90;
+    position: relative;
+    margin: 110 0 0 0;
+    /* display: flex; */
+    justify-content: space-around;
+}
+.D{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 100;
+    gap: 260px;
+}
+
+.M{
+    display: none;
+}
+
+.f121{
+    margin: 350 0 0 0;
+}
+
+@media (max-width:600px){
+    .Banner_adsterra{
+        width: 100%;
+        height: 90;
+        margin: 60 0 0 0;
+        /* background: yellow; */
+    }
+
+    .D{
+        display: inline-block;
+        justify-content: center;
+        margin: 0 0 0 0; 
+        display: none;
+        position: absolute;
+        gap: 0px;
+    
+    }
+
+    .M{
+        display: inline-block;
+        justify-content: center;
+        margin: 0 0 0 0; 
+        position: relative;
+        gap: 0px;
+
+    }
+  
+
+}
