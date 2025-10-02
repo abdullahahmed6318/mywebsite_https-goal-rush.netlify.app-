@@ -20,10 +20,6 @@
     display: none;
 }
 
-.f121{
-    margin: 350 0 0 0;
-}
-
 @media (max-width:600px){
     .Banner_adsterra{
         width: 100%;

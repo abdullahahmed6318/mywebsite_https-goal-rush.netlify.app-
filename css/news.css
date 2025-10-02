@@ -31,7 +31,12 @@
     height: 100%;
     /* background: rgba(133, 8, 8, 0.421); */
     margin: 0 100 0 0;
+    display: none;
 }
+.f121{
+    margin: 350 0 0 0;
+}
+
 
   /* pc 4k Hd */
 @media (min-width:3800px){
