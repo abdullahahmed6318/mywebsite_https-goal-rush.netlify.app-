@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="monetag" content="729f74e174f8d8cc0e4a650764ac28d6">
+  <meta name="5e36e55d2576e8109d55c0c97826e53f84350a7b" content="5e36e55d2576e8109d55c0c97826e53f84350a7b" />
+
   <title>goal-rush</title>
   <link rel="icon" href="/image/icon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -55,8 +57,7 @@
 </head>
 
 <body>
-  <!-- https://dddd.alkoora.live/albaplayer/on-time-sport-1/?serv=1 -->
-
+ 
 
   <header>
     <div class="container top-nav">
@@ -65,7 +66,8 @@
         <h1>Hope.for_tomorrow</h1>
       </a>  
       <button class="sidebar-toggleadd">
-        <span class="material-symbols-outlined">menu</span>
+        <!-- <span class="material-symbols-outlined">menu</span> -->
+        <ion-icon name="menu-outline"></ion-icon>
       </button>
 
 
@@ -106,6 +108,7 @@
       <ul>
         <p>social-media</p>
         <li><a href="https://facbook.com/abdalla1850" target="blank">
+          <!-- <ion-icon name="logo-facebook"></ion-icon> -->
             <i class="fa-brands fa-facebook-f"></i> </a></li>
         <li><a href="https://www.instagram.com/abdullahahmed6318/" target="blank">
             <i class="fab fa-instagram"></i></a></li>
@@ -190,6 +193,48 @@
     </div>
   </footer>
 
+  <div class="Banner_adsterra">
+    <div class="D"> 
+      <span>
+        <script type="text/javascript">
+        atOptions = {
+          'key' : '7e669ca88edac7d61fb4246eff7a5ff1',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/7e669ca88edac7d61fb4246eff7a5ff1/invoke.js"></script>
+    </span>
+      <span>
+        <script type="text/javascript">
+          atOptions = {
+            'key' : '7e669ca88edac7d61fb4246eff7a5ff1',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/7e669ca88edac7d61fb4246eff7a5ff1/invoke.js"></script>
+      </span>
+      
+    </div>
+    <div class="M">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '4beb220ae023012ae8705bc285da8063',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/4beb220ae023012ae8705bc285da8063/invoke.js"></script>
+    </div>
+    </div>
+
   <div class="ads">
     <script>
       // Popunder
@@ -252,10 +297,11 @@
 
   </div>
 
+ 
   <aside class="sidebar collapsed">
 
     <div class="sidebar-header">
-      <img src="image/icon.png" alt="CodingNepal" class="header-logo" />
+      <img src="/image/icon.png" alt="CodingNepal" class="header-logo" />
       
       <h1>Hope.for_tomorrow</h1>
 
@@ -340,108 +386,112 @@
     </div>
   </aside>
 
-  <script src="/team/Liverpool/Liverpool.js"></script>
+
+  <script src="/team/Atletico Madrid/Atletico_Madrid.js"></script>
   <script src="/js/Dark_Mode.js"></script>
   <script>
     const sidebarToggleBtns = document.querySelectorAll(".sidebar-toggle");
     const sidebarToggleBtnsadd = document.querySelectorAll(".sidebar-toggleadd");
-  
-  const sidebar = document.querySelector(".sidebar");
-  const searchForm = document.querySelector(".search-form");
-  const themeToggleBtn = document.querySelector(".theme-toggle");
-  const themeIcon = themeToggleBtn.querySelector(".theme-icon");
-  const menuLinks = document.querySelectorAll(".menu-link");
-  
-  // Updates the theme icon based on current theme and sidebar state
-  const updateThemeIcon = () => {
-    const isDark = document.body.classList.contains("dark-theme");
-    themeIcon.textContent = sidebar.classList.contains("collapsed") ? (isDark ? "light_mode" : "dark_mode") : "dark_mode";
-  };
-  
-  // Apply dark theme if saved or system prefers, then update icon
-  const savedTheme = localStorage.getItem("theme");
-  const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const shouldUseDarkTheme = savedTheme === "dark" || (!savedTheme && systemPrefersDark);
-  
-  document.body.classList.toggle("dark-theme", shouldUseDarkTheme);
-  updateThemeIcon();
-  
-  // Toggle between themes on theme button click
-  themeToggleBtn.addEventListener("click", () => {
-    const isDark = document.body.classList.toggle("dark-theme");
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-    updateThemeIcon();
-  });
-  
-  // Toggle sidebar collapsed state on buttons click
-  sidebarToggleBtns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      sidebar.classList.toggle("collapsed");
-      updateThemeIcon();
+
+    const sidebar = document.querySelector(".sidebar");
+    const searchForm = document.querySelector(".search-form");
+    const themeToggleBtn = document.querySelector(".theme-toggle");
+    const themeIcon = themeToggleBtn.querySelector(".theme-icon");
+    const menuLinks = document.querySelectorAll(".menu-link");
+
+    // Updates the theme icon based on current theme and sidebar state
+    // const updateThemeIcon = () => {
+    //   const isDark = document.body.classList.contains("dark-theme");
+    //   themeIcon.textContent = sidebar.classList.contains("collapsed") ? (isDark ? "light_mode" : "dark_mode") : "dark_mode";
+    // };
+
+    // Apply dark theme if saved or system prefers, then update icon
+    const savedTheme = localStorage.getItem("theme");
+    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const shouldUseDarkTheme = savedTheme === "dark" || (!savedTheme && systemPrefersDark);
+
+    document.body.classList.toggle("dark-theme", shouldUseDarkTheme);
+    // updateThemeIcon();
+
+    // Toggle between themes on theme button click
+    themeToggleBtn.addEventListener("click", () => {
+      const isDark = document.body.classList.toggle("dark-theme");
+      const isDarkl = document.body.classList.toggle("light_mode");
+      // localStorage.setItem("theme", isDark ? "dark" : "light");
+      // updateThemeIcon();
     });
-  });
-  // Toggle sidebar collapsed state on buttons click
-  sidebarToggleBtnsadd.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      sidebar.classList.remove('collapsed')
+
+    // Toggle sidebar collapsed state on buttons click
+    sidebarToggleBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        sidebar.classList.toggle("collapsed");
+        // updateThemeIcon();
+      });
     });
-  });
-  
-  // Expand the sidebar when the search form is clicked
-  searchForm.addEventListener("click", () => {
-    if (sidebar.classList.contains("collapsed")) {
-      sidebar.classList.add("collapsed");
-      searchForm.querySelector("input").focus();
-    }
-  });
-  
-  // Expand sidebar by default on large screens
-  if (window.innerWidth > 768) sidebar.classList.remove("collapsed");
-  
+    // Toggle sidebar collapsed state on buttons click
+    sidebarToggleBtnsadd.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        sidebar.classList.remove('collapsed')
+      });
+    });
+
+    // Expand the sidebar when the search form is clicked
+    searchForm.addEventListener("click", () => {
+      if (sidebar.classList.contains("collapsed")) {
+        sidebar.classList.add("collapsed");
+        searchForm.querySelector("input").focus();
+      }
+    });
+
+    // Expand sidebar by default on large screens
+    if (window.innerWidth > 768) sidebar.classList.remove("collapsed");
+
   </script>
+
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 <script>
-  //  In-page Push 
-(function(updg){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = updg || {};
-s.src = "\/\/fancyresponse.com\/bmXFVps\/d.GClD0dYfW\/ca\/ue\/me9_upZ\/UWlGkbPwT\/Yg2DNtjfQt3lN\/D-UItONFjBY\/2\/NaD\/cd0\/N\/gi";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
+    //  In-page Push 
+  (function(updg){
+  var d = document,
+      s = d.createElement('script'),
+      l = d.scripts[d.scripts.length - 1];
+  s.settings = updg || {};
+  s.src = "\/\/fancyresponse.com\/bmXFVps\/d.GClD0dYfW\/ca\/ue\/me9_upZ\/UWlGkbPwT\/Yg2DNtjfQt3lN\/D-UItONFjBY\/2\/NaD\/cd0\/N\/gi";
+  s.async = true;
+  s.referrerPolicy = 'no-referrer-when-downgrade';
+  l.parentNode.insertBefore(s, l);
+  })({})
 </script> 
-
+  
 <script>
-// videosider
-(function(pwzm){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = pwzm || {};
-s.src = "\/\/fancyresponse.com\/b\/X.VysxdnGulD0-Y\/WVcG\/ZeTmN9xurZ\/UglckVPzTuY\/2iNLjRQ-3SN_D\/kZtuN\/jwYO2hNeDAcm1YMhAm";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
+  // videosider
+  (function(pwzm){
+  var d = document,
+      s = d.createElement('script'),
+      l = d.scripts[d.scripts.length - 1];
+  s.settings = pwzm || {};
+  s.src = "\/\/fancyresponse.com\/b\/X.VysxdnGulD0-Y\/WVcG\/ZeTmN9xurZ\/UglckVPzTuY\/2iNLjRQ-3SN_D\/kZtuN\/jwYO2hNeDAcm1YMhAm";
+  s.async = true;
+  s.referrerPolicy = 'no-referrer-when-downgrade';
+  l.parentNode.insertBefore(s, l);
+  })({})
 </script>
 
 <!-- <script>
-(function(htnoeo){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = htnoeo || {};
-s.src = "\/\/strictease.com\/cRDy9.6\/b_2\/5\/ltS_WcQt9\/NBjEYe2RN\/DXcK1IOXS\/0f2DN\/jyYw0qNUzBYHw-";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
+  (function(htnoeo){
+  var d = document,
+      s = d.createElement('script'),
+      l = d.scripts[d.scripts.length - 1];
+  s.settings = htnoeo || {};
+  s.src = "\/\/strictease.com\/cRDy9.6\/b_2\/5\/ltS_WcQt9\/NBjEYe2RN\/DXcK1IOXS\/0f2DN\/jyYw0qNUzBYHw-";
+  s.async = true;
+  s.referrerPolicy = 'no-referrer-when-downgrade';
+  l.parentNode.insertBefore(s, l);
+  })({})
 </script> -->
+
 
 
 </body>

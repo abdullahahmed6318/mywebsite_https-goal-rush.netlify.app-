@@ -1,6 +1,6 @@
         
     
-fetch("/team/barcelona/barcelona.json")
+fetch("/team/PSG/PSG.json")
 .then(response => response.json())
 .then(data =>{
 
@@ -180,7 +180,7 @@ function close_cart() {
 // Function to fetch data from JSON and create multiple countdowns
 async function setupCountdowns() {
   try {
-    const response = await fetch('/team/barcelona/barcelona.json'); // تأكد من تغيير اسم الملف
+    const response = await fetch('/team/PSG/PSG.json'); // تأكد من تغيير اسم الملف
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

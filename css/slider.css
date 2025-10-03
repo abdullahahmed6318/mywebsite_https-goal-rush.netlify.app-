@@ -4,9 +4,9 @@
 
 .btn_d{
     position: absolute;
-    top: 265px;
-    left: 510px;
-    width: 23.5cm;
+    /* top: 265px; */
+    left: 400px;
+    width: 25.5cm;
     height: 2cm;
     /* background: rgba(255, 255, 0, 0.277); */
     z-index: 10;
@@ -162,38 +162,25 @@ button img{
 
 
 .home_slider .aqq{
-    /* display: flex;
-    justify-content: space-between;
-    gap: 20px; */
-    position: absolute;
+    /* background: #b00ae790; */
+    /* flex-grow: 2; */
+    background: var( --container_t); 
+    padding: 71px 0px 30px 0px; 
     border-radius: 35px;
-    width: 24cm;
-    margin-left: 500;
-    height: auto;
-    top: 7.1cm;
-    background: var( --container_t);
-    /* background: #18ab29; */
-    z-index: 0;
-    padding: 1px 0px 30px 0px;
+
+    margin: 0 30 0 30;
 }
 
 
 .home_slider .aqq .side_bar{
-    display: inline-flex;
+    /* border: dotted 5px var(--lightColor); */
     width: 100%;
-    height: 100%;
-    /* border: 5px solid  var(--Silver) ; */
-    background: rgba(146, 215, 77, 0);
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    /* margin-top: 200; */
-    margin-top: 50;
+    height: auto;
+    margin: 0 0 0 0;
 
 }
-.home_slider .aqq .side_bar_league{
+.home_slider .aqq .side_bar .side_bar_league{
     display: flex;
-    position: absolute;
     width: 100%;
     height: 35px;
     background: var( --container_t);
@@ -201,16 +188,15 @@ button img{
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    /* margin-top: 40; */
-    margin-top: 20;
     z-index: 1;
+    /* margin: -10.5cm 0 0 0; */
 }
 .home_slider .aqq .side_bar_league .products h1{
     display: inline-flex;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
-    top: -15px;
+    top: -17px;
     flex-direction: row-reverse;
     font-size: 22px;
     font-weight: 300;
@@ -220,15 +206,8 @@ button img{
 
 .home_slider .aqq .aaa , .aaa_tomorrow{
     display: inline-block;
-    /* position: relative; */
-    /* width: 100%;
-    height: 600; */
     width: 100%;
-    height: 100;
-    /* top: -10px; */
-    /* margin-top: 100px; */
-    margin-top: 50px;
-    /* background: #00569c; */
+    height: 300;
     z-index: -10;
 }
 
@@ -240,11 +219,11 @@ button img{
     margin-top: 10px;
     background: var( --lightboby);
     cursor: pointer;
+    text-align: center;
     overflow: hidden;
     z-index: 100;
     isolation: isolate;
-    position: relative;    
-    /* opacity: 0.4;  */
+    position: relative;
 }
 /* .home_slider .aqq .aaa a:hover::after{
     content: '';
@@ -782,6 +761,7 @@ button img{
     z-index: 20;
     display: inline-flex;
     justify-content: center;
+    display: none;
 
 }
 .todaytomorrow{
@@ -891,24 +871,26 @@ button img{
     top: 122;
 }
 
-
 .home_slider .aqq {
+    position: relative;
+    top: -0;
     margin-left: 11;
     width: 95%;
     background: var(--container_t);
     /* display: flex; 
     flex-direction: column; */
-    flex-grow: 1; /* هذه الخاصية هي المفتاح. تجعله يأخذ كل المساحة المتبقية. */
+    /* هذه الخاصية هي المفتاح. تجعله يأخذ كل المساحة المتبقية. */
+    /* flex-grow: 1; */
     height: auto; 
     /* background: yellow; */
-    top: 3.9cm;
+    padding: 10 0 30 0;
 }
 
 .home_slider .aqq .side_bar{
     display: inline-flex;
     width: 100%;
     height: 100%;
-    /* border: 5px solid  var(--Silver) ; */
+    /* border: 3px solid  var(--Silver) ; */
     /* background: rgba(100, 132, 67, 0.444); */
     margin-top: 20;
 

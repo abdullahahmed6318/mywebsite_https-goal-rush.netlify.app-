@@ -12,8 +12,24 @@
     border-radius: 10px;
     display: grid;
     justify-content: space-around;
+    z-index: 1;
 }
-.ads .f11{
+.ads_ms{
+    position: absolute;
+    width: 10cm;
+    height: 20cm;
+    border: solid var( --lightColor);
+    left: 111;
+    top: 5cm;
+    overflow: hidden;
+    background: var( --container_t);
+    border-radius: 10px;
+    display: grid;
+    justify-content: space-around;
+    z-index: 1;
+
+}
+.ads .f11 , .ads_ms .f11{
     display: flex;
     position: absolute;
     justify-content: space-evenly;
@@ -24,23 +40,78 @@
     overflow: hidden;
     gap: 0px;
 }
-.ads .f11 .Banner1 , .Banner2{
+.ads .f11 .Banner1 , .Banner2 , .ads_ms .f11 .Banner1 , .Banner2{
     position: relative;
     width: 30%;
     height: 100%;
     /* background: rgba(133, 8, 8, 0.421); */
     margin: 0 100 0 0;
 }
-.ads .f121{
+.ads .f121 , .ads_ms .f121{
     margin: 350 0 0 0;
 }
+.Banner_adsterra{
+    /* background: yellow; */
+    width: 100%;
+    height: 90;
+    position: relative;
+    margin: 110 0 0 0;
+    display: flex;
+    top: -3.8cm;
+    justify-content: space-around;
+}
+.Banner_adsterra_ms{
+    /* background: yellow; */
+    width: 50%;
+    height: 90;
+    position: relative;
+    margin-top: 5.5cm; margin-bottom: 0;margin-left: 15cm;margin-right: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
 
+}
+.D{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 100;
+    gap: 260px;
+    position: relative;
+
+}
+
+.M{
+    display: none;
+}
 
 @media (max-width:600px){
     .ads{
         display: none;
     }
+    .Banner_adsterra{
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        /* background: rgba(255, 255, 0, 0.382); */
+        border: 0.1px solid;
+        top: -39.8cm;
+        position: relative;
 
+    }
+
+    .D{
+        display: none;
+    }
+
+    .M{
+        justify-content: center;
+        margin: 0 0 0 0; 
+        position: relative;
+        gap: 0px;
+        display: inline-block;
+
+    }
+  
  
 
 }

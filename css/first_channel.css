@@ -587,6 +587,9 @@ section:after {
 .v1 h1{
     font-size: 40;
     margin: 20 11 11 200;
+    width: 100%;
+    height: 0;
+
 }
 .v2{
     /* background: linear-gradient(0deg, #e93e3e, #d2d2d2); */
@@ -597,14 +600,19 @@ section:after {
 .v2 h1{
     font-size: 40;
     margin: 20 11 11 14cm;
+    width: 100%;
+    height: 0;
+
 }
 .v3{
     /* background: linear-gradient(0deg, #0b60e1, #d2d2d2); */
     display: none;
 }
 .v3 h1{
+    width: 100%;
+    height: 0;
     font-size: 40;
-    margin: 20 11 11 23cm;
+    margin: 20 11 11 22cm;
 }
 .vad{
     opacity: 1;
@@ -668,7 +676,8 @@ section .Before_the_start .h12{
         position: absolute;
         left: 11px;
         z-index: 10;
-        top: 60px;
+        top: 150px;
+        /* flex-grow: 2; */
     }
 
     /* time */
@@ -814,7 +823,6 @@ section .Before_the_start .h12{
     font-size: 15;
     font-weight: 300;
     z-index: 10;
-
 }
 #timer-container-1 #timer-1 span {
     width: 35;
@@ -866,7 +874,7 @@ section .Before_the_start .h12{
     position: relative;
     top: 14cm;
     width: 100%;
-    height: 390;
+    height: 290;
     background: #00ff0000;
 
 }
@@ -939,16 +947,22 @@ section{
 
 }
 .v1 h1{
+    width: 100%;
+    height: 100;
     font-size: 20;
-    margin: 20 11 11 1cm;
+    margin: 20 11 11 -3.3cm;
 }
 .v2 h1{
+    width: 100%;
+    height: 0;
     font-size: 20;
-    margin: 20 11 11 4.5cm;
+    margin: 20 11 11 0.2cm;
 }
 .v3 h1{
+    width: 200%;
+    height: 0;
     font-size: 20;
-    margin: 20 11 11 7.5cm;
+    margin: 20 11 11 7.3cm;
 
 }
 section iframe {

@@ -1,41 +1,38 @@
-        
-    
-fetch("/Match summary/Match_summary.json")
-.then(response => response.json())
-.then(data =>{
+document.addEventListener("DOMContentLoaded", () => {
+    // الحصول على الـ ID من سمة data-video-id في <body>
+    const videoId = document.body.getAttribute('data-video-id');
 
-    const information_team = document.getElementById("information")
-    const section = document.getElementById("section")
-    const the_Formation = document.getElementById("the_Formation")
+    if (!videoId) {
+        console.error("No video ID found on the body element.");
+        return;
+    }
 
-    all_products_json = data
+    fetch("/Match summary/Match_summary.json")
+        .then(response => response.json())
+        .then(data => {
+            const videoContainer = document.getElementById("video-container");
 
-    data.videos.forEach(product => {
-    
-      const displayStyle = (product.iframe === '') ? 'display: none;' : '';
+            // البحث عن الفيديو المطابق للـ ID المطلوب فقط
+            const targetVideo = data.videos.find(video => video.id == videoId);
 
-      section.innerHTML += `
-    
-       <iframe allowfullscreen="true" frameborder="0" height="100%" scrolling="1" 
-          src="${product.iframe}" 
-          width="100%">style="${displayStyle}
-       </iframe>
-          
-         
-          `
-          
-    })
-})
-
-
-
-
-var cart = document.querySelector('.main-menu');
-function open_cart() {
-    cart.classList.add('active')
-}
-
-function close_cart() {
-    cart.classList.remove('active')
-}
-
+            if (targetVideo && targetVideo.iframe) {
+                // عرض الفيديو المطلوب فقط
+                videoContainer.innerHTML = `
+                    <iframe 
+                          
+                            src="${targetVideo.iframe}"
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                    </iframe>
+                `;
+            } else {
+                videoContainer.innerHTML = "<p>Video not found.</p>";
+            }
+        })
+        .catch(error => {
+            console.error('There was a problem fetching the data:', error);
+            document.getElementById("video-container").innerHTML = "<p>Failed to load video.</p>";
+        });
+});

@@ -88,7 +88,7 @@ html {
   }
    */
 
-  body.dark-theme {
+body.dark-theme {
     /* Dark theme colors */
     --menu_btn: #695CFE;
 
@@ -119,3 +119,30 @@ html {
 
   }
 
+.ca{
+  position: relative;
+  left: 90;
+  display: flex;
+  justify-content: space-between;
+  /* background: rgba(255, 0, 0, 0.417); */
+  width: 95%;
+  height: auto;
+  margin: -100 0 0 0;
+}
+
+.ca .ds{
+  /* width: 50%;
+  height: 1100; */
+  /* background: #4eeeb144; */
+}
+@media (max-width:600px){
+  .ca{
+    position: relative;
+    left: 90;
+    /* background: rgba(255, 0, 0, 0.417); */
+    width: 100%;
+    height: auto;
+    margin: -200 0 0 -90;
+  }
+
+}

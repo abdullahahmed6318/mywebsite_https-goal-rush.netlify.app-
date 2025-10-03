@@ -5,7 +5,7 @@
     width: 100%;
     height: 90;
     position: relative;
-    margin: 110 0 0 0;
+    margin: 6.7cm 0 0 0;
     /* display: flex; */
     justify-content: space-around;
 }
@@ -23,9 +23,8 @@
 @media (max-width:600px){
     .Banner_adsterra{
         width: 100%;
-        height: 90;
-        margin: 60 0 0 0;
-        /* background: yellow; */
+        height: auto;
+        top: -6.5cm;
     }
 
     .D{
