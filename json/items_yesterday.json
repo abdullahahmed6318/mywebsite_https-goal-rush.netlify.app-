@@ -60,7 +60,7 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇺🇸⚽️ USA/MlS",
 
-      "name_team_First": "Inter Miami",
+      "name_team_First": "",
       "result1":"",
       "First_img": "image/Teams/USA/MlS/Inter_Miami_CF.png",
       "First_team": "",
@@ -621,6 +621,7 @@
     
   ]
 }
+
 
 
 
