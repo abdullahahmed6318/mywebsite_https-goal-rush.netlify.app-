@@ -39,12 +39,12 @@
       "name_team_eighth": "",
       "eighth_img": "image/Teams/Premier League/Manchester_City.png",
 
-      "name_team_Ninth": "",
+      "name_team_Ninth": "h",
       "Ninth_img": "image/Teams/Laliga/Villarreal.png",
       "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "",
+      "name_team_tenth": "a",
       "tenth_img": "image/Teams/serie.a/juventus.png"
     },
 
@@ -637,6 +637,7 @@
     
   ]
 }
+
 
 
 
