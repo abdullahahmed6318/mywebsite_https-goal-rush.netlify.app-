@@ -91,12 +91,12 @@
       "name_team_eighth": "",
       "eighth_img": "image/.png",
 
-      "name_team_Ninth": "",
+      "name_team_Ninth": "d",
       "Ninth_img": "image/.png",
       "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "",
+      "name_team_tenth": "a",
       "tenth_img": "image/.png"
     },   
     {
@@ -637,6 +637,7 @@
     
   ]
 }
+
 
 
 
