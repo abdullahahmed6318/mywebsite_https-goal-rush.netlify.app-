@@ -33,14 +33,14 @@
       "result6":"",
       "sixth_img": "image/country/s/Burkina_Faso.png",
 
-      "name_team_seven": "e",
+      "name_team_seven": "",
       "seven_img": "image/country/s/.png",
       "seven_team": "//.html",
 
       "name_team_eighth": "",
       "eighth_img": "image/country/s/.png",
 
-      "name_team_Ninth": "a",
+      "name_team_Ninth": "",
       "Ninth_img": "image/country/s/.png",
       "Ninth_team": "//.html",
 
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
