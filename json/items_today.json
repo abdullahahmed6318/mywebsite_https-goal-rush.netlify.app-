@@ -15,7 +15,7 @@
       "result2":"",
       "Second_img": "image/country/s/Egypt.png",
 
-      "name_team_third": "",
+      "name_team_third": "Ethiopia",
       "result3":"",
       "third_team": "//.html",
       "third_img": "image/country/s/Ethiopia.png",
@@ -33,14 +33,14 @@
       "result6":"",
       "sixth_img": "image/country/s/Burkina_Faso.png",
 
-      "name_team_seven": "",
+      "name_team_seven": "e",
       "seven_img": "image/country/s/.png",
       "seven_team": "//.html",
 
       "name_team_eighth": "",
       "eighth_img": "image/country/s/.png",
 
-      "name_team_Ninth": "",
+      "name_team_Ninth": "a",
       "Ninth_img": "image/country/s/.png",
       "Ninth_team": "//.html",
 
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
