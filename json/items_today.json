@@ -9,7 +9,7 @@
       "First_img": "image/country/s/Djibouti.png",
       "result1":"",
       "First_team": "/country/Egypt/Egypt.html",
-      "another_activity_file": "AnotherActivity",
+      "another_activity_file": "/team/teamActivity",
 
       "name_team_Second": "Egypt",
       "result2":"",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
