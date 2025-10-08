@@ -15,7 +15,7 @@
       "result2":"",
       "Second_img": "image/country/s/Egypt.png",
 
-      "name_team_third": "Ethiopia",
+      "name_team_third": "",
       "result3":"",
       "third_team": "//.html",
       "third_img": "image/country/s/Ethiopia.png",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
