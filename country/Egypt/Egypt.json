@@ -1,27 +1,41 @@
 [
   {
-    "id": 1,
-    "side_bar_league": "",
-    "countDownDate": "Oct 8, 2025 19:00:00",
-    "name_team_First":"Djibouti",
-    "First_img": "/image/country/s/Djibouti.png",
-    "iframe_1": "https://s3.stream1000.online/albaplayer/bein-2/?serv=0",
-    "iframe_2": "",
-    "iframe3": "",
-    "name_team_Second": "Egypt",
-    "Second_img": "/image/country/s/Egypt.png",
-    "offers": {
-    "type": "معلومات",
-    "Championship": "World Cup Qualification, CAF , Group A  : البطولة  ",
-    "channel": "ssc 1 : القناة",
-    "commentator": " : المعلق",
-    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:00 بتوقيت مصر ",
-    "stadium": " StadeLarbi Zaouli:  الملعب ",
-    "Formation": "",
-    "referee":" الحكم : "
+{
+  "videos": [
 
-  }
+    { 
+      "id": 1,
+      "side_bar_league": "",
+      "countDownDate": "Oct 8, 2025 19:00:00",
+      "name_team_First":"Djibouti",
+      "First_img": "/image/country/s/Djibouti.png",
+      "iframe_1": "https://s3.stream1000.online/albaplayer/bein-2/?serv=0",
+      "iframe_2": "",
+      "iframe3": "",
+      "name_team_Second": "Egypt",
+      "Second_img": "/image/country/s/Egypt.png",
+      "offers": {
+      "type": "معلومات",
+      "Championship": "World Cup Qualification, CAF , Group A  : البطولة  ",
+      "channel": "ssc 1 : القناة",
+      "commentator": " : المعلق",
+      "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:00 بتوقيت مصر ",
+      "stadium": " StadeLarbi Zaouli:  الملعب ",
+      "Formation": "",
+      "referee":" الحكم : "
+  
+    }
+    }
+  
+  ]
+}
+
+
+
+
+
   }
 
 ]
+
 
