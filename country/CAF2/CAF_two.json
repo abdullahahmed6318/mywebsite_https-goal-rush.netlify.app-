@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Oct 8, 2025 16:00:00",
+    "name_team_First":"Mauritius",
+    "First_img": "/image/country/s/Mauritius.png",
+    "iframe_1": "",
+    "iframe_2": "",
+    "iframe3": "",
+    "name_team_Second": "Cameroon",
+    "Second_img": "/image/country/s/Cameroon.png",
+    "offers": {
+    "type": "معلومات",
+    "Championship": "World Cup Qualification, CAF , Group D  : البطولة  ",
+    "channel": "ssc 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 3:00 بتوقيت مصر ",
+    "stadium": " Cote d OR National Sports Complex  :  الملعب ",
+    "Formation": "",
+    "referee":" الحكم : "
+
+  }
+  }
+]

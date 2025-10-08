@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Oct 8, 2025 20:15:00",
+    "name_team_First":"lndonesia",
+    "First_img": "/image/country/s/lndonesia.png",
+    "iframe_1": "",
+    "iframe_2": "",
+    "iframe3": "",
+    "name_team_Second": "Saudi Arabia",
+    "Second_img": "/image/country/s/Saudi_Arabia.png",
+    "offers": {
+    "type": "معلومات",
+    "Championship": "World Cup Qualification, AFC , Group 4  : البطولة  ",
+    "channel": "ssc 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 8:15 بتوقيت مصر ",
+    "stadium": " Alinma stadium  :  الملعب ",
+    "Formation": "",
+    "referee":" الحكم : "
+
+  }
+  }
+]

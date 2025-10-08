@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Oct 8, 2025 16:00:00",
+    "name_team_First":"Libya",
+    "First_img": "/image/country/s/Libya.png",
+    "iframe_1": "",
+    "iframe_2": "",
+    "iframe3": "",
+    "name_team_Second": "Cape Verde",
+    "Second_img": "/image/country/s/Cape_Verde.png",
+    "offers": {
+    "type": "معلومات",
+    "Championship": "World Cup Qualification, CAF , Group D  : البطولة  ",
+    "channel": "ssc 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 3:00 بتوقيت مصر ",
+    "stadium": " 11 June Stadium:  الملعب ",
+    "Formation": "",
+    "referee":" الحكم : "
+
+  }
+  }
+]

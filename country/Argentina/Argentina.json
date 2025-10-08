@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Sep 10, 2026 2:00:00",
+    "name_team_First":"Argentina",
+    "First_img": "/image/country/pngwing.com(2).png",
+    "iframe1": "https://pl.buzkora.site/albaplayer/ssc-1/?serv=0",
+    "name_team_Second": "Ecuador",
+    "Second_img": "/image/Ecuador.png",
+    "offers": {
+    "type": "معلومات",
+    "Championship": " : البطولة  ",
+    "channel": "ssc 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: ",
+    "stadium": "  الملعب : ",
+    "Formation": "",
+    "referee":" الحكم : "
+
+  }
+  }
+]

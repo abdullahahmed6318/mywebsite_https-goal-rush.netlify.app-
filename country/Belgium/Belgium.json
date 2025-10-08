@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "sep 4, 2025 22:45:00",
+    "name_team_First":"Belgium",
+    "First_img": "/image/country/Belgium.png",
+    "iframe": "https://pl.buzkora.online/albaplayer/bein5/?serv=0",
+    "name_team_Second": "Liechtenstein",
+    "Second_img": "/image/Liechtenstein.png ",
+    "offers": {
+    "type": "معلومات",
+    "Championship": "World Cup Qual. UEFA J, Round 5 : البطولة  ",
+    "channel": "beIN SPORTS 5 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:45 بتوقيت مصر ",
+    "stadium": "  الملعب :  ",
+    "referee":" الحكم : ",
+    "Formation": ""
+
+  }
+  }
+]
