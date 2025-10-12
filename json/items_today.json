@@ -6,14 +6,14 @@
       "side_bar_league": "🏆⚽️ World Cup Qualification, CAF , Group A ",
 
       "name_team_First": "Djibouti",
-      "First_img": "image/country/s/Djibouti.png",
+      "First_img": "https://goal-rush.netlify.app/image/country/s/Djibouti.png",
       "result1":"",
       "First_team": "/country/Egypt/Egypt.html",
       "another_activity_file": "com.example.app_goalrush.team.teamActivity",
 
       "name_team_Second": "Egypt",
       "result2":"",
-      "Second_img": "image/country/s/Egypt.png",
+      "Second_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
 
       "name_team_third": "Ethiopia",
       "result3":"",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
