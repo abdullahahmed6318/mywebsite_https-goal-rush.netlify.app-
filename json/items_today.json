@@ -18,20 +18,20 @@
       "name_team_third": "Ethiopia",
       "result3":"",
       "third_team": "//.html",
-      "third_img": "image/country/s/Ethiopia.png",
+      "third_img": "https://goal-rush.netlify.app/image/country/s/Ethiopia.png",
 
       "name_team_fourth": "Guinea-Bissau",
       "result4":"",
-      "fourth_img": "image/country/s/.png",
+      "fourth_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
 
       "name_team_Five": "Sierra Leone",
       "result5":"0",
-      "Five_img": "image/country/s/.png",
+      "Five_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
       "Five_team": "//.html",
 
       "name_team_sixth": "Burkina Faso",
       "result6":"",
-      "sixth_img": "image/country/s/Burkina_Faso.png",
+      "sixth_img": "https://goal-rush.netlify.app/image/country/s/Burkina_Faso.png",
 
       "name_team_seven": "",
       "seven_img": "image/country/s/.png",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
