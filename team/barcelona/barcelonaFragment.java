@@ -87,7 +87,7 @@ public class barcelonaFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         // Start the network operation once the view is created
-        String jsonUrl = "https://goal-rush.netlify.app/country/Egypt/Egypt.json";
+        String jsonUrl = "https://goal-rush.netlify.app/country/Egypt/.json";
         fetchJsonFromUrl(jsonUrl);
     }
     private void fetchJsonFromUrl(String urlString) {
