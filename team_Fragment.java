@@ -68,6 +68,10 @@ public class team_Fragment extends Fragment {
 
     }
 
+    public team_Fragment() {
+    // مطلوب للـ Fragments
+   }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
