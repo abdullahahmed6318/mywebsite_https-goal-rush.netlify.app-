@@ -250,7 +250,7 @@
       "First_img": "image/Teams/Egyptlian Premier League/zamalek.png",
       "result1": "",
       "First_team": "//.html",
-      "another_activity_file": "com.example.app_goalrush.team.zamalekFragment",
+      "another_activity_file": "",
 
       "name_team_Second": "zamalek",
       "result2": "",
@@ -779,6 +779,7 @@
     
   ]
 }
+
 
 
 
