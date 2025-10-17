@@ -202,7 +202,7 @@
       "result1":"",
       "First_img": "image/Teams/USAMlS/Inter_Miami_CF.png",
       "First_team": "",
-      "another_activity_file": "/team/Inter Miami/com.example.app_goalrush.team.Inter_MiamiFragment",
+      "another_activity_file": "team/barcelona/com.example.app_goalrush.team.Inter_MiamiFragment",
 
       "name_team_Second": "",
       "result2":"",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
