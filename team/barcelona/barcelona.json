@@ -5,20 +5,20 @@
       "id": 1,
       "side_bar_league": "",
       "countDownDate": "Oct 15, 2025 19:00:00",
-      "name_team_First":"Djibouti",
-      "First_img": "https://goal-rush.netlify.app/image/country/s/Djibouti.png",
+      "name_team_First":"Barcelona",
+      "First_img": "https://goal-rush.netlify.app/image/Teams/Laliga/FC_Barcelona.png",
       "iframe_1": "https://pl.yallashooot.video/albaplayer/ssc-1/?serv=0",
       "iframe_2": "https://www.youtube.com/embed/ehMi2N0sz9c?si=gnnf3ZDDEWOnOgeU",
       "iframe3": "https://www.youtube.com/embed/Nrulj7KWeJQ?si=Zt-t_fQx0u7hPEl6",
-      "name_team_Second": "Egypt",
-      "Second_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
+      "name_team_Second": "PSG",
+      "Second_img": "https://goal-rush.netlify.app/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
       "offers": {
-      "type": "معلومات",
-      "Championship": "World Cup Qualification, CAF , Group A  : البطولة",
-      "channel": "ssc 1 : القناة",
+      "type": "معلومات عن مباراة برشلونة ضد باريس سان جيرمان",
+      "Championship": "UEFA Champions League , Round 2 : البطولة",
+      "channel": "beIN SPORTS 1 : القناة",
       "commentator": "المعلق: محمد",
       "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:00 بتوقيت مصر ",
-      "stadium": " StadeLarbi Zaouli:  الملعب ",
+      "stadium": " الملعب : أوليمبيك لويس كومبانيس ",
       "Formation": "https://goal-rush.netlify.app/image/Formation/Screenshot.png",
       "referee":" الحكم : "
   
@@ -28,6 +28,7 @@
   
   ]
 }
+
 
 
 
