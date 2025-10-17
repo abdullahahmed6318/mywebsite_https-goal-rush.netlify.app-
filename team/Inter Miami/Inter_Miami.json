@@ -1,24 +1,52 @@
-[
-  {
-    "id": 1,
-    "side_bar_league": "",
-    "countDownDate": "Sep 22, 2026 22:30:00",
-    "name_team_First":"fc Barcelona",
-    "First_img": "/image/FC_Barcelona.png",
-    "iframe_1": "https://pl.buzkora.site/albaplayer/on-time-sport-1/?serv=0",
-    "iframe_2": "https://www.youtube.com/embed/EauTAhF3BXc?si=0mzFvWOnftXuUnRD",
-    "iframe3": "https://www.youtube.com/embed/82DP_gv2Weg?si=q6iifGzT8fBCny0R",
-    "name_team_Second": "Rayo Vallecano",
-    "Second_img": "/image/Rayo_Vallecano.png",
-    "offers": {
-    "type": "معلومات عن مباراة رايو فاليكانو و برشلونة",
-    "Championship": "Football, Spain, LaLiga, Round 3 : البطولة  ",
-    "channel": "beIN SPORTS 1 : القناة",
-    "commentator": " : المعلق",
-    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 22:30 بتوقيت مصر ",
-    "stadium": "  الملعب : سيوداد دي فالنسيا",
-    "Formation": "/image/Formation/Screenshot 2025-09-22 at 18-08-17 Barcelona vs Getafe live score H2H and lineups Sofascore.pn"
+{
+  "videos": [
 
-  }
-  }
-]
+    { 
+      "id": 1,
+      "side_bar_league": "",
+      "countDownDate": "Oct 15, 2025 19:00:00",
+      "name_team_First":"Inter Miami",
+      "First_img": "https://goal-rush.netlify.app/image/Teams/USAMlS/Inter_Miami_CF.png",
+      "iframe_1": "https://pl.yallashooot.video/albaplayer/ssc-1/?serv=0",
+      "iframe_2": "https://www.youtube.com/embed/ehMi2N0sz9c?si=gnnf3ZDDEWOnOgeU",
+      "iframe3": "https://www.youtube.com/embed/Nrulj7KWeJQ?si=Zt-t_fQx0u7hPEl6",
+      "name_team_Second": "Inter Miami",
+      "Second_img": "https://goal-rush.netlify.app/image/Teams/USAMlS/Inter_Miami_CF.png",
+      "offers": {
+      "type": "معلومات عن مباراة برشلونة ضد باريس سان جيرمان",
+      "Championship": "UEFA Champions League , Round 2 : البطولة",
+      "channel": "beIN SPORTS 1 : القناة",
+      "commentator": "المعلق: محمد",
+      "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:00 بتوقيت مصر ",
+      "stadium": " الملعب : أوليمبيك لويس كومبانيس ",
+      "Formation": "https://goal-rush.netlify.app/image/Formation/Screenshot.png",
+      "referee":" الحكم : "
+  
+    }
+    
+    }
+  
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
