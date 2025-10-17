@@ -151,7 +151,7 @@
       "First_img": "image/Teams/Laliga/FC_Barcelona.png",
       "result1":"",
       "First_team": "/team//.html",
-      "another_activity_file": "/team/barcelona/com.example.app_goalrush.team.barcelonaFragment",
+      "another_activity_file": "com.example.app_goalrush.team.barcelonaFragment",
 
       "name_team_Second": "PSG",
       "result2":"",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
