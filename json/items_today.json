@@ -9,7 +9,7 @@
       "First_img": "https://goal-rush.netlify.app/image/country/s/Djibouti.png",
       "result1":"",
       "First_team": "/country/Egypt/Egypt.html",
-      "another_activity_file": "com.example.app_goalrush.team", 
+      "another_activity_file": "/team/barcelona/com.example.app_goalrush.team", 
       
       "name_team_Second": "",
       "result2":"",
@@ -780,6 +780,7 @@
     
   ]
 }
+
 
 
 
