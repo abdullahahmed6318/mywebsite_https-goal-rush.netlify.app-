@@ -11,7 +11,7 @@ fetch("/team/barcelona/barcelona.json")
     all_products_json = data
 
 
-    data.forEach(product => {
+    data.videos.forEach(product => {
 
            
         time_team.innerHTML += `
@@ -40,10 +40,7 @@ fetch("/team/barcelona/barcelona.json")
 
     })
 
-    // <img class="img_time" src="/image/Image_fx(35).jpg" alt="">
-    
-   
-    data.forEach(product => {
+    data.videos.forEach(product => {
 
            
       information_team.innerHTML += `
@@ -65,7 +62,7 @@ fetch("/team/barcelona/barcelona.json")
       `
 
     })
-    data.forEach(product => {
+    data.videos.forEach(product => {
 
            
       the_Formation.innerHTML += `
@@ -81,14 +78,7 @@ fetch("/team/barcelona/barcelona.json")
 
     })
 
-
-
-
-
-
-
-
-    data.forEach(product => {
+    data.videos.forEach(product => {
     
       const Before_the_start = (product.iframe !== '') ? 'display: none;' : '';
       const btn_f = (product.iframe === '') ? 'display: none;' : '';
@@ -190,7 +180,7 @@ async function setupCountdowns() {
     const timeTeamContainer = document.getElementById('time_team');
 
     // Iterate through each match in the JSON array
-    matches.forEach(match => {
+    matches.videos.forEach(match => {
       // Check if the match object has a countDownDate
       if (match.countDownDate) {
         // Create a unique container for each countdown

@@ -16,6 +16,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.os.CountDownTimer;
 import android.util.Log;
@@ -32,6 +33,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.app_goalrush.R;
 
@@ -62,6 +64,8 @@ public class barcelonaFragment extends Fragment {
     private ImageView teamImageViewSecond;
     private LinearLayout mainLayout;
 
+    private SwipeRefreshLayout swipeRefreshLayout;
+
     public barcelonaFragment() {
         // مطلوب للـ Fragments
     }
@@ -75,10 +79,16 @@ public class barcelonaFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_team, container, false);
         mainLayout = view.findViewById(R.id.main_todoy_layout);
         return view;
+
+
+
 
     }
 
@@ -87,9 +97,35 @@ public class barcelonaFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         // Start the network operation once the view is created
-        String jsonUrl = "https://goal-rush.netlify.app/country/Egypt/.json";
+        String jsonUrl = "https://goal-rush.netlify.app/team/barcelona/barcelona.json";
         fetchJsonFromUrl(jsonUrl);
+        swipeRefreshLayout = view.findViewById(R.id.swipe_refresh_layout);
+        // 2. تعيين المستمع (Listener) لعملية السحب والتحديث
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                // استدعاء الدالة التي تنفذ عملية جلب/تحديث البيانات
+                refreshContent();
+            }
+        });
+
     }
+
+    private void refreshContent() {
+
+        if (mainLayout != null) {
+            mainLayout.removeAllViews();
+            // **اختياري:** يمكنك إضافة مؤشر "جاري التحميل..." مؤقت هنا
+        }
+
+        // 2. بدء عملية جلب البيانات الجديدة
+        String jsonUrl = "https://goal-rush.netlify.app/team/barcelona/barcelona.json";
+        fetchJsonFromUrl(jsonUrl);
+
+    }
+
+
+
     private void fetchJsonFromUrl(String urlString) {
         new Thread(() -> {
             HttpURLConnection urlConnection = null;
@@ -117,6 +153,12 @@ public class barcelonaFragment extends Fragment {
                 String finalJsonString = jsonString;
                 requireActivity().runOnUiThread(() -> {
                     parseAndDisplayJson(finalJsonString);
+
+                    // **الخطوة الأهم: إيقاف التحميل عند النجاح**
+                    if (swipeRefreshLayout != null && swipeRefreshLayout.isRefreshing()) {
+                        swipeRefreshLayout.setRefreshing(false);
+                        Toast.makeText(getContext(), "تم تحديث بيانات المباريات بنجاح!", Toast.LENGTH_SHORT).show();
+                    }
                 });
 
             } catch (IOException e) {
@@ -134,6 +176,12 @@ public class barcelonaFragment extends Fragment {
                         mainLayout.removeAllViews(); // Clear "Loading..." text
                         mainLayout.addView(errorTextView);
                     }
+                    // **إيقاف التحميل عند الخطأ أيضاً**
+                    if (swipeRefreshLayout != null && swipeRefreshLayout.isRefreshing()) {
+                        swipeRefreshLayout.setRefreshing(false);
+                        Toast.makeText(getContext(), "فشل التحديث. خطأ في الشبكة.", Toast.LENGTH_LONG).show();
+                    }
+
                 });
             } finally {
                 if (urlConnection != null) {
@@ -184,6 +232,8 @@ public class barcelonaFragment extends Fragment {
                         String team2Img = videoObject.getString("Second_img");
                         String countDownDate = videoObject.getString("countDownDate");
                         String iframe = videoObject.getString("iframe_1");
+                        String iframe2 = videoObject.getString("iframe_2");
+                        String iframe3 = videoObject.getString("iframe3");
 
                         // ملاحظة: ستحتاج إلى تحديث دالة createMatchLayout لتقبل هذه المتغيرات الجديدة
                         View matchLayout = createMatchLayout(
@@ -201,7 +251,9 @@ public class barcelonaFragment extends Fragment {
                                 team2Img,
                                 countDownDate,
                                 Formation,
-                                iframe
+                                iframe,
+                                iframe2,
+                                iframe3
                         );
 
                         if (mainLayout != null) {
@@ -229,7 +281,7 @@ public class barcelonaFragment extends Fragment {
     private ConstraintLayout createMatchLayout(Context context, String type, String championship, String channel,
                                                String commentator, String matchDateTime, String stadium,
                                                String referee ,
-                                               String team1Name, String team1Img, String team2Name, String team2Img, String countDownDate, String Formation, String iframe) {
+                                               String team1Name, String team1Img, String team2Name, String team2Img, String countDownDate, String Formation, String iframe, String iframe2, String iframe3) {
         // إنشاء تخطيط ConstraintLayout جديد
         ConstraintLayout layout = new ConstraintLayout(context);
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
@@ -279,8 +331,8 @@ public class barcelonaFragment extends Fragment {
         team1Names.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         team1Names.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
-//        int colorteam = ContextCompat.getColor(this, R.color.light_a);
-//        team1Names.setTextColor(colorteam);
+        int colorteam = ContextCompat.getColor(requireContext(), R.color.light_a);
+        team1Names.setTextColor(colorteam);
         teamsLayout.addView(team1Names);
 
         ImageView team1Imgs = new ImageView(context);
@@ -302,7 +354,7 @@ public class barcelonaFragment extends Fragment {
         team2Names.setTextSize(18);
         team2Names.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         team2Names.setTypeface(null, Typeface.BOLD);
-//        team2Names.setTextColor(colorteam);
+        team2Names.setTextColor(colorteam);
         teamsLayout.addView(team2Names);
 
         ImageView team2Imgs = new ImageView(context);
@@ -332,7 +384,8 @@ public class barcelonaFragment extends Fragment {
 
         TextView timerText = new TextView(context);
         timerText.setText("00:00:00");
-//        timerText.setTextColor(colorteam);
+        int colorteamprogressBar = ContextCompat.getColor(requireContext(), R.color.timebefore);
+        timerText.setTextColor(colorteamprogressBar);
         timerText.setTextSize(28);
         timerText.setTypeface(null, Typeface.BOLD);
         timerText.setGravity(Gravity.CENTER);
@@ -344,14 +397,14 @@ public class barcelonaFragment extends Fragment {
         progressBar.setMax(60); // مثلا دقيقة واحدة
 //        progressBar.setProgress(160);
 //        progressBar.setRotation(-90); // لجعله دائري يشبه الصورة
-//        int color = ContextCompat.getColor(this, R.color.light_a);
-//        progressBar.setProgressTintList(ColorStateList.valueOf(color));
+        int color = ContextCompat.getColor(requireContext(), R.color.progressbar);
+        progressBar.setProgressTintList(ColorStateList.valueOf(color));
         countdownLayout.addView(progressBar);
         LinearLayout.LayoutParams progressParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 20
         );
-        progressParams.setMargins(50, 0, 50, 0); // مسافة من فوق
+        progressParams.setMargins(100, 0, 100, 0); // مسافة من فوق
         progressBar.setLayoutParams(progressParams);
 
 
@@ -524,8 +577,8 @@ public class barcelonaFragment extends Fragment {
         types.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
         types.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
-//        int colors = ContextCompat.getColor(this, R.color.lightColor);
-//        types.setTextColor(colors);
+        int colors = ContextCompat.getColor(requireContext(), R.color.lightColor);
+        types.setTextColor(colors);
         newLayout.addView(types);
 
         TextView championships = new TextView(context);
@@ -536,7 +589,7 @@ public class barcelonaFragment extends Fragment {
         championships.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
 //        int colorteam2Names = ContextCompat.getColor(this, R.color.lightColor);
-//        championships.setTextColor(colors);
+        championships.setTextColor(colors);
         twoLayout.addView(championships);
 
         TextView channels = new TextView(context);
@@ -547,7 +600,7 @@ public class barcelonaFragment extends Fragment {
         channels.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
 //        int colorteam2Names = ContextCompat.getColor(this, R.color.lightColor);
-//        channels.setTextColor(colors);
+        channels.setTextColor(colors);
         thirdLayout.addView(channels);
 
         TextView commentators = new TextView(context);
@@ -558,7 +611,7 @@ public class barcelonaFragment extends Fragment {
         commentators.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
 //        int colorteam2Names = ContextCompat.getColor(this, R.color.lightColor);
-//        commentators.setTextColor(colors);
+        commentators.setTextColor(colors);
         fourthLayout.addView(commentators);
 
         TextView matchDateTimes = new TextView(context);
@@ -569,7 +622,7 @@ public class barcelonaFragment extends Fragment {
         matchDateTimes.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
 //        int colorteam2Names = ContextCompat.getColor(this, R.color.lightColor);
-//        matchDateTimes.setTextColor(colors);
+        matchDateTimes.setTextColor(colors);
         FiveLayout.addView(matchDateTimes);
 
         TextView stadiums = new TextView(context);
@@ -580,7 +633,7 @@ public class barcelonaFragment extends Fragment {
         stadiums.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
 //        int colorteam2Names = ContextCompat.getColor(this, R.color.lightColor);
-//        stadiums.setTextColor(colors);
+        stadiums.setTextColor(colors);
         sevenLayout.addView(stadiums);
 
         TextView referees = new TextView(context);
@@ -591,7 +644,7 @@ public class barcelonaFragment extends Fragment {
         referees.setTypeface(null, Typeface.BOLD);
         layoutParams.setMargins(0, 0, 0, 0);
 //        referees.setTextColor(Color.BLACK);
-//        referees.setTextColor(colors);
+        referees.setTextColor(colors);
         NinthLayout.addView(referees);
 
 
@@ -610,7 +663,7 @@ public class barcelonaFragment extends Fragment {
 // ---------------- WebView لتشغيل الفيديو بوضع ملء الشاشة ----------------
         WebView webView = new WebView(context);
         webView.setId(View.generateViewId());
-        webView.setBackgroundColor(android.graphics.Color.parseColor("#FFC107FF"));
+//        webView.setBackgroundColor(android.graphics.Color.parseColor("#FFC107FF"));
 
 // إعدادات WebView
         WebSettings webSettings = webView.getSettings();
@@ -622,40 +675,6 @@ public class barcelonaFragment extends Fragment {
         webView.setVisibility(View.GONE);
         webView.setWebViewClient(new WebViewClient());
 
-
-
-// إنشاء الزر
-        Button showWebViewButton = new Button(context);
-        showWebViewButton.setText("Server1");
-        showWebViewButton.setId(View.generateViewId());
-        showWebViewButton.setBackgroundResource(R.drawable.btn_web_video);
-        showWebViewButton.setPadding(26, 0, 26, 0);
-        showWebViewButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.server_icon, 0, 0, 0);
-        // إعداد مكان الزر
-        ConstraintLayout.LayoutParams buttonParams = new ConstraintLayout.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT
-        );
-//        buttonParams.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID;
-        buttonParams.startToStart = ConstraintLayout.LayoutParams.PARENT_ID;
-        buttonParams.endToEnd = ConstraintLayout.LayoutParams.PARENT_ID;
-        buttonParams.bottomMargin = 60;
-        showWebViewButton.setLayoutParams(buttonParams);
-
-        // أضف الحدث عند الضغط
-        showWebViewButton.setOnClickListener(v -> {
-            if (webView.getVisibility() == View.VISIBLE) {
-                webView.setVisibility(View.GONE);
-                showWebViewButton.setText("إظهار الفيديو"); // غيّر النص
-            } else {
-                webView.setVisibility(View.VISIBLE);
-                showWebViewButton.setText("إخفاء الفيديو");
-            }
-        });
-        teamsLayout.addView(showWebViewButton);
-
-
-// التعامل مع الفيديوهات بوضع ملء الشاشة
         webView.setWebChromeClient(new WebChromeClient() {
             private View customView;
             private WebChromeClient.CustomViewCallback customViewCallback;
@@ -692,20 +711,257 @@ public class barcelonaFragment extends Fragment {
             }
         });
 
-// حجم WebView: ياخد الشاشة كلها
         ConstraintLayout.LayoutParams webParams = new ConstraintLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 800
         );
         webView.setLayoutParams(webParams);
-
-// تحميل الرابط (من JSON)
         webView.loadUrl(iframe);
-
-// إضافة الـ WebView داخل التخطيط الرئيسي
         teamsLayout.addView(webView);
 
 
+        WebView webView2 = new WebView(context);
+        webView2.setId(View.generateViewId());
+        webView2.setBackgroundColor(android.graphics.Color.parseColor("#FFC107FF"));
+        WebSettings webSettings2 = webView2.getSettings();
+        webSettings2.setJavaScriptEnabled(true);
+        webSettings2.setDomStorageEnabled(true);
+        webSettings2.setMediaPlaybackRequiresUserGesture(false);
+        webSettings2.setLoadWithOverviewMode(true);
+        webSettings2.setUseWideViewPort(true);
+        webView2.setVisibility(View.GONE);
+        webView2.setWebViewClient(new WebViewClient());
+
+        webView2.setWebChromeClient(new WebChromeClient() {
+            private View customView;
+            private WebChromeClient.CustomViewCallback customViewCallback;
+            private int originalSystemUiVisibility;
+
+            @Override
+            public void onShowCustomView(View view, CustomViewCallback callback) {
+                if (customView != null) {
+                    onHideCustomView();
+                    return;
+                }
+                customView = view;
+                customViewCallback = callback;
+
+                // الدخول في وضع ملء الشاشة
+                ViewGroup decor = (ViewGroup) ((Activity) context).getWindow().getDecorView();
+                originalSystemUiVisibility = decor.getSystemUiVisibility();
+                decor.addView(customView, new ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT));
+                decor.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+            }
+
+            @Override
+            public void onHideCustomView() {
+                ViewGroup decor = (ViewGroup) ((Activity) context).getWindow().getDecorView();
+                decor.removeView(customView);
+                customView = null;
+                ((Activity) context).getWindow().getDecorView().setSystemUiVisibility(originalSystemUiVisibility);
+                customViewCallback.onCustomViewHidden();
+                customViewCallback = null;
+            }
+        });
+
+        ConstraintLayout.LayoutParams webParams2 = new ConstraintLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                800
+        );
+        webView2.setLayoutParams(webParams2);
+        webView2.loadUrl(iframe2);
+        teamsLayout.addView(webView2);
+
+
+        WebView webView3 = new WebView(context);
+        webView3.setId(View.generateViewId());
+        webView3.setBackgroundColor(android.graphics.Color.parseColor("#FFC107FF"));
+        WebSettings webSettings3 = webView3.getSettings();
+        webSettings3.setJavaScriptEnabled(true);
+        webSettings3.setDomStorageEnabled(true);
+        webSettings3.setMediaPlaybackRequiresUserGesture(false);
+        webSettings3.setLoadWithOverviewMode(true);
+        webSettings3.setUseWideViewPort(true);
+        webView3.setVisibility(View.GONE);
+        webView3.setWebViewClient(new WebViewClient());
+
+        webView3.setWebChromeClient(new WebChromeClient() {
+            private View customView;
+            private WebChromeClient.CustomViewCallback customViewCallback;
+            private int originalSystemUiVisibility;
+
+            @Override
+            public void onShowCustomView(View view, CustomViewCallback callback) {
+                if (customView != null) {
+                    onHideCustomView();
+                    return;
+                }
+                customView = view;
+                customViewCallback = callback;
+
+                // الدخول في وضع ملء الشاشة
+                ViewGroup decor = (ViewGroup) ((Activity) context).getWindow().getDecorView();
+                originalSystemUiVisibility = decor.getSystemUiVisibility();
+                decor.addView(customView, new ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.MATCH_PARENT));
+                decor.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+            }
+
+            @Override
+            public void onHideCustomView() {
+                ViewGroup decor = (ViewGroup) ((Activity) context).getWindow().getDecorView();
+                decor.removeView(customView);
+                customView = null;
+                ((Activity) context).getWindow().getDecorView().setSystemUiVisibility(originalSystemUiVisibility);
+                customViewCallback.onCustomViewHidden();
+                customViewCallback = null;
+            }
+        });
+
+        ConstraintLayout.LayoutParams webParams3 = new ConstraintLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                800
+        );
+        webView3.setLayoutParams(webParams3);
+        webView3.loadUrl(iframe3);
+        teamsLayout.addView(webView3);
+
+
+// إنشاء الزر
+        Button showWebViewButton = new Button(context);
+        showWebViewButton.setText("Server1");
+        showWebViewButton.setTextSize(12);
+        showWebViewButton.setId(View.generateViewId());
+        showWebViewButton.setBackgroundResource(R.drawable.btn_web_video);
+        showWebViewButton.setPadding(20, 0, 20, 0);
+        float pxw = context.getResources().getDisplayMetrics().density;
+        int paddingInPixels = (int) (10 * pxw);
+        showWebViewButton.setCompoundDrawablePadding(paddingInPixels);
+        showWebViewButton.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.server_icon, 0);
+        ConstraintLayout.LayoutParams btnm1 = new ConstraintLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+        );
+        final int MARGIN_btn1 = -280;
+        float density = context.getResources().getDisplayMetrics().density;
+        int marginbtn1Pixels = (int) (MARGIN_btn1 * density);
+        btnm1.setMargins(marginbtn1Pixels, 0, 0, 0);
+        btnm1.leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID;
+        btnm1.rightToRight = ConstraintLayout.LayoutParams.PARENT_ID;
+//        btnm1.topToTop = ConstraintLayout.LayoutParams.PARENT_ID;
+//        btnm1.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID;
+        showWebViewButton.setLayoutParams(btnm1);
+        teamsLayout.addView(showWebViewButton);
+
+
+        Button showWebViewButton2 = new Button(context);
+        showWebViewButton2.setText("Server2");
+        showWebViewButton2.setTextSize(12);
+        showWebViewButton2.setId(View.generateViewId());
+        showWebViewButton2.setBackgroundResource(R.drawable.btn_web_video);
+        showWebViewButton2.setPadding(20, 0, 20, 0);
+        float pxw2 = context.getResources().getDisplayMetrics().density;
+        int paddingInPixels2 = (int) (10 * pxw2);
+        showWebViewButton2.setCompoundDrawablePadding(paddingInPixels2);
+        showWebViewButton2.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.server_icon, 0);
+        ConstraintLayout.LayoutParams btnm2 = new ConstraintLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+        );
+        final int MARGIN_btn2 = 0;
+        float density2 = context.getResources().getDisplayMetrics().density;
+        int marginbtn2Pixels = (int) (MARGIN_btn2 * density2);
+        btnm2.setMargins(marginbtn2Pixels, 0, 0, 0);
+        btnm2.leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID;
+        btnm2.rightToRight = ConstraintLayout.LayoutParams.PARENT_ID;
+//        btnm2.topToTop = ConstraintLayout.LayoutParams.PARENT_ID;
+//        btnm2.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID;
+        showWebViewButton2.setLayoutParams(btnm2);
+        teamsLayout.addView(showWebViewButton2);
+
+
+        Button showWebViewButton3 = new Button(context);
+        showWebViewButton3.setText("Server3");
+        showWebViewButton3.setTextSize(12);
+        showWebViewButton3.setId(View.generateViewId());
+        showWebViewButton3.setBackgroundResource(R.drawable.btn_web_video);
+        showWebViewButton3.setPadding(20, 0, 20, 0);
+        float pxw3 = context.getResources().getDisplayMetrics().density;
+        int paddingInPixels3 = (int) (10 * pxw3);
+        showWebViewButton3.setCompoundDrawablePadding(paddingInPixels3);
+        showWebViewButton3.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.server_icon, 0);
+        ConstraintLayout.LayoutParams btnm3 = new ConstraintLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+        );
+        final int MARGIN_btn3 = 280;
+        float density3 = context.getResources().getDisplayMetrics().density;
+        int marginbtn3Pixels = (int) (MARGIN_btn3 * density3);
+        btnm3.setMargins(marginbtn3Pixels, 0, 0, 0);
+        btnm3.leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID;
+        btnm3.rightToRight = ConstraintLayout.LayoutParams.PARENT_ID;
+//        btnm3.topToTop = ConstraintLayout.LayoutParams.PARENT_ID;
+//        btnm3.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID;
+        showWebViewButton3.setLayoutParams(btnm3);
+        teamsLayout.addView(showWebViewButton3);
+
+
+
+
+
+        showWebViewButton.setOnClickListener(v -> {
+            if (webView.getVisibility() == View.VISIBLE) {
+                webView.setVisibility(View.VISIBLE);
+                webView2.setVisibility(View.GONE);
+                webView3.setVisibility(View.GONE);
+                showWebViewButton.setText("Hide video1");
+            } else {
+                webView.setVisibility(View.VISIBLE);
+                webView2.setVisibility(View.GONE);
+                webView3.setVisibility(View.GONE);
+                showWebViewButton.setText("Hide video1");
+                showWebViewButton2.setText("Show video2");
+                showWebViewButton3.setText("Show video3");
+            }
+        });
+        showWebViewButton2.setOnClickListener(v -> {
+            if (webView2.getVisibility() == View.VISIBLE) {
+                webView.setVisibility(View.GONE);
+                webView2.setVisibility(View.VISIBLE);
+                webView3.setVisibility(View.GONE);
+                showWebViewButton2.setText("Hide video2");
+            } else {
+                webView2.setVisibility(View.VISIBLE);
+                webView3.setVisibility(View.GONE);
+                webView.setVisibility(View.GONE);
+                showWebViewButton2.setText("Hide video2");
+                showWebViewButton.setText("Show video2");
+                showWebViewButton3.setText("Show video");
+            }
+        });
+        showWebViewButton3.setOnClickListener(v -> {
+            if (webView3.getVisibility() == View.VISIBLE) {
+                webView.setVisibility(View.GONE);
+                webView2.setVisibility(View.GONE);
+                webView3.setVisibility(View.VISIBLE);
+                showWebViewButton3.setText("Hide video3");
+
+            } else {
+                webView3.setVisibility(View.VISIBLE);
+                webView2.setVisibility(View.GONE);
+                webView.setVisibility(View.GONE);
+                showWebViewButton3.setText("Hide video3");
+                showWebViewButton2.setText("Show video2");
+                showWebViewButton.setText("Show video");
+            }
+        });
 
 
 
@@ -713,6 +969,21 @@ public class barcelonaFragment extends Fragment {
         ConstraintSet teamsSet = new ConstraintSet();
         teamsSet.clone(teamsLayout);
         teamsSet.applyTo(teamsLayout);
+
+        if (iframe == null || iframe.trim().isEmpty()) {
+            showWebViewButton.setText("No Server");
+            showWebViewButton.setEnabled(false);
+        }
+
+        if (iframe2 == null || iframe2.trim().isEmpty()) {
+            showWebViewButton2.setText("No Server");
+            showWebViewButton2.setEnabled(false);
+        }
+
+        if (iframe3 == null || iframe3.trim().isEmpty()) {
+            showWebViewButton3.setText("No Server");
+            showWebViewButton3.setEnabled(false);
+        }
 
 //        teamsSet.connect(types.getId(), ConstraintSet.START, newLayout.getId(), ConstraintSet.END,  110);
 //        teamsSet.connect(types.getId(), ConstraintSet.TOP, teamsLayout.getId(), ConstraintSet.TOP, 170);
@@ -764,11 +1035,20 @@ public class barcelonaFragment extends Fragment {
         teamsSet.connect(Formations.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 1300);
 //
 
-//        teamsSet.connect(showWebViewButton.getId(), ConstraintSet.END, teamsLayout.getId(), ConstraintSet.START,  0);
+//        teamsSet.connect(showWebViewButton.getId(), ConstraintSet.END, layout.getId(), ConstraintSet.START,  100);
         teamsSet.connect(showWebViewButton.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 2150);
+        teamsSet.connect(showWebViewButton2.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 2150);
+        teamsSet.connect(showWebViewButton3.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 2150);
 
         teamsSet.connect(webView.getId(), ConstraintSet.END, teamsLayout.getId(), ConstraintSet.START,  0);
         teamsSet.connect(webView.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 2300);
+
+        teamsSet.connect(webView2.getId(), ConstraintSet.END, teamsLayout.getId(), ConstraintSet.START,  0);
+        teamsSet.connect(webView2.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 2300);
+
+        teamsSet.connect(webView3.getId(), ConstraintSet.END, teamsLayout.getId(), ConstraintSet.START,  0);
+        teamsSet.connect(webView3.getId(), ConstraintSet.TOP, timeLayout.getId(), ConstraintSet.TOP, 2300);
+
 //
 
 
