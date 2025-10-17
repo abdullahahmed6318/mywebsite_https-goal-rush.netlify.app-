@@ -246,16 +246,15 @@
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇬⚽️ Egyptlian Premier League",
-      "name_team_First": "",
-      "First_img": "image/Teams/Egyptlian Premier League/.png",
+      "name_team_First": "zamalek",
+      "First_img": "image/Teams/Egyptlian Premier League/zamalek.png",
       "result1": "",
-
       "First_team": "//.html",
-      "another_activity_file": "AnotherActivity",
+      "another_activity_file": "com.example.app_goalrush.team.zamalekFragment",
 
-      "name_team_Second": "",
+      "name_team_Second": "zamalek",
       "result2": "",
-      "Second_img": "image/Teams/.png",
+      "Second_img": "image/Teams/Egyptlian Premier League/zamalek.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -780,11 +779,6 @@
     
   ]
 }
-
-
-
-
-
 
 
 
