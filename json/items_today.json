@@ -5,78 +5,78 @@
       "id": 10,
       "side_bar_league": "🏆⚽️aaa ",
 
-      "name_team_First": "Djibouti",
+      "name_team_First": "",
       "First_img": "https://goal-rush.netlify.app/image/country/s/Djibouti.png",
       "result1":"",
       "First_team": "/country/Egypt/Egypt.html",
       "another_activity_file": "com.example.app_goalrush.team", 
       
-      "name_team_Second": "Egypt",
+      "name_team_Second": "",
       "result2":"",
       "Second_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
 
-      "name_team_third": "Ethiopia",
+      "name_team_third": "",
       "result3":"",
       "third_team": "//.html",
       "third_img": "https://goal-rush.netlify.app/image/country/s/Ethiopia.png",
 
-      "name_team_fourth": "Guinea-Bissau",
+      "name_team_fourth": "",
       "result4":"",
       "fourth_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
 
-      "name_team_Five": "Sierra Leone",
+      "name_team_Five": "",
       "result5":"0",
       "Five_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
       "Five_team": "//.html",
 
-      "name_team_sixth": "Burkina Faso",
+      "name_team_sixth": "",
       "result6":"",
       "sixth_img": "https://goal-rush.netlify.app/image/country/s/Burkina_Faso.png",
 
-      "name_team_seven": "Egypt",
+      "name_team_seven": "",
       "seven_img": "image/country/s/.png",
       "seven_team": "//.html",
 
-      "name_team_eighth": "Egypt",
+      "name_team_eighth": "",
       "eighth_img": "image/country/s/.png",
 
-      "name_team_Ninth": "Egypt",
+      "name_team_Ninth": "",
       "Ninth_img": "image/country/s/.png",
       "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "Egypt",
+      "name_team_tenth": "",
       "tenth_img": "image/Teams/serie.a/juventus.png"
     },
     { 
       "id": 10,
       "side_bar_league": "🏆⚽️ World Cup Qualification, CAF , Group D ",
 
-      "name_team_First": "Libya",
+      "name_team_First": "",
       "First_img": "image/country/s/Libya.png",
       "result1":"",
       "First_team": "/country/CAF/CAF.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Cape Verde",
+      "name_team_Second": "",
       "result2":"",
       "Second_img": "image/country/s/Cape_Verde.png",
 
-      "name_team_third": "Mauritius",
+      "name_team_third": "",
       "result3":"",
       "third_team": "/country/CAF2/CAF_two.html",
       "third_img": "image/country/s/Mauritius.png",
 
-      "name_team_fourth": "Cameroon",
+      "name_team_fourth": "",
       "result4":"",
       "fourth_img": "image/country/s/Cameroon.png",
 
-      "name_team_Five": "Eswatini",
+      "name_team_Five": "",
       "result5":"0",
       "Five_img": "image/country/s/.png",
       "Five_team": "//.html",
 
-      "name_team_sixth": "Angola",
+      "name_team_sixth": "",
       "result6":"",
       "sixth_img": "image/country/s/.png",
 
@@ -99,22 +99,22 @@
       "id": 10,
       "side_bar_league": "🏆⚽️ World Cup Qualification, AFC , Group 4",
 
-      "name_team_First": "lndonesia",
+      "name_team_First": "",
       "First_img": "image/country/s/lndonesia.png",
       "result1":"",
       "First_team": "/country/Saudi Arabia/Saudi_Arabia.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "Saudi Arabia",
+      "name_team_Second": "",
       "result2":"",
       "Second_img": "image/country/s/Saudi_Arabia.png",
 
-      "name_team_third": "Oman",
+      "name_team_third": "",
       "result3":"",
       "third_team": "//.html",
       "third_img": "image/country/s/.png",
 
-      "name_team_fourth": "Qatar",
+      "name_team_fourth": "",
       "result4":"",
       "fourth_img": "image/country/s/Qatar.png",
 
@@ -147,13 +147,13 @@
       "id": 10,
       "side_bar_league": "🏆⚽️ Uefa champions league  , Round 2",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/Laliga/.png",
+      "name_team_First": "barcelona",
+      "First_img": "image/Teams/Laliga/FC_Barcelona.png",
       "result1":"",
       "First_team": "/team//.html",
-      "another_activity_file": "AnotherActivity",
+      "another_activity_file": "com.example.app_goalrush.team",
 
-      "name_team_Second": "",
+      "name_team_Second": "PSG",
       "result2":"",
       "Second_img": "image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
 
