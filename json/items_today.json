@@ -1,6 +1,5 @@
 { 
   "videos": [
-
     { 
       "id": 10,
       "side_bar_league": "🏆⚽️aaa ",
@@ -142,7 +141,6 @@
       "name_team_tenth": "",
       "tenth_img": "image/Teams/serie.a/juventus.png"
     },
-
     { 
       "id": 10,
       "side_bar_league": "🏆⚽️ Uefa champions league  , Round 2",
@@ -190,9 +188,6 @@
       "name_team_tenth": "",
       "tenth_img": "image/Teams/serie.a/juventus.png"
     },
-
-
-
     { 
       "id": 11,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
@@ -250,7 +245,7 @@
       "First_img": "image/Teams/Egyptlian Premier League/zamalek.png",
       "result1": "",
       "First_team": "//.html",
-      "another_activity_file": "",
+      "another_activity_file": "com.example.app_goalrush.team.zamalekFragment",
 
       "name_team_Second": "zamalek",
       "result2": "",
@@ -299,9 +294,9 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇸🇦⚽️ Saudi Pro Laegue",
 
-      "name_team_First": "",
+      "name_team_First": "Al-Nassr",
       "result1":"2",
-      "First_img": "image/Teams/.png",
+      "First_img": "image/Teams/Saudi Pro Laegue/Al-Nassr.png",
       "First_team": "/team/Al-Nassr/Al-Nassr.html",
       "another_activity_file": "AnotherActivity",
 
@@ -395,15 +390,15 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇸⚽️ Laliga",
 
-      "name_team_First": "",
-      "First_img": "image/Teams/Laliga/.png",
+      "name_team_First": "Atletico Madrid",
+      "First_img": "image/Teams/Laliga/Atletico_Madrid.png",
       "First_team": "//.html",
       "result1": "",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "Real Madrid",
       "result2": "",
-      "Second_img": "image/Teams/Laliga/.png",
+      "Second_img": "image/Teams/Laliga/Real_Madrid.png",
 
       "name_team_third": "",
       "third_team": "//.html",
@@ -779,7 +774,6 @@
     
   ]
 }
-
 
 
 
