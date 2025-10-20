@@ -155,21 +155,21 @@
       "result2":"",
       "Second_img": "https://goal-rush.netlify.app/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
 
-      "name_team_third": "",
+      "name_team_third": "a",
       "result3":"",
       "third_team": "//.html",
       "third_img": "image/Teams/bundesliga/Borussia_Dortmund.png",
 
-      "name_team_fourth": "",
+      "name_team_fourth": "d",
       "result4":"",
       "fourth_img": "image/Teams/Laliga/Athletic_Bilbao.png",
 
-      "name_team_Five": "",
+      "name_team_Five": "w",
       "result5":"0",
       "Five_img": "image/Teams/Premier League/Arsenal.png",
       "Five_team": "//.html",
 
-      "name_team_sixth": "",
+      "name_team_sixth": "r",
       "result6":"",
       "sixth_img": "image/Teams/Olympiacos.png",
 
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
