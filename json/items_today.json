@@ -164,28 +164,28 @@
       "result4":"",
       "fourth_img": "image/Teams/Laliga/Athletic_Bilbao.png",
 
-      "name_team_Five": "w",
+      "name_team_Five": "barcelona",
       "result5":"0",
       "Five_img": "image/Teams/Premier League/Arsenal.png",
       "Five_team": "//.html",
 
-      "name_team_sixth": "r",
+      "name_team_sixth": "barcelona",
       "result6":"",
       "sixth_img": "image/Teams/Olympiacos.png",
 
-      "name_team_seven": "",
+      "name_team_seven": "barcelona",
       "seven_img": "image/Teams/Ligue.1/AS_Monaco.png",
       "seven_team": "/team/Man City/Man_City.html",
 
-      "name_team_eighth": "",
+      "name_team_eighth": "barcelona",
       "eighth_img": "image/Teams/Premier League/Manchester_City.png",
 
-      "name_team_Ninth": "",
+      "name_team_Ninth": "barcelona",
       "Ninth_img": "image/Teams/Laliga/Villarreal.png",
       "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "",
+      "name_team_tenth": "barcelona",
       "tenth_img": "image/Teams/serie.a/juventus.png"
     },
     { 
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
