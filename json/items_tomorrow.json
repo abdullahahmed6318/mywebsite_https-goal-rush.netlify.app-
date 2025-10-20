@@ -51,13 +51,13 @@
       "id": 10,
       "side_bar_league": "🏆⚽️ World Cup Qualification, CAF , Group D ",
 
-      "name_team_First": "",
+      "name_team_First": "CAF",
       "First_img": "image/country/s/Libya.png",
       "result1":"",
       "First_team": "/country/CAF/CAF.html",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "CAF",
       "result2":"",
       "Second_img": "image/country/s/Cape_Verde.png",
 
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
