@@ -4,13 +4,13 @@
       "id": 10,
       "side_bar_league": "🏆⚽️aaa ",
 
-      "name_team_First": "",
+      "name_team_First": "Egypt",
       "First_img": "https://goal-rush.netlify.app/image/country/s/Djibouti.png",
       "result1":"",
       "First_team": "/country/Egypt/Egypt.html",
       "another_activity_file": "com.example.app_goalrush.team", 
       
-      "name_team_Second": "",
+      "name_team_Second": "Egypt",
       "result2":"",
       "Second_img": "https://goal-rush.netlify.app/image/country/s/Egypt.png",
 
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
