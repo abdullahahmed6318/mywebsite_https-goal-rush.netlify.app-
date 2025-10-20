@@ -146,7 +146,7 @@
       "side_bar_league": "🏆⚽️ Uefa champions league  , Round 2",
 
       "name_team_First": "barcelona",
-      "First_img": "image/Teams/Laliga/FC_Barcelona.png",
+      "First_img": "https://goal-rush.netlify.app/image/Teams/Laliga/FC_Barcelona.png",
       "result1":"",
       "First_team": "/team//.html",
       "another_activity_file": "com.example.app_goalrush.team.barcelonaFragment",
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
