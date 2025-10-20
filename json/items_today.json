@@ -153,7 +153,7 @@
 
       "name_team_Second": "PSG",
       "result2":"",
-      "Second_img": "image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
+      "Second_img": "https://goal-rush.netlify.app/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
 
       "name_team_third": "",
       "result3":"",
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
