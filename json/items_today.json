@@ -155,12 +155,12 @@
       "result2":"",
       "Second_img": "https://goal-rush.netlify.app/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
 
-      "name_team_third": "a",
+      "name_team_third": "barcelona",
       "result3":"",
       "third_team": "//.html",
       "third_img": "image/Teams/bundesliga/Borussia_Dortmund.png",
 
-      "name_team_fourth": "d",
+      "name_team_fourth": "barcelona",
       "result4":"",
       "fourth_img": "image/Teams/Laliga/Athletic_Bilbao.png",
 
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
