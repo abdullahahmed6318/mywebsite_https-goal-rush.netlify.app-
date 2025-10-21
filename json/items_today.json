@@ -344,7 +344,7 @@
       "First_img": "image/Teams/Premier League/.png",
       "First_team": "//.html",
       "result1": "1",
-      "another_activity_file": "AnotherActivity",
+      "another_activity_file": "com.example.app_goalrush.team.Man_CityFragment",
 
       "name_team_Second": "Man City",
       "result2": "1",
@@ -774,6 +774,7 @@
     
   ]
 }
+
 
 
 
