@@ -2,52 +2,29 @@
   "videos": [
 
     { 
-      "id": 1,
-      "side_bar_league": "",
-      "countDownDate": "Oct 15, 2025 19:00:00",
-      "name_team_First":"Barcelona",
-      "First_img": "https://goal-rush.netlify.app/image/Teams/Laliga/FC_Barcelona.png",
-      "iframe_1": "https://pl.yallashooot.video/albaplayer/ssc-1/?serv=0",
-      "iframe_2": "https://www.youtube.com/embed/ehMi2N0sz9c?si=gnnf3ZDDEWOnOgeU",
-      "iframe3": "https://www.youtube.com/embed/Nrulj7KWeJQ?si=Zt-t_fQx0u7hPEl6",
-      "name_team_Second": "PSG",
-      "Second_img": "https://goal-rush.netlify.app/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
-      "offers": {
-      "type": "معلومات عن مباراة برشلونة ضد باريس سان جيرمان",
-      "Championship": "UEFA Champions League , Round 2 : البطولة",
-      "channel": "beIN SPORTS 1 : القناة",
-      "commentator": "المعلق: محمد",
-      "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:00 بتوقيت مصر ",
-      "stadium": " الملعب : أوليمبيك لويس كومبانيس ",
-      "Formation": "https://goal-rush.netlify.app/image/Formation/Screenshot.png",
-      "referee":" الحكم : "
-  
-    }
+    "id": 1,
+    "side_bar_league": "",
+    "countDownDate": "Oct 26, 2025 19:15:00",
+    "name_team_First":"Real Madrid",
+    "First_img": "/image/Teams/Laliga/Real_Madrid.png",
+    "iframe_1": "",
+    "iframe_2": "",
+    "iframe3": "",
+    "name_team_Second": "Barcelona",
+    "Second_img": "/image/Teams/Laliga/FC_Barcelona.png",
+    "offers": {
+    "type": "معلومات عن مباراة برشلونة ضد باريس سان جيرمان",
+    "Championship": "Laliga , Round 10 : البطولة  ",
+    "channel": "beIN SPORTS 1 : القناة",
+    "commentator": " : المعلق",
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:15 بتوقيت مصر ",
+    "stadium": "  الملعب : سانتياغو برنابيو",
+    "Formation": "/.png",
+    "referee":" الحكم : "
+  }
     
-    }
-  
-  ]
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]
+}
 
