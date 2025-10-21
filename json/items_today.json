@@ -145,47 +145,47 @@
       "id": 10,
       "side_bar_league": "🏆⚽️ Uefa champions league  , Round 2",
 
-      "name_team_First": "barcelona",
-      "First_img": "https://goal-rush.netlify.app/image/Teams/Laliga/FC_Barcelona.png",
+      "name_team_First": "",
+      "First_img": "image/Teams/Laliga/FC_Barcelona.png",
       "result1":"",
       "First_team": "/team//.html",
       "another_activity_file": "com.example.app_goalrush.team.barcelonaFragment",
 
-      "name_team_Second": "PSG",
+      "name_team_Second": "",
       "result2":"",
-      "Second_img": "https://goal-rush.netlify.app/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
+      "Second_img": "image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
 
-      "name_team_third": "barcelona",
+      "name_team_third": "",
       "result3":"",
       "third_team": "//.html",
       "third_img": "image/Teams/bundesliga/Borussia_Dortmund.png",
 
-      "name_team_fourth": "barcelona",
+      "name_team_fourth": "",
       "result4":"",
       "fourth_img": "image/Teams/Laliga/Athletic_Bilbao.png",
 
-      "name_team_Five": "barcelona",
+      "name_team_Five": "",
       "result5":"0",
       "Five_img": "image/Teams/Premier League/Arsenal.png",
       "Five_team": "//.html",
 
-      "name_team_sixth": "barcelona",
+      "name_team_sixth": "",
       "result6":"",
       "sixth_img": "image/Teams/Olympiacos.png",
 
-      "name_team_seven": "barcelona",
+      "name_team_seven": "",
       "seven_img": "image/Teams/Ligue.1/AS_Monaco.png",
       "seven_team": "/team/Man City/Man_City.html",
 
-      "name_team_eighth": "barcelona",
+      "name_team_eighth": "",
       "eighth_img": "image/Teams/Premier League/Manchester_City.png",
 
-      "name_team_Ninth": "barcelona",
+      "name_team_Ninth": "",
       "Ninth_img": "image/Teams/Laliga/Villarreal.png",
       "Ninth_team": "//.html",
 
 
-      "name_team_tenth": "barcelona",
+      "name_team_tenth": "",
       "tenth_img": "image/Teams/serie.a/juventus.png"
     },
     { 
@@ -193,7 +193,7 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇺🇸⚽️ USA/MlS",
 
-      "name_team_First": "Inter Miami",
+      "name_team_First": "",
       "result1":"",
       "First_img": "image/Teams/USAMlS/Inter_Miami_CF.png",
       "First_team": "",
@@ -241,13 +241,13 @@
       "id": 1,
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇬⚽️ Egyptlian Premier League",
-      "name_team_First": "zamalek",
+      "name_team_First": "",
       "First_img": "image/Teams/Egyptlian Premier League/zamalek.png",
       "result1": "",
       "First_team": "//.html",
       "another_activity_file": "com.example.app_goalrush.team.zamalekFragment",
 
-      "name_team_Second": "zamalek",
+      "name_team_Second": "",
       "result2": "",
       "Second_img": "image/Teams/Egyptlian Premier League/zamalek.png",
 
@@ -294,7 +294,7 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇸🇦⚽️ Saudi Pro Laegue",
 
-      "name_team_First": "Al-Nassr",
+      "name_team_First": "",
       "result1":"2",
       "First_img": "image/Teams/Saudi Pro Laegue/Al-Nassr.png",
       "First_team": "/team/Al-Nassr/Al-Nassr.html",
@@ -340,24 +340,24 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️ Premier League",
 
-      "name_team_First": "",
+      "name_team_First": "Aston Villa",
       "First_img": "image/Teams/Premier League/.png",
       "First_team": "//.html",
       "result1": "1",
       "another_activity_file": "AnotherActivity",
 
-      "name_team_Second": "",
+      "name_team_Second": "Man City",
       "result2": "1",
       "Second_img": "image/Teams/Premier League/Manchester_City.png",
 
-      "name_team_third": "",
+      "name_team_third": "Everton",
       "third_team": "//.html",
       "result3":"",
-      "third_img": "image/Teams/Premier League/Arsenal.png",
+      "third_img": "image/Teams/Premier League/Everton.png",
 
-      "name_team_fourth": "",
+      "name_team_fourth": "Tottenham",
       "result4":"",
-      "fourth_img": "image/Teams/Premier League/.png",
+      "fourth_img": "image/Teams/Premier League/Tottenham_Hotspur.png",
 
       "name_team_Five": "",
       "result5":"",
@@ -390,11 +390,11 @@
       "iframe": "https://1player.kooraliveeee.space/albaplayer/shahid4/?serv=0",
       "side_bar_league": "🇪🇸⚽️ Laliga",
 
-      "name_team_First": "Atletico Madrid",
-      "First_img": "image/Teams/Laliga/Atletico_Madrid.png",
+      "name_team_First": "barcelona",
+      "First_img": "image/Teams/Laliga/FC_Barcelona.png",
       "First_team": "//.html",
       "result1": "",
-      "another_activity_file": "AnotherActivity",
+      "another_activity_file": "com.example.app_goalrush.team.barcelonaFragment",
 
       "name_team_Second": "Real Madrid",
       "result2": "",
@@ -774,12 +774,6 @@
     
   ]
 }
-
-
-
-
-
-
 
 
 
