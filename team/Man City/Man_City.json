@@ -5,21 +5,22 @@
     "id": 1,
     "side_bar_league": "",
     "countDownDate": "Oct 1, 2025 22:00:00",
-    "name_team_First":"AS Monaco",
-    "First_img": "/image/Teams/Ligue.1/AS_Monaco.png",
+    "name_team_First":"Barcelona",
+    "First_img": "/image/Teams/Laliga/FC_Barcelona.png",
     "iframe_1": "",
     "iframe_2": "",
     "iframe3": "",
-    "name_team_Second": "Man City",
-    "Second_img": "/image/Teams/Premier League/Manchester_City.png",
+    "name_team_Second": "PSG",
+    "Second_img": "/image/Teams/Ligue.1/Paris_Saint-Germain_PSG.png",
     "offers": {
-    "type": "معلومات عن مباراة ",
+    "type": "معلومات عن مباراة برشلونة ضد باريس سان جيرمان",
     "Championship": "UEFA Champions League , Round 2 : البطولة  ",
-    "channel": "beIN SPORTS 3 : القناة",
+    "channel": "beIN SPORTS 1 : القناة",
     "commentator": " : المعلق",
     "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 10:00 بتوقيت مصر ",
-    "stadium": "  الملعب : ملعب لويس الثاني",
-    "Formation": "/image/Formation/.png"
+    "stadium": "  الملعب : أوليمبيك لويس كومبانيس",
+    "Formation": "/image/Formation/Screenshot 2025-10-01 at 18-27-06 Barcelona vs Paris Saint-Germain live score H2H and lineups Sofascore.png",
+     "referee":" الحكم : "
   }
     
 }
