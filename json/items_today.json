@@ -354,6 +354,8 @@
       "third_team": "//.html",
       "result3":"",
       "third_img": "image/Teams/Premier League/Everton.png",
+      "another_activity_file2": "com.example.app_goalrush.team.Man_CityFragment",
+
 
       "name_team_fourth": "Tottenham",
       "result4":"",
@@ -774,6 +776,7 @@
     
   ]
 }
+
 
 
 
