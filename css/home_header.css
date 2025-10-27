@@ -141,7 +141,7 @@ header .links ul li:hover::after{
     }
   
     header .top-nav img{
-        width: 100;
+        width: 80;
         left: 0;
         right: 0;
     }
@@ -149,7 +149,7 @@ header .links ul li:hover::after{
     header a h1{
         font-size: 28px;
         font-weight: 100;
-        left: -24cm;
+        left: 2cm;
     }
 
     header .links{
@@ -161,15 +161,12 @@ header .links ul li:hover::after{
         left: 0;
     }
     header .links ul li{
-        padding: 15px 0;
+        padding: 8px 0;
     }
     header .links ul li a{
         font-weight: 100;
-        font-size: 22px;
+        font-size: 15px;
     }
-
-   
-
     }
     
 

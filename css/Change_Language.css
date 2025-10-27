@@ -1,0 +1,66 @@
+.Change_Language{
+    width: 100%;
+    min-height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    padding: 0 15px;
+    white-space: nowrap;
+    color: var(--color-text-primary);
+    background: var(--color-bg-secondary);
+    transition: 0.3s ease;
+    margin-bottom: 10;
+}
+
+.Change_Language button {
+    padding: 5px 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--lighth1);
+    border: none;
+    font-weight: bold;
+    display: flex;
+    text-align: right;
+    gap: 110px;
+    white-space: nowrap;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 14;
+    font-variation-settings:
+      "wdth" 100;
+      transition: opacity 0.3s ease;
+
+   
+}
+
+.sidebar.collapsed .btn_en ,.sidebar.collapsed .btn_ar,.sidebar.collapsed .btn_fr{
+    display: none;
+}
+
+.Change_Language button:is(:hover, .active) {
+    color: #fff;
+    background: var(--menu_btn);
+  
+  }
+
+.Change_Language .action_button{
+    background: var(--menu_btn);
+}
+
+.Change_Language ion-icon{
+    font-size: 25;
+    top: -2;
+    right: 0;
+    left: 0;
+    position: relative;
+  }
+
+

@@ -1,6 +1,6 @@
         
     
-fetch("/team/Arsenal/Arsenal.json")
+fetch("/team/team2/team2.json")
 .then(response => response.json())
 .then(data =>{
 
@@ -9,6 +9,7 @@ fetch("/team/Arsenal/Arsenal.json")
     const the_Formation = document.getElementById("the_Formation")
 
     all_products_json = data
+
 
     data.videos.forEach(product => {
 
@@ -61,7 +62,6 @@ fetch("/team/Arsenal/Arsenal.json")
       `
 
     })
-
     data.videos.forEach(product => {
 
            
@@ -154,6 +154,9 @@ fetch("/team/Arsenal/Arsenal.json")
     })
 })
 
+
+
+
 var cart = document.querySelector('.main-menu');
 function open_cart() {
     cart.classList.add('active')
@@ -167,7 +170,7 @@ function close_cart() {
 // Function to fetch data from JSON and create multiple countdowns
 async function setupCountdowns() {
   try {
-    const response = await fetch('/team/Arsenal/Arsenal.json'); // تأكد من تغيير اسم الملف
+    const response = await fetch('/team/team2/team2.json'); // تأكد من تغيير اسم الملف
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

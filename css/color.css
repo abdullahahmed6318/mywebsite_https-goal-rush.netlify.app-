@@ -33,11 +33,12 @@ html {
     --time: rgb(57, 29, 67);
     --timebefore: rgb(242, 255, 171);
     --webkit-scrollbar-thumb: #ffffff;
+    --buttom_footer_span: #695cfe;
+    --footer:#efefef;
+    --buttom_footer:#ffffff;
+
   }
-
-   
-
-  
+ 
   html[data-theme='dark'] {
     --header: linear-gradient(5deg,var(--Wisteria),var(--black));
     --lighth1: #d9b9ff;
@@ -116,6 +117,10 @@ body.dark-theme {
     --time: #29292931;
     --timebefore: #aaa;
     --webkit-scrollbar-thumb: #4f4f4f;
+    --buttom_footer_span: #695CFE;
+    --footer: rgb(49, 49, 49);
+    --buttom_footer:  rgb(20, 20, 20);
+
 
   }
 
@@ -135,6 +140,18 @@ body.dark-theme {
   height: 1100; */
   /* background: #4eeeb144; */
 }
+
+@media (max-width:1280px){
+  .ca{
+    left: 90;
+    /* background: rgba(255, 0, 0, 0.417); */
+    width: 93%;
+    height: auto;
+    margin: -1cm 0 0 0;
+  }
+}
+
+
 @media (max-width:600px){
   .ca{
     position: relative;

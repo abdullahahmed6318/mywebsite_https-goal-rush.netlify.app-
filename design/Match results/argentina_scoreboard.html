@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Scoreboard — نسخة للموقع</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="desa.css">
+
+ 
+</head>
+<body>
+
+
+  <div class="poster-wrap" role="img" aria-label="Soccer match poster">
+    <div class="bg"></div>
+    <div class="overlay"></div>
+
+    <div class="content">
+
+      <div class="topbar">
+
+        <div style="width:1px"></div>
+
+        <div class="logo-sm">
+          <img src="/image/logo_abda.png" alt="Tour logo">
+        </div>
+
+      </div>
+
+        <div class="card">
+          <div class="meta">WORLD CUP QUALIFIERS</div>
+    
+          <div class="team" style="text-align:right">
+            <div class="flag"><img src="/image/Teams/USAMlS/Inter_Miami_CF.png" alt="Argentina flag"></div>
+            <div class="team-name">Inter Miami</div>
+          </div>
+    
+          <div class="scorebox">
+            <div class="score" id="score">3 - 2</div>
+            <div class="vs">FULL-TIME</div>
+          </div>
+    
+          <div class="team" style="text-align:left">
+            <div class="flag"><img src="/image/Teams/USAMlS/DC_ United.png" alt="Venezuela flag"></div>
+            <div class="team-name">United</div>
+          </div>
+    
+          <!-- scorers list (bottom-left) -->
+          <div class="scorers" aria-hidden="false">
+            <div class="scorer">
+              <div class="minute">39'</div>
+              <div class="name">L. Messi</div>
+            </div>
+            <div class="scorer">
+              <div class="minute">76'</div>
+              <div class="name">L. Martínez</div>
+            </div>
+            <!-- goal3 -->
+            <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div>
+            <!-- goal4 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+            <!-- goal5 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+            <!-- goal6 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+            <!-- goal7 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+            <!-- goal8 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+            <!-- goal9 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+            <!-- goal10 -->
+            <!-- <div class="scorer">
+              <div class="minute">80'</div>
+              <div class="name">L. Messi</div>
+            </div> -->
+          </div>
+
+            <!-- scorers list (bottom-right) -->
+            <div class="scorers2" aria-hidden="false">
+              <div class="scorer">
+                <div class="name">L. Messi</div>
+                <div class="minute">39'</div>
+              </div>
+              <div class="scorer">
+                <div class="name">L. Martínez</div>
+                <div class="minute">76'</div>
+              </div>
+              <!-- goal3 -->
+              <div class="scorer">
+                <div class="name">L. Messi</div>
+                <div class="minute">80'</div>
+              </div>
+              <!-- goal4 -->
+              <!-- <div class="scorer">
+                <div class="name">L. Messi</div>
+                 <div class="minute">80'</div>
+              </div> -->
+              <!-- goal5 -->
+              <!-- <div class="scorer">
+                <div class="name">L. Messi</div>
+                <div class="minute">80'</div>
+              </div> -->
+              <!-- goal6 -->
+              <!-- <div class="scorer">
+                <div class="minute">80'</div>
+                <div class="name">L. Messi</div>
+              </div> -->
+              <!-- goal7 -->
+              <!-- <div class="scorer">
+                <div class="minute">80'</div>
+                <div class="name">L. Messi</div>
+              </div> -->
+              <!-- goal8 -->
+              <!-- <div class="scorer">
+                <div class="minute">80'</div>
+                <div class="name">L. Messi</div>
+              </div> -->
+              <!-- goal9 -->
+              <!-- <div class="scorer">
+                <div class="minute">80'</div>
+                <div class="name">L. Messi</div>
+              </div> -->
+              <!-- goal10 -->
+              <!-- <div class="scorer">
+                <div class="minute">80'</div>
+                <div class="name">L. Messi</div>
+              </div> -->
+            </div>
+
+            <div class="play_of_the_match">
+              <div class="play">play of the match</div>
+              <div class="name">L. Messi</div>
+                <div class="scorer">9.6</div>
+            </div>
+    
+        </div>
+      
+      </div>
+
+    </div>
+
+  <!-- <script>
+    // small helper: replace data easily from JS if you fetch JSON
+    const data = {
+      home: {name:'Argentina', flag:'flag-arg.png'},
+      away: {name:'Venezuela', flag:'flag-ven.png'},
+      score: '3 - 0',
+      status: 'FULL-TIME',
+      competition: 'WORLD CUP\nQUALIFIERS',
+      scorers:[ {min:"39'", name:'L. Messi'},{min:"76'", name:'L. Martínez'},{min:"80'", name:'L. Messi'} ]
+    }
+
+    function applyData(d){
+      document.querySelector('.meta').textContent = d.competition;
+      document.querySelector('.team:nth-of-type(1) .team-name').textContent = d.home.name;
+      document.querySelector('.team:nth-of-type(2) .team-name').textContent = d.away.name;
+      document.querySelector('.flag img[alt="Argentina flag"]').src = d.home.flag;
+      document.querySelector('.flag img[alt="Venezuela flag"]').src = d.away.flag;
+      document.getElementById('score').textContent = d.score;
+      document.querySelector('.vs').textContent = d.status;
+
+      const scorersContainer = document.querySelector('.scorers');
+      scorersContainer.innerHTML = '';
+      d.scorers.forEach(s=>{
+        const el = document.createElement('div'); el.className='scorer';
+        el.innerHTML = `<div class="minute">${s.min}</div><div class="name">${s.name}</div>`;
+        scorersContainer.appendChild(el);
+      })
+    }
+
+    // If you get JSON from your backend replace the hardcoded data.
+    // Example: fetch('/api/match/123').then(r=>r.json()).then(applyData)
+    applyData(data);
+  </script> -->
+</body>
+</html>

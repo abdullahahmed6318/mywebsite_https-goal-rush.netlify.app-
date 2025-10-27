@@ -32,7 +32,7 @@
   position: fixed;
   top: 150px;
   width: 270px;
-  height: 21.6cm;
+  height: 22.0cm;
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
@@ -45,8 +45,6 @@
 .sidebar.collapsed {
   width: 90px;
 }
-
-
 
 .sidebar .sidebar-header {
   padding: 20px 18px;
@@ -139,8 +137,6 @@ header .sidebar-toggleadd{
 .sidebar.collapsed .sidebar-toggle span {
   transform: rotate(180deg);
 }
-
-
 .sidebar-header .sidebar-toggle ion-icon{
   font-size: 100;
   top: 1;
@@ -211,43 +207,53 @@ header .sidebar-toggleadd{
   gap: 4px;
   list-style: none;
   flex-direction: column;
+  text-align: left;
 }
 
 .menu-list .menu-link {
   display: flex;
-  text-align: right;
-  gap: 110px;
+  /* gap: 110px; */
   white-space: nowrap;
   border-radius: 10px;
   padding: 8 10; 
-  text-decoration: none;
   color: var(--lighth1);
   transition: 0.3s ease;
-  font-family: "Noto Sans Arabic", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
+  text-decoration: none;
+  font-weight: 100;
   font-style: italic;
-  font-size: 24;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100; 
 }
+
 .sidebar .sidebar-content ion-icon {
   color: var(--lighth1);
   font-size: 30;
   margin-top: 2;
 }
+
 .sidebar .sidebar-content .menu-link .News_sidebar{
-  margin-left: 12;
+  /* margin-left: 12; */
+  
 }
 
+
 .sidebar .sidebar-content .menu-link .Videos_sidebar{
-  margin-left: -18;
+  /* margin-left: -18; */
 }
+
+
 
 .menu-link .menu-label {
   transition: opacity 0.3s ease;
   color: var(--lighth1);
-
+  position: relative;
+  /* left: 32; */
+  text-align: right;
+  /* background: tomato; */
+  width: 100%;
+  font-size: 18;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .sidebar.collapsed .menu-link .menu-label {
@@ -255,7 +261,7 @@ header .sidebar-toggleadd{
   pointer-events: none;
 }
 
-.menu-list .menu-link:is(:hover, .active) {
+.menu-list .menu-link:is(:hover, .active_house) {
   color: #fff;
   background: var(--menu_btn);
 
@@ -284,8 +290,8 @@ header .sidebar-toggleadd{
 
 .dark-theme .sunny{
   display: none;
-
 }
+
 .light_mode .moon{
   display: none;
 }
@@ -383,6 +389,25 @@ body.dark-theme .theme-toggle-indicator {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+
+@media (max-width: 1280px) {
+
+  .sidebar {
+    top: 100;
+    left: 0;
+    height: 88%;
+    width: 20%;
+  }
+
+  
+.sidebar.collapsed {
+  width: 90px;
+}
+
+
+}
+
+
 @media (max-width: 768px) {
 
   .sidebar {
@@ -390,7 +415,15 @@ body.dark-theme .theme-toggle-indicator {
     left: 0;
     height: 100%;
     width: 100%;
+    display: none;
   }
+
+  
+.sidebar.collapsed {
+  width: 90px;
+  display: none;
+}
+
 
 }
 

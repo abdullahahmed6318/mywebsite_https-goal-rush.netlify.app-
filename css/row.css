@@ -1,7 +1,7 @@
 footer{
     position: relative;
-    margin-top  : 5%;
-    background: rgb(49, 49, 49);
+    margin-top  : 10%;
+    background: var(--footer);
     width: 100%;
     z-index: 15;
 }
@@ -15,7 +15,6 @@ footer{
     width: 100%;
     z-index: 15;
 }
-
 
 footer .container{
     display: flex;
@@ -32,17 +31,20 @@ footer .container .big_row{
     left: 20px;
     width: 20%;
     height: 140px;
+    /* background: violet; */
+    width: 15cm;
+   
 
 }
 
 footer .container .big_row .hotline{
-    display: flex;
     align-items: center;
     /* margin: 15px 0; */
     gap: 10px;
     width: 100%;
     height: 100%;
-
+    /* background: turquoise; */
+    display: inline-flex;
 }
 
 footer .container .big_row .hotline img{
@@ -116,7 +118,7 @@ footer .container .row .links a:hover{
 }
 
 footer .buttom_footer{
-    background: rgb(20, 20, 20);
+    background:var(--buttom_footer);
 
 
 }
@@ -128,14 +130,14 @@ footer .buttom_footer .container{
 }
 
 footer .buttom_footer .container p{
-    color: rgb(255, 255, 255);
+    color:var(--lightColor);
     left: 50px;
     position: absolute;
 
 }
 
 footer .buttom_footer .container span{
-    color: aqua;
+    color: var(--buttom_footer_span);
 
 }
 footer .buttom_footer .payment_img{
@@ -156,32 +158,47 @@ footer .buttom_footer .payment_img img:hover{
     filter: grayscale(8%);
 }
 
-footer .social-menu ul{
+footer .social-menu{
+    /* background: rgba(210, 180, 140, 0.399); */
+    top: 160px;
+    right: -110px;
+    /* margin: 310 0 0 510; */
     position: absolute;
-    top: 67%;
-    right: -190px;
-    padding: 0;
-    margin: 0;
-    transform: translate(-50%, -50%);
-    display: flex;
-    z-index: 1000;
-    /* border: 5px solid var(--light_a); */
+    width: 300;
+    height: 100;
+    transform: translate(-50%, -50%); 
+ 
 }
 
-footer .social-menu p{
+footer .social-menu ul{
+    /* top: 60%; */
+    /* right: -110px; */
+    /* transform: translate(-50%, -50%); */
+    /* background: rgba(35, 206, 16, 0.116); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: space-between;
+    align-items: end;
+    justify-content: center;
+    /* flex-direction: column;  */
+}
+
+footer .social-menu ul p{ 
     position: absolute;
-    top: -30%;
-    right: 20px;
-    transform: translate(-50%, -50%);
-    /* display: flex; */
+    top: -10%;
+    /* transform: translate(-50%, -50%); */
     z-index: 1000;
-    color: #fff;
+    color:var(--lightColor);
     font-size: 25px;
     font-weight: bolder;
+    
 }
+
 footer .social-menu ul li{
     list-style: none;
-    margin: 0 15px;
+    margin: 0 10px;
+    /* display: inline-flex; */
 }
 
 footer .social-menu ul li .fab{
@@ -233,11 +250,133 @@ footer .social-menu ul li:nth-child(4) a:hover{
 }
 footer .social-menu ul li:nth-child(5) a:hover{
     background-color: #000000;
-}
+} 
 
 /* pc 720p Hd */
 @media (max-width:1280px){    
-      
+    footer{
+        position: relative;
+        margin-top  : 5%;
+        width: 100%;
+        z-index: 15;
+    }
+    .foo_v{
+        margin-top  : 5%;
+    }
+    .row_team{
+        position: relative;
+        top: 10cm;
+        background: rgb(49, 49, 49);
+        width: 100%;
+        z-index: 15;
+    }
+    
+    footer .container{
+        padding: 0 0;
+        width: 100%;
+    }
+    
+    footer .container .big_row{
+        position: relative;
+        left: 20px;
+        width: 20%;
+        height: 140px;
+        /* background: violet; */
+        width: 15cm;
+       
+    
+    }
+    
+    footer .container .big_row .hotline img{
+        width: 80;
+    }
+
+    footer .buttom_footer{
+    }
+    
+    footer .buttom_footer .container{
+        padding: 15px 0;
+        height: 11px;
+    }
+    
+    footer .buttom_footer .container p{
+        left: 50px;
+        position: absolute;
+        font-size: 12;
+    }
+    
+    footer .buttom_footer .container span{
+    }
+  
+    footer .buttom_footer .payment_img img{
+        width: 3%;
+        left: 10px;
+    
+    }
+
+    footer .social-menu{
+        /* background: rgba(210, 180, 140, 0.399); */
+        top: 90px;
+        right: -70px;
+        /* margin: 310 0 0 510; */
+        position: absolute;
+        width: 200;
+        height: 70;
+        transform: translate(-50%, -50%); 
+     
+    }
+    
+    footer .social-menu ul{
+        /* top: 60%; */
+        /* right: -110px; */
+        /* transform: translate(-50%, -50%); */
+        /* background: rgba(35, 206, 16, 0.116); */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-content: space-between;
+        align-items: end;
+        justify-content: center;
+        /* flex-direction: column;  */
+    }
+    
+    footer .social-menu ul p{ 
+        position: absolute;
+        top: -10%;
+        /* transform: translate(-50%, -50%); */
+        z-index: 1000;
+        font-size: 1 5px;
+        font-weight: bolder;
+    }
+
+    footer .social-menu ul li{
+        list-style: none;
+        margin: 0 10px;
+        /* display: inline-flex; */
+    }
+    
+    footer .social-menu ul li .fab{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    footer .social-menu ul li .fa-facebook-f{
+       font-size: 30px;
+        line-height: 40px;
+    }
+
+    footer .social-menu ul li a{
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        background-color: var(--light_a);
+        text-align: center;
+        transition: .6s;
+        box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    }
+
 }
 
 @media (max-width:834px){
@@ -252,9 +391,11 @@ footer .social-menu ul li:nth-child(5) a:hover{
         z-index: 15;
         
     }
+
     .foo_v{
         margin-top  : 8%;
     }
+
     .row_team{
         position: relative;
         margin-top  : 38cm;
@@ -263,15 +404,16 @@ footer .social-menu ul li:nth-child(5) a:hover{
         z-index: 15;
     }
     
-    
     footer .container{
         padding: 0px 0;
         width: 100%;
     }
+
     footer .buttom_footer{
         background: rgb(20, 20, 20);
 
     }
+
     footer .buttom_footer .container{
         padding: 15px 0;
         height: 0.5px;
@@ -297,7 +439,7 @@ footer .social-menu ul li:nth-child(5) a:hover{
     }
     
     footer .container .big_row .hotline img{
-        width: 70;
+        width: 40;
     }
     
     footer .buttom_footer .container p{
@@ -320,88 +462,51 @@ footer .social-menu ul li:nth-child(5) a:hover{
         filter: grayscale(8%);
     }
     
-    footer .social-menu {
-        /* display: none; */
-    }
-
-    footer .social-menu ul{
+    footer .social-menu{
+        /* background: rgba(210, 180, 140, 0.399); */
+        top: 70px;
+        right: -70px;
+        /* margin: 310 0 0 510; */
         position: absolute;
-        top: 50%;
-        right: -80px;
-        padding: 0;
-        margin: 0;
-        transform: translate(-50%, -50%);
-        display: flex;
-        z-index: 1000;
-        /* border: 1px solid var(--light_a); */
+        width: 150;
+        height: 45;
+        transform: translate(-50%, -50%); 
     }
     
-    footer .social-menu p{
+    footer .social-menu ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-content: space-between;
+        align-items: end;
+        justify-content: center;
+    }
+    
+    footer .social-menu ul p{ 
         position: absolute;
-        top: -20%;
-        right:  -5px;
-        transform: translate(-50%, -50%);
-        /* display: flex; */
+        top: -10%;
+        /* transform: translate(-50%, -50%); */
         z-index: 1000;
-        color: #fff;
         font-size: 12px;
         font-weight: bolder;
     }
+
     footer .social-menu ul li{
         list-style: none;
         margin: 0 5px;
+        /* display: inline-flex; */
     }
     
     footer .social-menu ul li .fab{
-        font-size: 20px;
-        line-height: 38px;
-        transition: .3s;
-        color: #000;
+        font-size: 18px;
+        line-height: 30px;
     }
-    
     footer .social-menu ul li .fa-facebook-f{
-        font-size: 20px;
-        line-height: 38px;
-        transition: .3s;
-        color: #000000;
+        font-size: 18px;
+        line-height: 30px;
     }
-    footer .social-menu ul li .fa-facebook-f:hover{
-        color: #fff;
-    }
-    footer .social-menu ul li .fab:hover{
-        color: #fff;
-    }
-    
     footer .social-menu ul li a{
-        position: relative;
-        display: block;
         width: 30px;
-        height: 40px;
-        border-radius: 30%;
-        background-color: var(--light_a);
-        text-align: center;
-        transition: .6s;
-        box-shadow: 0 5px 4px rgba(0,0,0,.5);
+        height: 30px;
     }
-    
-    footer .social-menu ul li a:hover{
-        transform: translate(0, -10%);
-    }
-    
-    footer .social-menu ul li:nth-child(1) a:hover{
-        background-color: rgba(221, 46, 46, 0.829);
-    }
-    footer .social-menu ul li:nth-child(2) a:hover{
-        background-color: #3c32c7;
-    }
-    footer .social-menu ul li:nth-child(3) a:hover{
-        background-color: #e05f5f;
-    }
-    footer .social-menu ul li:nth-child(4) a:hover{
-        background-color: #1479de;
-    }
-    footer .social-menu ul li:nth-child(5) a:hover{
-        background-color: #000000;
-    }
-    
 }

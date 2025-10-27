@@ -20,6 +20,34 @@
     display: none;
 }
 
+
+ /* pc 720p Hd */
+ @media (max-width:1280px){
+    .Banner_adsterra{
+        display: flex;
+        /* background: yellow; */
+        width: 100%;
+        height: 90;
+        position: relative;
+        margin: 5.4cm 0 0 0;
+        /* display: flex; */
+        justify-content: space-around;
+    }
+    .D{
+        display: grid;
+        justify-content: space-around;
+        margin: 0 0 0 90;
+        gap: 10px;
+    }
+    
+    .M{
+        display: none;
+    }
+    
+
+ }
+
+
 @media (max-width:600px){
     .Banner_adsterra{
         width: 100%;

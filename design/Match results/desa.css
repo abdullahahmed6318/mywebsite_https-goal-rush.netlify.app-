@@ -1,0 +1,369 @@
+:root {
+    --card-bg: rgba(0, 0, 0, 0.55);
+    --accent: #ffd400;
+    --white: #fff;
+    --muted: rgba(255, 255, 255, 0.8);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', system-ui, Arial, sans-serif;
+    background: #750101
+}
+
+.poster-wrap {
+    max-width: 720px;
+    margin: 134px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px
+}
+
+
+.card {
+    position: relative;
+    z-index: 1;
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 18px;
+    align-items: center;
+    width: 100%;
+    top: 1%;
+    padding: 20px;
+    border-radius:20px;
+    backdrop-filter:blur(12px);
+    background:rgba(255,255,255,0.15);
+    border:1px solid rgba(255,255,255,0.25);
+    color:#fff;
+    z-index:2;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.5);
+    /* height: 7cm; */
+}
+
+.bg {
+    background-image: url('/image/New folder/2d.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    filter: grayscale(10%);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.048)); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.882));
+    mix-blend-mode: normal
+}
+
+.content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px
+}
+
+.meta {
+    position: relative;
+    /* width: 500px; */
+    margin-bottom: -15px; margin-left: 0px;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    /* background: #ffd5002a; */
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    /* background-color: rgba(0, 255, 255, 0.299); */
+}
+
+.flag {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 3px solid rgba(255, 255, 255, 0.12); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #fff; */
+}
+
+.flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block
+}
+
+
+.team-name {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--white);
+    position: relative;
+    bottom: 15px;
+}
+
+.scorebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 20px;
+    min-width: 180px;
+}
+
+.score {
+    font-size: 86px;
+    line-height: 0.85;
+    font-weight: 800;
+}
+
+.vs {
+    font-size: 14px;
+    color: var(--muted);
+    font-weight: 600
+}
+
+.status {
+    background: transparent;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--accent)
+}
+
+
+/* scorers list */
+.scorers {
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+    color: var(--muted);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* background: rgba(255, 99, 71, 0.28); */
+}
+
+.scorers2 {
+    position: relative;
+    left: 210px;
+    bottom: 10px;
+    color: var(--muted);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 8px;
+    /* background: rgba(255, 99, 71, 0.28); */
+}
+
+.scorers .scorer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* background: rgba(210, 180, 140, 0.206); */
+}
+
+.scorers2 .scorer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* background: rgba(210, 180, 140, 0.206); */
+}
+
+.scorers .minute {
+    width: 36px;
+    height: 36;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.scorers2 .minute {
+    width: 36px;
+    height: 36;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.scorers .scorer .m1{
+    width: 46px;
+}
+
+.scorers2 .scorer .m1{
+    width: 46px;
+}
+
+.scorers .scorer .m2{
+    width: 66px;
+}
+
+.scorers2 .scorer .m2{
+    width: 66px;
+}
+
+.scorers .scorer .m3{
+    width: 96px;
+}
+
+.scorers2 .scorer .m3{
+    width: 96px;
+}
+
+.scorers .scorer .name {
+    font-weight: 600;
+    color: var(--white);
+}
+
+.scorers .g1{
+    opacity: 0;
+}
+.scorers2 .g1{
+    opacity: 0;
+}
+.scorers .g2{
+    opacity: 0;
+}
+.scorers2 .g2{
+    opacity: 0;
+}
+.scorers .g3{
+    opacity: 0;
+}
+.scorers2 .g3{
+    opacity: 0;
+}
+.scorers .g4{
+    opacity: 0;
+}
+.scorers2 .g4{
+    opacity: 0;
+}
+.scorers .g5{
+    opacity: 0;
+}
+.scorers2 .g5{
+    opacity: 0;
+}
+.scorers .g6{
+    opacity: 0;
+}
+.scorers2 .g6{
+    opacity: 0;
+}
+.scorers .g7{
+    opacity: 0;
+}
+.scorers2 .g7{
+    opacity: 0;
+}
+.scorers .g8{
+    opacity: 0;
+}
+.scorers2 .g8{
+    opacity: 0;
+}
+.scorers .g9{
+    opacity: 0;
+}
+.scorers2 .g9{
+    opacity: 0;
+}
+.scorers .g10{
+    opacity: 0;
+}
+.scorers2 .g10{
+    opacity: 0;
+}
+
+.play_of_the_match{
+    /* background: #ffd50023; */
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;  
+    /* margin-bottom: -15px; margin-left: 0px; */
+    grid-column: 1/-1;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-top: -33px;
+    top: 20px;
+}
+
+.play_of_the_match .play{
+    position: absolute;
+    top: -20px;
+
+}
+.play_of_the_match .name{
+
+}
+
+.play_of_the_match .scorer{
+    width: 36px;
+    height: 36;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+/* top-right small logo */
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px
+}
+
+.topbar .logo-sm {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+    align-items: center
+}
+
+.topbar img {
+    height: 46px;
+    filter: grayscale(100%);
+
+}
+

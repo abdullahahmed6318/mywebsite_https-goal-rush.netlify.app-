@@ -1,24 +1,30 @@
-[
-  {
-    "id": 1,
-    "side_bar_league": "",
-    "countDownDate": "Sep 26, 2025 21:00:00",
-    "name_team_First":"Al-Ittihad",
-    "First_img": "/image/Teams/Al-Ittihad.png",
-    "iframe_1": "https://pl.buzkora.site/albaplayer/on-time-sport-1/?serv=0",
-    "iframe_2": "https://www.youtube.com/embed/EauTAhF3BXc?si=0mzFvWOnftXuUnRD",
-    "iframe3": "https://www.youtube.com/embed/82DP_gv2Weg?si=q6iifGzT8fBCny0R",
-    "name_team_Second": "Al-Nassr",
-    "Second_img": "/image/Teams/Al-Nassr.png",
-    "offers": {
-    "type": "معلومات عن مباراة",
-    "Championship": "Saudi Pro League , Round 4 : البطولة",
-    "channel": " : القناة",
-    "commentator": " : المعلق",
-    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:00 بتوقيت مصر ",
-    "stadium": "  الملعب : مدينة الملك عبد الله الرياضية (جدة)",
-    "Formation": "/image/Formation/Screenshot 2025-09-26 at 20-28-51 Al-Ittihad vs Al-Nassr live score H2H and lineups Sofascore.png"
+{
+  "videos": [
 
+    { 
+      "id": 1,
+      "side_bar_league": "",
+      "countDownDate": "Sep 26, 2025 21:00:00",
+      "name_team_First":"Al-Ittihad",
+      "First_img": "/image/Teams/Al-Ittihad.png",
+      "iframe_1": "https://pl.buzkora.site/albaplayer/on-time-sport-1/?serv=0",
+      "iframe_2": "https://www.youtube.com/embed/EauTAhF3BXc?si=0mzFvWOnftXuUnRD",
+      "iframe3": "https://www.youtube.com/embed/82DP_gv2Weg?si=q6iifGzT8fBCny0R",
+      "name_team_Second": "Al-Nassr",
+      "Second_img": "/image/Teams/Saudi Pro League/Al-Nassr.png",
+      "offers": {
+      "type": "معلومات عن مباراة",
+      "Championship": "Saudi Pro League , Round 4 : البطولة",
+      "channel": " : القناة",
+      "commentator": " : المعلق",
+      "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 9:00 بتوقيت مصر ",
+      "stadium": "  الملعب : مدينة الملك عبد الله الرياضية (جدة)",
+      "Formation": "/image/Formation/Screenshot 2025-09-26 at 20-28-51 Al-Ittihad vs Al-Nassr live score H2H and lineups Sofascore.png"
+  
   }
-  }
+    
+}
+
 ]
+}
+

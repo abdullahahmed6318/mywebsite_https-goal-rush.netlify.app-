@@ -1,24 +1,30 @@
-[
-  {
+{
+  "videos": [
+
+    { 
     "id": 1,
     "side_bar_league": "",
-    "countDownDate": "Sep 22, 2026 22:30:00",
-    "name_team_First":"fc Barcelona",
-    "First_img": "/image/FC_Barcelona.png",
-    "iframe_1": "https://pl.buzkora.site/albaplayer/on-time-sport-1/?serv=0",
-    "iframe_2": "https://www.youtube.com/embed/EauTAhF3BXc?si=0mzFvWOnftXuUnRD",
-    "iframe3": "https://www.youtube.com/embed/82DP_gv2Weg?si=q6iifGzT8fBCny0R",
-    "name_team_Second": "Rayo Vallecano",
-    "Second_img": "/image/Rayo_Vallecano.png",
+    "countDownDate": "Oct 26, 2025 19:15:00",
+    "name_team_First":"AC Milan",
+    "First_img": "/image/Teams/serie.a/AC_Milan.png",
+    "iframe_1": "",
+    "iframe_2": "",
+    "iframe3": "",
+    "name_team_Second": "Barcelona",
+    "Second_img": "/image/Teams/Laliga/FC_Barcelona.png",
     "offers": {
-    "type": "معلومات عن مباراة رايو فاليكانو و برشلونة",
-    "Championship": "Football, Spain, LaLiga, Round 3 : البطولة  ",
+    "type": "معلومات عن مباراة برشلونة ضد باريس سان جيرمان",
+    "Championship": "Laliga , Round 10 : البطولة  ",
     "channel": "beIN SPORTS 1 : القناة",
     "commentator": " : المعلق",
-    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 22:30 بتوقيت مصر ",
-    "stadium": "  الملعب : سيوداد دي فالنسيا",
-    "Formation": "/image/Formation/Screenshot 2025-09-22 at 18-08-17 Barcelona vs Getafe live score H2H and lineups Sofascore.pn"
+    "Match_date_and_time": " تاريخ المباراة و توقيت المباراة: 7:15 بتوقيت مصر ",
+    "stadium": "  الملعب : سانتياغو برنابيو",
+    "Formation": "/.png",
+    "referee":" الحكم : "
+  }
+    
+}
 
-  }
-  }
 ]
+}
+

@@ -1,0 +1,73 @@
+
+
+.Download_app {
+    padding: 20px;
+    position: relative;
+    /* top: 13cm; */
+    /* left: 2cm; */
+    /* z-index: 2000; */
+    /* background: rgba(255, 255, 0, 0.305); */
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-items: self-end;
+  
+}
+
+#downloadButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: #007bff; /* Blue color for active state */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; 
+    /* opacity: 0; */
+    transition: opacity 1.0s; 
+}
+
+#downloadButton:hover {
+    background-color: #0056b3;
+}
+#downloadButton.visible {
+    opacity: 1; /* إظهار الزر تدريجياً */
+}
+
+/* Styling for the disabled state during countdown */
+#downloadButton[disabled] {
+    cursor: not-allowed;
+  
+}
+
+#timer {
+    font-weight: bold;
+}
+
+.play-badge[disabled] {
+    cursor: default;
+    opacity: 0.6; 
+    width: auto;
+    height: auto;
+    background: #ccc; 
+    right: 0;
+    transform: translateY(0px)
+
+
+
+}
+.play-badge{
+    cursor: pointer;
+    position: relative;
+    /* right: 1.5cm; */
+}
+
+footer .container .big_row .hotline[disabled] {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}

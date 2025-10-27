@@ -48,11 +48,8 @@
 /* pc 720p Hd */
 @media (max-width:1280px){
     .news{
-        width: 7cm;
-        height: 23cm;
-        left: 90;
-        top: 4.2cm;
-    
+        width: 8cm;
+        height: auto;
     }
 }    
 

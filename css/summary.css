@@ -128,22 +128,8 @@
 /* pc 720p Hd */
 @media (max-width:1280px){
     .ssummary{
-        width: 7cm;
-        height: 23cm;
-        left: 1000;
-        top: 4.2cm;
-
-    /* position: absolute;
-    z-index: 19;
-    width: 4cm;
-    height: 23cm;
-    border: solid var( --lightColor);
-    left: 650;
-    top: 4.2cm;
-    background: var( --container_t);
-    border-radius: 10px;
-    display: none; */
-    
+        width: 8cm;
+        height: auto;
     }
 }
 @media (max-width:834px){
